@@ -1,0 +1,51 @@
+/* ==============================
+   BACK TO TOP BUTTON
+============================== */
+
+.backtotop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--color-primary-700);
+  color: #fff;
+
+  border-radius: 4px;
+  text-decoration: none;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+
+  transition: all 0.35s ease;
+  z-index: 999;
+}
+
+.backtotop i {
+  font-size: 1.1rem;
+}
+
+/* Apparition */
+.backtotop--visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Hover propre */
+.backtotop:hover {
+  background: var(--color-primary-800);
+}
+
+
+
+

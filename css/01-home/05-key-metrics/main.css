@@ -1,0 +1,16 @@
+/* =========================================
+   ARCHITECTURE INTERNE D’UNE SECTION
+   Organisation des styles par responsabilité
+========================================= */
+
+/* Layout : structure, positions, grilles, flex, dimensions */
+@import url("./01-layout.css");
+
+/* Design : couleurs, typographies, espacements, apparence visuelle */
+@import url("./02-design.css");
+
+/* Animation : transitions, effets visuels, interactions dynamiques */
+@import url("./03-animation.css");
+
+
+

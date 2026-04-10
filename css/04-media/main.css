@@ -1,0 +1,23 @@
+/* =========================================
+   STYLES GLOBAUX (fondation du projet)
+   Reset + règles de base communes à tout le site
+========================================= */
+@import url("../global/01-reset.css");
+@import url("../global/02-base.css");
+@import url("../global/top.css");
+@import url("../../css/01-home/01-header/main.css");
+@import url("../../css/01-home/07-footer/main.css");
+@import url("../global/backtop.css");
+
+/* =========================
+   Publication PAGE — SECTIONS
+========================= */
+@import url("../04-media/01-top-band/main.css");
+@import url("../04-media/02-interventions-conferences/main.css");
+@import url("../04-media/03-presse-interview/main.css");
+@import url("../04-media/04-galerie-photo/main.css");
+
+
+
+
+

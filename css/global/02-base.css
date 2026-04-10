@@ -1,0 +1,57 @@
+:root {
+  /* Primary (Royal Night Blue) */
+  --color-primary-900: #0A0F24; /* bleu nuit profond */
+  --color-primary-800: #0E1736; /* fond principal */
+  --color-primary-700: #141F45; /* variantes */
+
+  /* Accent (Blue Gray) */
+  --color-accent-500: #5C6C85;  /* bleu gris moyen */
+  --color-accent-400: #7D8CA3;  /* bleu gris clair */
+  --color-accent-300: rgb(168, 179, 199);  /* bleu gris très clair */
+
+  /* Neutral / White */
+  --color-white: #FFFFFF;
+  --color-white-soft: #EAF0FF;  /* blanc légèrement bleuté */
+  --color-text-muted: #C3CCDD;  /* texte secondaire */
+
+  /* Borders / Lines */
+  --color-border: rgba(167, 179, 199, 0.35);
+  --color-border-strong: rgba(255, 255, 255, 0.25);
+
+  /* Overlay / Shadow */
+  --color-overlay-dark: rgba(10, 15, 36, 0.65);
+  --color-shadow: rgba(0, 0, 0, 0.45);
+}
+
+.visually-hidden{
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+h1, h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #2F3A4A;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+/*
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #6B7280;
+}
+*/
+
+.header__nav-link.active{
+  color:var(--color-white);
+}
+
+

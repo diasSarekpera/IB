@@ -1,0 +1,27 @@
+/* =========================================
+   STYLES GLOBAUX (fondation du projet)
+   Reset + règles de base communes à tout le site
+========================================= */
+@import url("../global/01-reset.css");
+@import url("../global/02-base.css");
+@import url("../global/top.css");
+@import url("../../css/01-home/01-header/main.css");
+@import url("../../css/01-home/07-footer/main.css");
+@import url("../global/backtop.css");
+
+/* =========================
+   ABOUT PAGE — SECTIONS
+========================= */
+@import url("../02-about/01-hero/main.css");
+@import url("../02-about/02-academic-journey/main.css");
+@import url("../02-about/03-professional-journey/main.css");
+@import url("../02-about/04-philosophical-vision/main.css");
+@import url("../02-about/05-final-cta/main.css");
+
+
+
+
+
+
+
+

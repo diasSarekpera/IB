@@ -1,0 +1,221 @@
+/* =========================================
+   SECTION : EXPERTISE
+========================================= */
+
+.expertise {
+  background: #F7F9FC;
+  color: var(--color-primary-700);
+  padding: 5rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.expertise__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.expertise__header {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  z-index: 2;
+}
+
+.expertise__title {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: var(--color-primary-700);
+}
+
+.expertise__divider {
+  width: 48px;
+  height: 2px;
+  background: var(--color-primary-700);
+  opacity: 1;
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.expertise__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+/* =========================================
+   CARD
+========================================= */
+
+.expertise-card {
+  background: var(--color-white);
+  border: 1px solid rgba(20, 31, 69, 0.09);
+  border-radius: 4px;
+  padding: 2rem 1.75rem 2rem;
+  box-shadow: 0 2px 12px rgba(10, 15, 36, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.expertise-card:hover {
+  box-shadow: 0 4px 20px rgba(10, 15, 36, 0.09);
+  border-color: rgba(20, 31, 69, 0.16);
+}
+
+/* coin décoratif externe */
+.expertise-card::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  bottom: 16px;
+  left: 16px;
+  border-left: 2px solid var(--color-accent-400);
+  border-bottom: 2px solid var(--color-accent-400);
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.expertise-card .expertise-L {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 22px;
+  left: 22px;
+  border-left: 2px solid var(--color-accent-400);
+  border-bottom: 2px solid var(--color-accent-400);
+  opacity: 0.3;
+  transition: opacity 0.2s ease;
+}
+
+.expertise-card:hover::after,
+.expertise-card:hover .expertise-L {
+  opacity: 0.6;
+}
+
+/* =========================================
+   CARD HEADER
+========================================= */
+
+.expertise-card__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* =========================================
+   ICON
+========================================= */
+
+.expertise-card__icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 2px;
+  border: 1px solid rgba(20, 31, 69, 0.1);
+  background: rgba(20, 31, 69, 0.03);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary-700);
+  font-size: 1.15rem;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.expertise-card:hover .expertise-card__icon {
+  background: var(--color-primary-700);
+  color: var(--color-white);
+  border-color: var(--color-primary-700);
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+.expertise-card__title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-primary-700);
+  line-height: 1.2;
+}
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.expertise-card__description {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #4B5563;
+}
+
+/* =========================================
+   SEPARATOR
+========================================= */
+
+.expertise-card__separator {
+  height: 1px;
+  background: rgba(20, 31, 69, 0.08);
+  margin-bottom: 1.25rem;
+}
+
+/* =========================================
+   EXPERIENCE
+========================================= */
+
+.expertise-card__experience {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.expertise-card__experience-value {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-accent-500);
+}
+
+.expertise-card__experience-label {
+  color: var(--color-primary-700);
+  opacity: 0.7;
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+.expertise-card:focus-within {
+  outline: 2px solid rgba(125, 140, 163, 0.5);
+  outline-offset: 3px;
+}

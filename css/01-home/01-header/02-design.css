@@ -1,0 +1,88 @@
+/* =========================================
+   HEADER — DESIGN
+   Couleurs, typo, esthétique institutionnelle
+========================================= */
+
+.header {
+  background: var(--color-primary-700);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(6px);
+}
+
+/* ======================
+   LOGO
+====================== */
+.header__logo {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--color-white-soft);
+  text-decoration: none;
+  transition: color 0.25s ease;
+  font-family: 'Playfair Display', serif;
+}
+
+.header__logo:hover {
+  color: var(--color-white);
+}
+
+/* ======================
+   NAV LINKS
+====================== */
+.header__nav-link {
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  color: var(--color-text-muted);
+  text-decoration: none;
+
+  transition: color 0.25s ease;
+}
+
+.header__nav-link:hover {
+  color: var(--color-white);
+}
+
+/* ======================
+   LANG SELECT
+====================== */
+.header__lang-select {
+  background: rgba(168, 179, 199, 0.2);
+  border: 1px solid var(--color-border);
+  color: var(--color-white-soft);
+
+  padding: 0.45rem 0.9rem;
+  border-radius: 4px;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  outline: none;
+
+  transition: background 0.25s ease, border-color 0.25s ease;
+}
+
+.header__lang-select:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--color-border-strong);
+}
+
+.header__lang-select:focus {
+  border-color: var(--color-accent-400);
+}
+
+/* Options du select */
+.header__lang-select option {
+  background: var(--color-primary-700);
+  color: var(--color-white-soft);
+}
+
+
+
+
+

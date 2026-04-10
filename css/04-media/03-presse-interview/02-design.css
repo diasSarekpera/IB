@@ -1,0 +1,180 @@
+/* =========================================
+   PRESS
+========================================= */
+
+.press {
+  width: 100%;
+  padding: 5rem 2rem;
+  background: var(--color-white);
+  color: var(--color-primary-900);
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.press__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.press__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  max-width: 680px;
+}
+
+.press__title {
+  margin: 0 0 1.125rem 0;
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--color-primary-900);
+}
+
+.press__divider {
+  width: 40px;
+  height: 2px;
+  background: var(--color-primary-700);
+  margin-bottom: 1.25rem;
+}
+
+.press__description {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--color-accent-500);
+  max-width: 620px;
+}
+
+/* =========================================
+   LIST
+========================================= */
+
+.press__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(20, 31, 69, 0.10);
+  border-radius: 2px;
+  overflow: hidden;
+  background: rgba(20, 31, 69, 0.10);
+}
+
+/* =========================================
+   ITEM
+========================================= */
+
+.press-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.75rem 2rem;
+  background: var(--color-white);
+  transition: background 0.2s ease;
+}
+
+.press-item:hover {
+  background: rgba(20, 31, 69, 0.025);
+}
+
+/* =========================================
+   MEDIA
+========================================= */
+
+.press-item__media {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  border: 1px solid rgba(20, 31, 69, 0.10);
+  background: rgba(20, 31, 69, 0.03);
+}
+
+.press-item__logo {
+  max-width: 30px;
+  max-height: 30px;
+  object-fit: contain;
+  opacity: 0.75;
+  display: block;
+}
+
+/* =========================================
+   CONTENT
+========================================= */
+
+.press-item__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+
+/* =========================================
+   TITLE
+========================================= */
+
+.press-item__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-primary-900);
+}
+
+/* =========================================
+   META
+========================================= */
+
+.press-item__meta {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  color: var(--color-accent-500);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.press-item__source {
+  font-weight: 600;
+  color: var(--color-accent-500);
+}
+
+/* =========================================
+   LINK
+========================================= */
+
+.press-item__link {
+  align-self: flex-start;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  color: var(--color-primary-700);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(20, 31, 69, 0.25);
+  padding-bottom: 1px;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.press-item__link:hover {
+  color: var(--color-primary-900);
+  border-bottom-color: var(--color-primary-900);
+}

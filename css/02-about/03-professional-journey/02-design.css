@@ -1,0 +1,220 @@
+/* =========================================
+   PROFESSIONAL JOURNEY
+========================================= */
+
+.professional-journey {
+  padding: 5rem 1rem;
+  background: var(--color-section-bg, #F7F9FC);
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.professional-journey__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+.professional-journey__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.professional-journey__title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: var(--color-primary-900);
+  margin: 0;
+}
+
+.professional-journey__title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 2px;
+  margin-top: 14px;
+  background: var(--color-primary-700);
+  opacity: 1;
+}
+
+.professional-journey__subtitle {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #4B5563;
+  margin: 0;
+  max-width: 780px;
+}
+
+/* =========================================
+   TIMELINE
+========================================= */
+
+.professional-journey .timeline {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+  padding-left: 56px;
+}
+
+.professional-journey .timeline::before {
+  content: "";
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: rgba(20, 31, 69, 0.12);
+}
+
+/* =========================================
+   TIMELINE ITEM
+========================================= */
+
+.professional-journey .timeline__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.professional-journey .timeline__item:last-child {
+  padding-bottom: 0;
+}
+
+/* =========================================
+   MARKER
+========================================= */
+
+.professional-journey .timeline__marker {
+  position: absolute;
+  left: -44px;
+  top: 4px;
+  display: flex;
+  justify-content: center;
+  width: 24px;
+}
+
+.professional-journey .timeline__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-white);
+  border: 2px solid var(--color-primary-700);
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+}
+
+.professional-journey .timeline__item:first-child .timeline__dot {
+  background: var(--color-primary-700);
+}
+
+/* =========================================
+   CONTENT CARD
+========================================= */
+
+.professional-journey .timeline__content {
+  flex: 1;
+  background: var(--color-white);
+  border: 1px solid rgba(20, 31, 69, 0.08);
+  border-left: 2px solid rgba(20, 31, 69, 0.15);
+  border-radius: 2px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 1px 6px rgba(10, 15, 36, 0.04);
+}
+
+.professional-journey .timeline__item:first-child .timeline__content {
+  border-left: 2px solid var(--color-primary-700);
+}
+
+/* =========================================
+   TEXT
+========================================= */
+
+.professional-journey .timeline__year {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-primary-700);
+  opacity: 0.7;
+  margin: 0;
+}
+
+.professional-journey .timeline__item:first-child .timeline__year {
+  opacity: 1;
+}
+
+.professional-journey .timeline__degree {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--color-primary-900);
+  margin: 0;
+}
+
+.professional-journey .timeline__institution {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #4B5563;
+  margin: 0;
+}
+
+/* =========================================
+   LIST
+========================================= */
+
+.timeline__list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.timeline__list li {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #6B7280;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.timeline__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(20, 31, 69, 0.3);
+  flex-shrink: 0;
+}
+
+
