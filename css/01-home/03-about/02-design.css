@@ -4,7 +4,7 @@
 
 .about {
   width: 100%;
-  padding: 5rem 1rem;
+  padding: 7rem 2rem;
   background: var(--color-section-bg, #F7F9FC);
 }
 
@@ -91,31 +91,23 @@
 }
 
 /* =========================================
-   EYEBROW
-========================================= */
-
-.about__eyebrow {
-  margin: 0;
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 3.5px;
-  color: var(--color-primary-700);
-  opacity: 0.6;
-}
-
-/* =========================================
    TITLE
 ========================================= */
 
 .about__title {
-  margin: 0;
   font-family: "Playfair Display", serif;
-  font-size: clamp(1.8rem, 2.6vw, 2.5rem);
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
   font-weight: 600;
-  line-height: 1.15;
-  letter-spacing: 0.3px;
-  color: var(--color-primary-900);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.about__divider {
+  width: 48px;
+  height: 2px;
+  background: var(--color-primary-700);
+  opacity: 1;
 }
 
 /* =========================================
