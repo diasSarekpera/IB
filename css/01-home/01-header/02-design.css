@@ -1,69 +1,118 @@
 /* =========================================
-   HEADER — DESIGN
-   Couleurs, typo, esthétique institutionnelle
+   HEADER — BASE
 ========================================= */
 
 .header {
+  position: relative;
+  width: 100%;
   background: var(--color-primary-700);
   border-bottom: 1px solid var(--color-border);
-  backdrop-filter: blur(6px);
+  z-index: 200;
 }
 
-/* ======================
-   LOGO
-====================== */
+/* =========================================
+   CONTAINER
+========================================= */
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+  padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+/* =========================================
+   BRAND / LOGO
+========================================= */
+
+.header__brand {
+  flex-shrink: 0;
+}
+
 .header__logo {
+  font-family: 'Playfair Display', serif;
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0.5px;
   color: var(--color-white-soft);
   text-decoration: none;
   transition: color 0.25s ease;
-  font-family: 'Playfair Display', serif;
 }
 
 .header__logo:hover {
   color: var(--color-white);
 }
 
-/* ======================
-   NAV LINKS
-====================== */
+/* =========================================
+   NAV — DESKTOP
+========================================= */
+
+.header__nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-item {
+  flex-shrink: 0;
+}
+
 .header__nav-link {
   font-family: Arial, sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
-
   color: var(--color-text-muted);
   text-decoration: none;
-
   transition: color 0.25s ease;
 }
 
-.header__nav-link:hover {
+.header__nav-link:hover,
+.header__nav-link.active {
   color: var(--color-white);
 }
 
-/* ======================
+/* =========================================
+   CONTROLS (lang + burger)
+========================================= */
+
+.header__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+/* =========================================
    LANG SELECT
-====================== */
+========================================= */
+
 .header__lang-select {
-  background: rgba(168, 179, 199, 0.2);
+  background: rgba(168, 179, 199, 0.1);
   border: 1px solid var(--color-border);
   color: var(--color-white-soft);
-
-  padding: 0.45rem 0.9rem;
-  border-radius: 4px;
-
-  font-size: 0.85rem;
+  padding: 0.45rem 0.75rem;
+  border-radius: 3px;
+  font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 1px;
-
   cursor: pointer;
   outline: none;
-
+  font-family: inherit;
   transition: background 0.25s ease, border-color 0.25s ease;
 }
 
@@ -76,13 +125,175 @@
   border-color: var(--color-accent-400);
 }
 
-/* Options du select */
 .header__lang-select option {
   background: var(--color-primary-700);
   color: var(--color-white-soft);
 }
 
+/* =========================================
+   BURGER — caché en desktop
+========================================= */
 
+.header__burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 38px;
+  height: 38px;
+  padding: 8px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  flex-shrink: 0;
+}
 
+.header__burger:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.header__burger span {
+  display: block;
+  width: 18px;
+  height: 1.5px;
+  background: var(--color-white-soft);
+  border-radius: 1px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+}
+
+/* Burger ouvert → croix */
+.header__burger[aria-expanded="true"] span:nth-child(1) {
+  transform: translateY(6.5px) rotate(45deg);
+}
+.header__burger[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.header__burger[aria-expanded="true"] span:nth-child(3) {
+  transform: translateY(-6.5px) rotate(-45deg);
+}
+
+/* =========================================
+   OVERLAY
+========================================= */
+
+.header__overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 198;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.header__overlay.is-visible {
+  opacity: 1;
+}
+
+/* =========================================
+   RESPONSIVE — 768px
+========================================= */
+
+@media (max-width: 768px) {
+
+  .header__container {
+    height: 64px;
+    padding: 0 1.25rem;
+  }
+
+  /* Burger visible */
+  .header__burger {
+    display: flex;
+  }
+
+  /* Nav → panneau latéral */
+  .header__nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(300px, 82vw);
+    background: var(--color-primary-900);
+    z-index: 199;
+    padding: 5rem 1.75rem 2.5rem;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: -6px 0 28px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    justify-content: flex-start;
+  }
+
+  .header__nav.is-open {
+    transform: translateX(0);
+  }
+
+  /* Overlay actif */
+  .header__overlay {
+    display: block;
+    pointer-events: none;
+  }
+
+  .header__overlay.is-visible {
+    pointer-events: auto;
+  }
+
+  /* Nav list verticale */
+  .header__nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: 100%;
+  }
+
+  .header__nav-item {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .header__nav-item:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .header__nav-link {
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .header__nav-link:hover,
+  .header__nav-link.active {
+    color: var(--color-white);
+  }
+}
+
+/* =========================================
+   RESPONSIVE — 480px
+========================================= */
+
+@media (max-width: 480px) {
+
+  .header__container {
+    height: 58px;
+    padding: 0 1rem;
+  }
+
+  .header__logo {
+    font-size: 1.75rem;
+  }
+
+  .header__lang-select {
+    font-size: 0.78rem;
+    padding: 0.4rem 0.6rem;
+  }
+}
 
 

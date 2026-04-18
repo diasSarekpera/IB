@@ -1,0 +1,88 @@
+{
+  "page_title": "Dr. C. Joscky Ibrahim AHO | Teacher-Researcher & Management Expert",
+
+  "meta_description": "Official website of Dr. C. Joscky Ibrahim AHO, teacher-researcher and expert in marketing, management, regional integration and local development.",
+
+  "og_title": "Dr. C. Joscky Ibrahim AHO",
+  "og_description": "Teacher-Researcher, Consultant and Expert in marketing, management and local development.",
+
+  "twitter_title": "Dr. C. Joscky Ibrahim AHO",
+  "twitter_description": "Teacher-Researcher, Consultant and Expert in marketing, management and local development.",
+
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_publications": "Publications",
+  "nav_media": "Media",
+  "nav_contact": "Contact",
+
+  "hero_intro": "Welcome to my official website",
+  "hero_connect": "Let's connect!",
+
+  "about_title": "Profile",
+  "about_tag1": "Teacher-Researcher",
+  "about_tag2": "Consultant-Trainer",
+  "about_tag3": "Management Expert",
+
+  "about_p1": "For more than nineteen years, I have been involved in higher education, professional training, and strategic support for organizations in West Africa.",
+  "about_p2": "My career lies at the crossroads of Anglophone African studies, regional integration, and organizational management, serving sustainable, inclusive, and results-oriented development.",
+
+  "about_btn": "Learn more",
+
+  "expertise_title": "Areas of Expertise",
+
+  "expertise_item1_title": "Regional integration & African studies",
+  "expertise_item1_text": "Analysis of integration dynamics in West Africa (ECOWAS, AfCFTA), regional governance and organizational performance in economic integration contexts.",
+  "expertise_item1_badge1": "PhD · Regional integration",
+  "expertise_item1_badge2": "UAC · UNILAG",
+
+  "expertise_item2_title": "Marketing & strategic communication",
+  "expertise_item2_text": "Design of marketing strategies and institutional communication, branding, resource mobilization and project promotion for public institutions and private organizations.",
+  "expertise_item2_badge1": "Master’s · Marketing",
+  "expertise_item2_badge2": "University of Montreal",
+
+  "expertise_item3_title": "Project management & monitoring and evaluation",
+  "expertise_item3_text": "Management of complex projects, strategic planning and results-based management serving local development, institutional growth and organizational performance.",
+  "expertise_item3_badge1": "19 years · Field experience",
+  "expertise_item3_badge2": "Benin · West Africa",
+
+  "metrics_title": "Key Indicators",
+
+  "metric1_label": "years of experience in teaching, training and consulting",
+  "metric2_label": "books, articles and scientific publications",
+  "metric3_label": "countries of intervention in Africa and internationally",
+
+  "contact_title": "Contact me",
+  "contact_pitch": "For any collaboration, academic intervention or strategic consulting request, I remain available for discussion.",
+
+  "contact_email_label": "Email",
+  "contact_phone_label": "Phone",
+  "contact_location_label": "Location",
+  "contact_location_value": "Cotonou, Benin",
+
+  "contact_social_label": "Networks",
+
+  "form_name": "Full name",
+  "form_email": "Email address",
+  "form_subject": "Subject",
+  "form_message": "Message",
+  "form_send": "Send message",
+
+  "placeholder_name": "Dr. Ibrahim AHO",
+  "placeholder_email": "you@example.com",
+  "placeholder_subject": "Collaboration · Lecture · Consulting",
+  "placeholder_message": "Describe your request...",
+
+  "footer_tagline": "Building tomorrow’s success",
+
+  "footer_links": "Quick links",
+  "footer_link_home": "Home",
+  "footer_link_about": "About",
+  "footer_link_expertise": "Expertise",
+  "footer_link_contact": "Contact",
+
+  "footer_contact": "Contact",
+  "footer_social": "Social networks",
+
+  "footer_rights": "All rights reserved",
+  "footer_design": "Design: Dias SARE KPERA"
+}

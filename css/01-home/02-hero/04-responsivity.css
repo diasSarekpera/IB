@@ -1,0 +1,81 @@
+/* =========================================
+   RESPONSIVE — HEADER + HERO
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* --- Hero --- */
+  .hero__container {
+    flex-direction: column;
+    padding: 2rem 1.25rem 3.5rem;
+    margin-top: 64px;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .hero__figure {
+    flex: none;
+    width: 100%;
+  }
+
+  .hero__image {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .hero__content {
+    flex: none;
+    width: 100%;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__intro {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    justify-content: center;
+  }
+
+  .hero__connect {
+    font-size: 0.8rem;
+  }
+
+  .hero__socials {
+    justify-content: center;
+    gap: 0.85rem;
+  }
+
+  .hero__socials a {
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header__container {
+    height: 58px;
+    padding: 0 1rem;
+  }
+
+  .hero__container {
+    padding: 1.75rem 1rem 3rem;
+    gap: 2rem;
+  }
+
+  .hero__image {
+    max-width: 190px;
+  }
+
+  .hero__title {
+    font-size: 1.75rem;
+  }
+
+  .hero__intro {
+    font-size: 0.75rem;
+  }
+}

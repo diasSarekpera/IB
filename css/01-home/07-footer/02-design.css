@@ -9,6 +9,26 @@
   overflow: hidden;
 }
 
+.site-footer {
+  width: 100%;
+  position: relative;
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../../assets/03-images/texture-noise.png"); /* image très légère */
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.3; /* presque invisible */
+  mix-blend-mode: overlay;
+
+  z-index: 1;
+}
+
 /* =========================================
    CONTAINER
 ========================================= */

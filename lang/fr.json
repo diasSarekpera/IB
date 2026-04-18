@@ -1,0 +1,88 @@
+{
+  "page_title": "Dr. C. Joscky Ibrahim AHO | Enseignant-Chercheur & Expert en Management",
+
+  "meta_description": "Site officiel de Dr. C. Joscky Ibrahim AHO, enseignant-chercheur et expert en marketing, management, intégration régionale et développement local.",
+
+  "og_title": "Dr. C. Joscky Ibrahim AHO",
+  "og_description": "Enseignant-Chercheur, Consultant et Expert en marketing, management et développement local.",
+
+  "twitter_title": "Dr. C. Joscky Ibrahim AHO",
+  "twitter_description": "Enseignant-Chercheur, Consultant et Expert en marketing, management et développement local.",
+
+  "nav_home": "Accueil",
+  "nav_about": "À propos",
+  "nav_publications": "Publications",
+  "nav_media": "Médias",
+  "nav_contact": "Contact",
+
+  "hero_intro": "Bienvenue sur mon site officiel",
+  "hero_connect": "Connectons-nous !",
+
+  "about_title": "Profil",
+  "about_tag1": "Enseignant-Chercheur",
+  "about_tag2": "Consultant-Formateur",
+  "about_tag3": "Expert en Management",
+
+  "about_p1": "Depuis plus de dix-neuf ans, j'évolue dans l'enseignement supérieur, la formation professionnelle et l'accompagnement stratégique des organisations en Afrique de l'Ouest.",
+  "about_p2": "Mon parcours s'inscrit à la croisée des études africaines anglophones, de l'intégration régionale et du management des organisations au service d'un développement durable, inclusif et orienté résultats.",
+
+  "about_btn": "En savoir plus",
+
+  "expertise_title": "Domaines d’expertise",
+
+  "expertise_item1_title": "Intégration régionale & études africaines",
+  "expertise_item1_text": "Analyse des dynamiques d’intégration en Afrique de l’Ouest (CEDEAO, ZLECAf), gouvernance régionale et performance des organisations dans les contextes d’intégration économique.",
+  "expertise_item1_badge1": "PhD · Intégration régionale",
+  "expertise_item1_badge2": "UAC · UNILAG",
+
+  "expertise_item2_title": "Marketing & communication stratégique",
+  "expertise_item2_text": "Conception de stratégies marketing et de communication institutionnelle, branding, mobilisation de ressources et valorisation de projets pour institutions publiques et organisations privées.",
+  "expertise_item2_badge1": "Master · Marketing",
+  "expertise_item2_badge2": "Univ. de Montréal",
+
+  "expertise_item3_title": "Gestion de projets & suivi-évaluation",
+  "expertise_item3_text": "Pilotage de projets complexes, planification stratégique et gestion axée sur les résultats au service du développement local, institutionnel et de la performance organisationnelle.",
+  "expertise_item3_badge1": "19 ans · Expérience terrain",
+  "expertise_item3_badge2": "Bénin · Afrique de l’Ouest",
+
+  "metrics_title": "Indicateurs",
+
+  "metric1_label": "années d’expérience en enseignement, formation et conseil",
+  "metric2_label": "ouvrages, articles et productions scientifiques",
+  "metric3_label": "pays d’intervention en Afrique et à l’international",
+
+  "contact_title": "Me contacter",
+  "contact_pitch": "Pour toute collaboration, intervention académique ou demande de conseil stratégique, je reste disponible pour échanger.",
+
+  "contact_email_label": "E-mail",
+  "contact_phone_label": "Téléphone",
+  "contact_location_label": "Localisation",
+  "contact_location_value": "Cotonou, Bénin",
+
+  "contact_social_label": "Réseaux",
+
+  "form_name": "Nom complet",
+  "form_email": "Adresse e-mail",
+  "form_subject": "Objet",
+  "form_message": "Message",
+  "form_send": "Envoyer le message",
+
+  "placeholder_name": "Dr. Ibrahim AHO",
+  "placeholder_email": "vous@exemple.com",
+  "placeholder_subject": "Collaboration · Intervention · Conseil",
+  "placeholder_message": "Décrivez votre demande...",
+
+  "footer_tagline": "Construire le succès de demain",
+
+  "footer_links": "Liens rapides",
+  "footer_link_home": "Accueil",
+  "footer_link_about": "À propos",
+  "footer_link_expertise": "Expertise",
+  "footer_link_contact": "Contact",
+
+  "footer_contact": "Contact",
+  "footer_social": "Réseaux sociaux",
+
+  "footer_rights": "Tous droits réservés",
+  "footer_design": "Conception : Dias SARE KPERA"
+}

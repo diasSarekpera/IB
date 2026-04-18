@@ -56,7 +56,7 @@
     <body  id="top">
         <!-- =========================
             HEADER + HERO SECTION
-            Page A propos - Site du Dr AHO KORRO Ibrahim
+            Page d'accueil - Site du Dr AHO KORRO Ibrahim
         ========================= -->
         <header class="header">
             <div class="header__container container">
@@ -67,42 +67,50 @@
                     </a>
                 </div>
 
-                <nav class="header__nav" aria-label="Navigation principale">
-                <ul class="header__nav-list">
-
-                    <li class="header__nav-item">
-                        <a href="/index.html" class="header__nav-link">Accueil</a>
-                    </li>
-
-                    <li class="header__nav-item">
-                        <a href="/pages/01-about.html" class="header__nav-link">À propos</a>
-                    </li>
-
-                    <li class="header__nav-item">
-                        <a href="/pages/02-publications.html" class="header__nav-link">Publications</a>
-                    </li>
-
-                    <li class="header__nav-item">
-                        <a href="/pages/03-media.html" class="header__nav-link">Médias</a>
-                    </li>
-
-                    <li class="header__nav-item">
-                        <a href="/index.html#contact" class="header__nav-link">Contact</a>
-                    </li>
-
-                    <li class="header__lang">
-                        <select id="language" class="header__lang-select">
-                            <option value="fr">FR</option>
-                            <option value="en">EN</option>
-                            <option value="es">ES</option>
-                        </select>
-                    </li>
-
-                </ul>
+                <nav class="header__nav" id="header-nav" aria-label="Navigation principale">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="/index.html" class="header__nav-link" data-i18n="nav_home">Accueil</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="/pages/01-about.html" class="header__nav-link" data-i18n="nav_about">À propos</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="/pages/02-publications.html" class="header__nav-link" data-i18n="nav_publications">Publications</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="/pages/03-media.html" class="header__nav-link" data-i18n="nav_media">Médias</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="/index.html#contact" class="header__nav-link" data-i18n="nav_contact">Contact</a>
+                        </li>
+                    </ul>
                 </nav>
 
+                <div class="header__controls">
+                    <select id="language" class="header__lang-select" aria-label="Langue">
+                        <option value="fr">FR</option>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                    <button
+                        class="header__burger"
+                        id="header-burger"
+                        aria-label="Ouvrir le menu"
+                        aria-expanded="false"
+                        aria-controls="header-nav"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
             </div>
+
+            <div class="header__overlay" id="header-overlay" aria-hidden="true"></div>
         </header>
+        <!-- ✅ header fermé ici -->
 
 
         <!-- =========================================================
@@ -542,7 +550,7 @@
 
 
         <script src="../js/global/backtop.js"></script>
-        <script src="../js/global/navlink-active.js"></script>
+        <script src="/js/global/menu.js"></script>
     </body>
 </html>
 

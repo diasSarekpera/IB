@@ -1,0 +1,88 @@
+{
+  "page_title": "Dr. C. Joscky Ibrahim AHO | Docente-Investigador y Experto en Gestión",
+
+  "meta_description": "Sitio oficial del Dr. C. Joscky Ibrahim AHO, docente-investigador y experto en marketing, gestión, integración regional y desarrollo local.",
+
+  "og_title": "Dr. C. Joscky Ibrahim AHO",
+  "og_description": "Docente-Investigador, Consultor y Experto en marketing, gestión y desarrollo local.",
+
+  "twitter_title": "Dr. C. Joscky Ibrahim AHO",
+  "twitter_description": "Docente-Investigador, Consultor y Experto en marketing, gestión y desarrollo local.",
+
+  "nav_home": "Inicio",
+  "nav_about": "Acerca de",
+  "nav_publications": "Publicaciones",
+  "nav_media": "Medios",
+  "nav_contact": "Contacto",
+
+  "hero_intro": "Bienvenido a mi sitio oficial",
+  "hero_connect": "¡Conectemos!",
+
+  "about_title": "Perfil",
+  "about_tag1": "Docente-Investigador",
+  "about_tag2": "Consultor-Formador",
+  "about_tag3": "Experto en Gestión",
+
+  "about_p1": "Desde hace más de diecinueve años, trabajo en la educación superior, la formación profesional y el acompañamiento estratégico de organizaciones en África Occidental.",
+  "about_p2": "Mi trayectoria se sitúa en la intersección de los estudios africanos anglófonos, la integración regional y la gestión organizacional al servicio de un desarrollo sostenible, inclusivo y orientado a resultados.",
+
+  "about_btn": "Saber más",
+
+  "expertise_title": "Áreas de experiencia",
+
+  "expertise_item1_title": "Integración regional y estudios africanos",
+  "expertise_item1_text": "Análisis de las dinámicas de integración en África Occidental (CEDEAO, ZLECAf), gobernanza regional y desempeño de las organizaciones en contextos de integración económica.",
+  "expertise_item1_badge1": "PhD · Integración regional",
+  "expertise_item1_badge2": "UAC · UNILAG",
+
+  "expertise_item2_title": "Marketing y comunicación estratégica",
+  "expertise_item2_text": "Diseño de estrategias de marketing y comunicación institucional, branding, movilización de recursos y valorización de proyectos para instituciones públicas y organizaciones privadas.",
+  "expertise_item2_badge1": "Máster · Marketing",
+  "expertise_item2_badge2": "Universidad de Montreal",
+
+  "expertise_item3_title": "Gestión de proyectos y seguimiento-evaluación",
+  "expertise_item3_text": "Gestión de proyectos complejos, planificación estratégica y gestión orientada a resultados al servicio del desarrollo local, institucional y del desempeño organizacional.",
+  "expertise_item3_badge1": "19 años · Experiencia en terreno",
+  "expertise_item3_badge2": "Benín · África Occidental",
+
+  "metrics_title": "Indicadores",
+
+  "metric1_label": "años de experiencia en enseñanza, formación y consultoría",
+  "metric2_label": "libros, artículos y producciones científicas",
+  "metric3_label": "países de intervención en África y a nivel internacional",
+
+  "contact_title": "Contáctame",
+  "contact_pitch": "Para cualquier colaboración, intervención académica o solicitud de consultoría estratégica, estoy disponible para conversar.",
+
+  "contact_email_label": "Correo electrónico",
+  "contact_phone_label": "Teléfono",
+  "contact_location_label": "Ubicación",
+  "contact_location_value": "Cotonú, Benín",
+
+  "contact_social_label": "Redes",
+
+  "form_name": "Nombre completo",
+  "form_email": "Correo electrónico",
+  "form_subject": "Asunto",
+  "form_message": "Mensaje",
+  "form_send": "Enviar mensaje",
+
+  "placeholder_name": "Dr. Ibrahim AHO",
+  "placeholder_email": "tu@ejemplo.com",
+  "placeholder_subject": "Colaboración · Conferencia · Consultoría",
+  "placeholder_message": "Describe tu solicitud...",
+
+  "footer_tagline": "Construyendo el éxito del mañana",
+
+  "footer_links": "Enlaces rápidos",
+  "footer_link_home": "Inicio",
+  "footer_link_about": "Acerca de",
+  "footer_link_expertise": "Experiencia",
+  "footer_link_contact": "Contacto",
+
+  "footer_contact": "Contacto",
+  "footer_social": "Redes sociales",
+
+  "footer_rights": "Todos los derechos reservados",
+  "footer_design": "Diseño: Dias SARE KPERA"
+}

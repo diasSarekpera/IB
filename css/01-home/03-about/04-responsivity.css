@@ -1,0 +1,107 @@
+@media (max-width: 768px) {
+  .about {
+    padding: 4rem 1.25rem;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    border-radius: 3px;
+  }
+
+  .about__figure {
+    height: 320px;
+  }
+
+  .about__image {
+    height: 100%;
+    object-position: top center;
+  }
+
+  .about__badge {
+    bottom: 1.25rem;
+    right: -1px;
+    padding: 0.75rem 1rem;
+    min-width: 80px;
+  }
+
+  .about__badge-value {
+    font-size: 1.5rem;
+  }
+
+  .about__badge-label {
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+  }
+
+  .about__content {
+    gap: 1.25rem;
+    padding: 2.25rem 1.75rem;
+    border-left: none;
+    border-top: 1px solid rgba(20, 31, 69, 0.07);
+  }
+
+  .about__title {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+  }
+
+  .about__tags {
+    gap: 0.4rem;
+  }
+
+  .about__tag {
+    font-size: 0.68rem;
+    padding: 0.28rem 0.65rem;
+  }
+
+  .about__text p {
+    font-size: 0.92rem;
+    line-height: 1.8;
+  }
+
+  .about__footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding-top: 0.75rem;
+  }
+
+  .about__button {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .about__figure {
+    height: 280px;
+  }
+
+  .about__content {
+    padding: 2rem 1.25rem;
+  }
+
+  .about__title {
+    font-size: 1.35rem;
+  }
+
+  .about__text p {
+    font-size: 0.9rem;
+    line-height: 1.75;
+  }
+
+  .about__socials {
+    gap: 0.4rem;
+  }
+
+  .about__social-link {
+    width: 32px;
+    height: 32px;
+    font-size: 0.75rem;
+  }
+}

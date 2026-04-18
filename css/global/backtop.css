@@ -1,7 +1,3 @@
-/* ==============================
-   BACK TO TOP BUTTON
-============================== */
-
 .backtotop {
   position: fixed;
   right: 28px;
@@ -14,38 +10,38 @@
   align-items: center;
   justify-content: center;
 
-  background: var(--color-primary-700);
-  color: #fff;
+  background: #ffffff;              /* fond blanc franc */
+  color: var(--color-primary-800); /* icône bleue */
 
-  border-radius: 4px;
-  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 
   opacity: 0;
   visibility: hidden;
   transform: translateY(10px);
-
   transition: all 0.35s ease;
+
   z-index: 999;
 }
 
-.backtotop i {
-  font-size: 1.1rem;
-}
-
-/* Apparition */
 .backtotop--visible {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
 }
 
-/* Hover propre */
 .backtotop:hover {
-  background: var(--color-primary-800);
+  transform: translateY(-3px);
 }
 
-
-
-
+@media (max-width: 768px) {
+  .backtotop {
+    right: 16px;
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+  }
+}

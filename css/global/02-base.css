@@ -1,6 +1,6 @@
 :root {
   /* Primary (Royal Night Blue) */
-  --color-primary-900: #0A0F24; /* bleu nuit profond */
+  --color-primary-900: #1A2340; /* bleu nuit profond */
   --color-primary-800: #0E1736; /* fond principal */
   --color-primary-700: #141F45; /* variantes */
 
@@ -123,4 +123,17 @@ button {
   color: var(--color-white);
   opacity: 1;
 }
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 

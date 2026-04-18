@@ -1,0 +1,147 @@
+@media (max-width: 768px) {
+  .publications {
+    padding: 3rem 1rem;
+    gap: 2.5rem;
+  }
+
+  .publications__title {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+  }
+
+  .publications__title::after {
+    width: 36px;
+    margin-top: 10px;
+  }
+
+  .publications__intro {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .publications__category {
+    gap: 1.5rem;
+  }
+
+  .publications__category-title {
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+  }
+
+  .publications__category-description {
+    font-size: 0.875rem;
+  }
+
+  .publication-card__content {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    padding: 1.25rem 1.25rem;
+  }
+
+  .publication-card__media {
+    width: 100px;
+    height: 72px;
+  }
+
+  .publication-card__body {
+    flex: 1;
+    min-width: 0;
+    gap: 0.3rem;
+  }
+
+  .publication-card__title {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .publication-card__meta {
+    font-size: 0.72rem;
+  }
+
+  .publication-card__description {
+    font-size: 0.845rem;
+    line-height: 1.6;
+  }
+
+  .publication-card__actions {
+    width: 100%;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(20, 31, 69, 0.06);
+  }
+}
+
+@media (max-width: 480px) {
+  .publications {
+    padding: 2.5rem 0.75rem;
+    gap: 2rem;
+  }
+
+  .publications__title {
+    font-size: 1.25rem;
+    letter-spacing: 1.2px;
+  }
+
+  .publications__intro {
+    font-size: 0.88rem;
+  }
+
+  .publications__category {
+    gap: 1.25rem;
+  }
+
+  .publications__category-title {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding-bottom: 0.65rem;
+  }
+
+  .publications__category-description {
+    font-size: 0.845rem;
+    line-height: 1.65;
+  }
+
+  .publication-card__content {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.1rem 1rem;
+    align-items: flex-start;
+  }
+
+  .publication-card__media {
+    width: 100%;
+    height: 160px;
+  }
+
+  .publication-card__image {
+    object-position: top center;
+  }
+
+  .publication-card__body {
+    gap: 0.3rem;
+  }
+
+  .publication-card__title {
+    font-size: 0.9rem;
+  }
+
+  .publication-card__meta {
+    font-size: 0.68rem;
+  }
+
+  .publication-card__description {
+    font-size: 0.82rem;
+    line-height: 1.6;
+  }
+
+  .publication-card__actions {
+    width: 100%;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(20, 31, 69, 0.06);
+    gap: 0.6rem;
+  }
+
+  .publication-card__link {
+    font-size: 0.72rem;
+    letter-spacing: 0.8px;
+  }
+}
