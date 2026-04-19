@@ -34,8 +34,8 @@
     <!-- =========================
         FAVICON
     ========================== -->
-    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/assets/03-images/favicon.ico" type="image/x-icon">
+
 
     <!-- =========================
         FONT AWESOME
@@ -62,33 +62,33 @@
             <div class="header__container container">
 
                 <div class="header__brand">
-                    <a href="/index.html" class="header__logo" aria-label="Accueil du site" data-i18n-aria="nav.home_aria">
-                        IB
+                    <a href="/index.html" class="header__logo" aria-label="Accueil du site">
+                        <img src="/assets/03-images/logo.png" alt="">
                     </a>
                 </div>
 
-                <nav class="header__nav" id="header-nav" aria-label="Navigation principale" data-i18n-aria="nav.aria_label">
+                <nav class="header__nav" id="header-nav" aria-label="Navigation principale">
                     <ul class="header__nav-list">
                         <li class="header__nav-item">
-                            <a href="/index.html" class="header__nav-link" data-i18n="nav.home">Accueil</a>
+                            <a href="/index.html" class="header__nav-link" data-i18n="nav_home">Accueil</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="/pages/01-about.html" class="header__nav-link" data-i18n="nav.about">À propos</a>
+                            <a href="/pages/01-about.html" class="header__nav-link" data-i18n="nav_about">À propos</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="/pages/02-publications.html" class="header__nav-link" data-i18n="nav.publications">Publications</a>
+                            <a href="/pages/02-publications.html" class="header__nav-link" data-i18n="nav_publications">Publications</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="/pages/03-media.html" class="header__nav-link" data-i18n="nav.media">Médias</a>
+                            <a href="/pages/03-media.html" class="header__nav-link" data-i18n="nav_media">Médias</a>
                         </li>
                         <li class="header__nav-item">
-                            <a href="/index.html#contact" class="header__nav-link" data-i18n="nav.contact">Contact</a>
+                            <a href="/index.html#contact" class="header__nav-link" data-i18n="nav_contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
 
                 <div class="header__controls">
-                    <select id="language" class="header__lang-select" aria-label="Langue" data-i18n-aria="accessibility.lang_select">
+                    <select id="language" class="header__lang-select" aria-label="Langue">
                         <option value="fr">FR</option>
                         <option value="en">EN</option>
                         <option value="es">ES</option>
@@ -99,7 +99,6 @@
                         aria-label="Ouvrir le menu"
                         aria-expanded="false"
                         aria-controls="header-nav"
-                        data-i18n-aria="nav.open_menu"
                     >
                         <span></span>
                         <span></span>

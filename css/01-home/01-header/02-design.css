@@ -297,3 +297,40 @@
 }
 
 
+
+/* =========================================
+   LOGO — IMAGE
+========================================= */
+
+.header__logo img {
+  display: block;
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity 0.25s ease;
+}
+
+.header__logo:hover img {
+  opacity: 0.85;
+}
+
+/* =========================================
+   RESPONSIVE — 768px
+========================================= */
+
+@media (max-width: 768px) {
+  .header__logo img {
+    height: 32px;
+  }
+}
+
+/* =========================================
+   RESPONSIVE — 480px
+========================================= */
+
+@media (max-width: 480px) {
+  .header__logo img {
+    height: 28px;
+  }
+}
+
