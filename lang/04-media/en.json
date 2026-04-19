@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Media | Dr. C. Joscky Ibrahim AHO",
+    "description": "Discover the media appearances, conferences, interviews and public interventions of Dr. C. Joscky Ibrahim AHO on development, governance, strategic marketing and regional integration in Africa.",
+    "og_title": "Media | Dr. C. Joscky Ibrahim AHO",
+    "og_description": "Interviews, conferences and media appearances on regional integration, management and development in Africa.",
+    "twitter_title": "Media | Dr. C. Joscky Ibrahim AHO",
+    "twitter_description": "Interviews, conferences and media appearances on regional integration, management and development in Africa."
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "publications": "Publications",
+    "media": "Media",
+    "contact": "Contact",
+    "aria_label": "Main navigation",
+    "open_menu": "Open menu",
+    "home_aria": "Site homepage"
+  },
+
+  "hero": {
+    "title": "Media & Appearances",
+    "description": "This section brings together a selection of public interventions, academic conferences, media contributions and participations in scientific and professional events."
+  },
+
+  "talks": {
+    "section_title": "Talks & Conferences",
+    "section_description": "I regularly participate in academic conferences, professional workshops and international forums on regional integration, strategic management, governance and socio-economic development in Africa.",
+
+    "talk1": {
+      "title": "Regional Integration and Business Performance within the AfCFTA Framework",
+      "location": "Lagos, Nigeria",
+      "date": "June 2024",
+      "description": "A presentation focused on the economic challenges of regional integration and the impact of the AfCFTA on the competitiveness of African businesses.",
+      "link_label": "View conference",
+      "link_aria": "View details of the conference on regional integration and the AfCFTA",
+      "img_alt": "Academic talk on regional integration and the AfCFTA"
+    },
+    "talk2": {
+      "title": "Strategic Marketing, Institutional Communication and Organisational Performance",
+      "location": "Cotonou, Benin",
+      "date": "November 2023",
+      "description": "A training session for executives and institutional managers on strategic positioning tools, communication and results management.",
+      "link_label": "View talk",
+      "link_aria": "View details of the talk on strategic marketing",
+      "img_alt": "Professional workshop on strategic marketing and institutional communication"
+    },
+    "talk3": {
+      "title": "Territorial Governance and Local Development: Challenges and Perspectives in West Africa",
+      "location": "Abomey-Calavi, Benin",
+      "date": "May 2022",
+      "description": "A scientific presentation on institutional dynamics, local public policies and governance mechanisms aimed at performance and impact.",
+      "link_label": "View presentation",
+      "link_aria": "View the presentation on territorial governance",
+      "img_alt": "Scientific paper on territorial governance and local development"
+    }
+  },
+
+  "press": {
+    "section_title": "Press & Media Publications",
+    "section_description": "My analyses and talks are sometimes featured in specialised media and platforms, covering development issues, regional integration, management and institutional transformation in Africa.",
+
+    "press1": {
+      "title": "AfCFTA: Opportunities, Challenges and Prospects for African Economies",
+      "source": "Economics & Development Platform",
+      "date": "March 2023",
+      "link_label": "Read article",
+      "link_aria": "Read the article on the AfCFTA and African economies",
+      "img_alt": "Media logo: economics platform"
+    },
+    "press2": {
+      "title": "Nigeria and Its Strategic Role in West African Regional Integration",
+      "source": "University Review & Research",
+      "date": "June 2021",
+      "link_label": "Read publication",
+      "link_aria": "Read the publication on Nigeria's role in regional integration",
+      "img_alt": "Media logo: university review"
+    },
+    "press3": {
+      "title": "Institutional Communication and Performance: Strengthening the Impact of Public Organisations",
+      "source": "Management & Strategies Magazine",
+      "date": "September 2019",
+      "link_label": "Read interview",
+      "link_aria": "Read the interview on institutional communication",
+      "img_alt": "Media logo: management magazine"
+    }
+  },
+
+  "gallery": {
+    "section_title": "Gallery",
+    "section_description": "Key moments from conferences, training sessions and academic events.",
+    "img1_alt": "Academic conference",
+    "img2_alt": "Professional talk",
+    "img3_alt": "Scientific symposium",
+    "img4_alt": "Strategic training",
+    "img5_alt": "Professional workshop",
+    "img6_alt": "Academic event"
+  },
+
+  "footer": {
+    "tagline": "Building tomorrow's success",
+    "nav_title": "Quick links",
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_expertise": "Expertise",
+    "nav_contact": "Contact",
+    "contact_title": "Contact",
+    "social_title": "Social media",
+    "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - All rights reserved",
+    "credits": "Design: Dias SARE KPERA"
+  },
+
+  "accessibility": {
+    "back_to_top": "Back to top",
+    "lang_select": "Language"
+  }
+}

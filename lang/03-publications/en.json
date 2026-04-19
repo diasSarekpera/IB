@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "description": "Discover the publications, books and scientific works of Dr. C. Joscky Ibrahim AHO on regional integration, strategic marketing, governance and development in Africa.",
+    "og_title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "og_description": "Books, articles and scientific research on regional integration, management and development in Africa.",
+    "twitter_title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "twitter_description": "Books, articles and scientific research on regional integration, management and development in Africa."
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "publications": "Publications",
+    "media": "Media",
+    "contact": "Contact",
+    "aria_label": "Main navigation",
+    "open_menu": "Open menu",
+    "home_aria": "Site homepage"
+  },
+
+  "publications": {
+    "title": "Publications",
+    "intro": "Through my work, I focus on the dynamics of regional integration, socio-economic development strategies, as well as governance, communication and organisational transformation challenges in Africa. This section presents a selection of my books, articles and scientific contributions.",
+
+    "books": {
+      "category_title": "Published books & works",
+      "category_description": "A selection of my academic and pedagogical works, published in the fields of management, regional integration and business English.",
+
+      "book1": {
+        "title": "Business Leader BBA and MBA — Volume 2",
+        "meta": "2024 · Academic work",
+        "description": "A book dedicated to the training of future executives and leaders, integrating concrete tools in management, business administration and organisational strategy.",
+        "img_alt": "Cover: Business Leader BBA and MBA, Volume 2"
+      },
+      "book2": {
+        "title": "Business Leader BBA and MBA — Volume 1",
+        "meta": "2020 · Academic work",
+        "description": "A book structured around the fundamentals of leadership, organisational management and managerial practices adapted to contemporary realities.",
+        "img_alt": "Cover: Business Leader BBA and MBA, Volume 1"
+      },
+      "book3": {
+        "title": "Regional Integration in Africa: Challenges and Perspectives of ECOWAS",
+        "meta": "2015 · UAC Publication (Benin)",
+        "description": "An in-depth analysis of the challenges and prospects of regional integration in Africa, with a focus on ECOWAS and its political, economic and social implications.",
+        "img_alt": "Cover: Regional Integration in Africa: Challenges and Perspectives of ECOWAS"
+      },
+      "book4": {
+        "title": "The Essentials of Business English (BTS – Degree) — Volume 1",
+        "meta": "2015 · Pedagogical work",
+        "description": "A reference resource designed to strengthen proficiency in English applied to the business world, intended for students and professionals.",
+        "img_alt": "Cover: The Essentials of Business English BTS-Degree Volume 1"
+      },
+      "book5": {
+        "title": "The Essentials of Business English (BTS – Degree) — Volume 2",
+        "meta": "2016 · Pedagogical work",
+        "description": "A follow-up to Volume 1, this book deepens the essential linguistic tools for professional communication and understanding of commercial documents.",
+        "img_alt": "Cover: The Essentials of Business English BTS-Degree Volume 2"
+      },
+      "book6": {
+        "title": "The Essentials for Successful BTS Oral Preparation",
+        "meta": "2015 · Pedagogical work",
+        "description": "A practical guide for BTS candidates, designed to strengthen oral preparation, structure speaking performances and improve examination results.",
+        "img_alt": "Cover: The Essentials for Successful BTS Oral Preparation"
+      }
+    },
+
+    "articles": {
+      "category_title": "Articles & scientific studies",
+      "category_description": "Analyses and studies focusing on economic policies, regional integration and trade dynamics in West Africa.",
+
+      "article1": {
+        "title": "Assessing the Economic Strategies of Benin from 1960 to 2000",
+        "meta": "2012 · Scientific study",
+        "description": "An analysis of the economic strategies of Benin between 1960 and 2000, with a historical and institutional reading of political choices and their impacts.",
+        "img_alt": "Publication: Assessing the Economic Strategies of Benin from 1960 to 2000"
+      },
+      "article2": {
+        "title": "Economic Impacts of the Achievements of ECOWAS in Member States: Issues of Customs Union for Benin",
+        "meta": "2012 · Scientific study",
+        "description": "A study on the economic impacts of ECOWAS achievements in member states, with a focus on the customs union challenges for Benin.",
+        "img_alt": "Publication: Economic Impacts of the Achievements of ECOWAS in Member States"
+      },
+      "article3": {
+        "title": "Regional Integration in West Africa: Challenges and Perspectives",
+        "meta": "2014 · Scientific article",
+        "description": "A reflection on the structural challenges of regional integration in West Africa and the prospects for improving regional policies.",
+        "img_alt": "Publication: Regional Integration in West Africa: Challenges and Perspectives"
+      },
+      "article4": {
+        "title": "The Reality of Free Movement of Persons and Vehicles on the Abidjan–Lagos Corridor",
+        "meta": "2016 · Scientific study",
+        "description": "An analysis of mobility and circulation challenges within the ECOWAS area, with particular attention to institutional and practical obstacles on the Abidjan–Lagos corridor.",
+        "img_alt": "Publication: The Reality of Free Movement of Persons and Vehicles on the Abidjan-Lagos Corridor"
+      },
+      "article5": {
+        "title": "Trade between Mauritania and ECOWAS: Issues for West Africa",
+        "meta": "2016 · Article / scientific study",
+        "description": "A study of the economic and political stakes of trade relations between Mauritania and ECOWAS from a regional cooperation perspective.",
+        "img_alt": "Publication: Trade between Mauritania and ECOWAS"
+      },
+      "article6": {
+        "title": "Assessing the free movement of goods and peoples in West Africa",
+        "meta": "2017 · Scientific study",
+        "description": "A study focusing on the movement of goods and people in the West African area, and the socio-economic impacts of regional mobility.",
+        "img_alt": "Publication: Assessing the free movement of goods and peoples in West Africa"
+      },
+      "article7": {
+        "title": "Nigeria's Leadership Role in ECOWAS: Issues for Socio-Economic Development in West Africa",
+        "meta": "2017 · Scientific article",
+        "description": "An analysis of Nigeria's leadership within the ECOWAS area and its implications for regional socio-economic development.",
+        "img_alt": "Publication: Nigeria's Leadership Role in ECOWAS"
+      },
+      "article8": {
+        "title": "Influence of English language on exchanges between Benin and Nigeria",
+        "meta": "2018 · Scientific article",
+        "description": "A study on the influence of the English language on economic and social exchanges between Benin and Nigeria.",
+        "img_alt": "Publication: Influence of English language on exchanges between Benin and Nigeria"
+      },
+      "article9": {
+        "title": "Influence of Nigeria in West Africa: Challenges and Prospects",
+        "meta": "2020 · Scientific article",
+        "description": "An analysis of Nigeria's geopolitical and socio-economic influence in the West African area, with a reading of regional challenges and prospects.",
+        "img_alt": "Publication: Influence of Nigeria in West Africa: Challenges and Prospects"
+      }
+    },
+
+    "upcoming": {
+      "category_title": "Forthcoming books",
+      "category_description": "Book projects currently being finalised, focusing on social changes, security issues and contemporary transformations in West Africa.",
+
+      "upcoming1": {
+        "title": "Socio-Cultural Integration of Beninese Students Returning from Côte d'Ivoire",
+        "meta": "2025 · Forthcoming book",
+        "description": "A work centred on the dynamics of integration, social reintegration and identity reconstruction of Beninese students who lived in Côte d'Ivoire.",
+        "img_alt": "Forthcoming book: Socio-Cultural Integration of Beninese Students Returning from Côte d'Ivoire",
+        "link_more": "Learn more"
+      },
+      "upcoming2": {
+        "title": "Security Institutions and Social Recompositions in West Africa: Between Order, Power and Development",
+        "meta": "2025 · Forthcoming book",
+        "description": "A critical analysis of the role of security institutions in social recompositions, power relations and development dynamics in the West African area.",
+        "img_alt": "Forthcoming book: Security Institutions and Social Recompositions in West Africa",
+        "link_more": "Learn more"
+      },
+      "upcoming3": {
+        "title": "Digital Sexuality and the Economy of Desire: A Critical Anthropology of Social Mutations in Benin",
+        "meta": "2025 · Forthcoming book",
+        "description": "An anthropological perspective on the evolution of social practices and behaviours linked to digital technology, sexuality and contemporary cultural transformations.",
+        "img_alt": "Forthcoming book: Digital Sexuality and the Economy of Desire",
+        "link_more": "Learn more"
+      },
+      "upcoming4": {
+        "title": "Assessing the social influence of Nigeria in ECOWAS",
+        "meta": "2026 · Forthcoming book",
+        "description": "A study on Nigeria's social influence within ECOWAS, and the impacts of this influence on policies, exchanges and regional cooperation.",
+        "img_alt": "Forthcoming book: Assessing the social influence of Nigeria in ECOWAS",
+        "link_more": "Learn more"
+      }
+    },
+
+    "card": {
+      "link_pdf": "PDF",
+      "link_external": "External link"
+    }
+  },
+
+  "footer": {
+    "tagline": "Building tomorrow's success",
+    "nav_title": "Quick links",
+    "nav_home": "Home",
+    "nav_about": "About",
+    "nav_expertise": "Expertise",
+    "nav_contact": "Contact",
+    "contact_title": "Contact",
+    "social_title": "Social media",
+    "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - All rights reserved",
+    "credits": "Design: Dias SARE KPERA"
+  },
+
+  "accessibility": {
+    "back_to_top": "Back to top",
+    "lang_select": "Language"
+  }
+}

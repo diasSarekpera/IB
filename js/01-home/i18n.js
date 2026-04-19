@@ -2,7 +2,7 @@ const languageSelect = document.getElementById("language");
 
 async function loadLanguage(lang) {
   try {
-    const response = await fetch(`/lang/${lang}.json`);
+    const response = await fetch(`/lang/01-home/${lang}.json`);
     const translations = await response.json();
 
     // 1) Traduction des textes normaux

@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "description": "Découvrez les publications, ouvrages et travaux scientifiques de Dr. C. Joscky Ibrahim AHO sur l'intégration régionale, le marketing stratégique, la gouvernance et le développement en Afrique.",
+    "og_title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "og_description": "Ouvrages, articles et recherches scientifiques sur l'intégration régionale, le management et le développement en Afrique.",
+    "twitter_title": "Publications | Dr. C. Joscky Ibrahim AHO",
+    "twitter_description": "Ouvrages, articles et recherches scientifiques sur l'intégration régionale, le management et le développement en Afrique."
+  },
+
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "publications": "Publications",
+    "media": "Médias",
+    "contact": "Contact",
+    "aria_label": "Navigation principale",
+    "open_menu": "Ouvrir le menu",
+    "home_aria": "Accueil du site"
+  },
+
+  "publications": {
+    "title": "Publications",
+    "intro": "À travers mes travaux, je m'intéresse aux dynamiques d'intégration régionale, aux stratégies de développement socio-économique, ainsi qu'aux enjeux de gouvernance, de communication et de transformation organisationnelle en Afrique. Cette section présente une sélection de mes ouvrages, articles et contributions scientifiques.",
+
+    "books": {
+      "category_title": "Ouvrages & livres publiés",
+      "category_description": "Une sélection de mes ouvrages académiques et pédagogiques, publiés dans les domaines du management, de l'intégration régionale et de l'anglais des affaires.",
+
+      "book1": {
+        "title": "Business Leader BBA and MBA — Tome 2",
+        "meta": "2024 · Ouvrage académique",
+        "description": "Ouvrage dédié à la formation des futurs cadres et leaders, intégrant des outils concrets de management, d'administration des affaires et de stratégie organisationnelle.",
+        "img_alt": "Couverture : Business Leader BBA and MBA, Tome 2"
+      },
+      "book2": {
+        "title": "Business Leader BBA and MBA — Tome 1",
+        "meta": "2020 · Ouvrage académique",
+        "description": "Un ouvrage structuré autour des fondamentaux du leadership, de la gestion des organisations et des pratiques managériales adaptées aux réalités contemporaines.",
+        "img_alt": "Couverture : Business Leader BBA and MBA, Tome 1"
+      },
+      "book3": {
+        "title": "Regional Integration in Africa: Challenges and Perspectives of ECOWAS",
+        "meta": "2015 · UAC Publication (Bénin)",
+        "description": "Une analyse approfondie des défis et perspectives de l'intégration régionale en Afrique, avec un focus sur la CEDEAO et ses implications politiques, économiques et sociales.",
+        "img_alt": "Couverture : Regional Integration in Africa: Challenges and Perspectives of ECOWAS"
+      },
+      "book4": {
+        "title": "L'Essentiel de l'Anglais des Affaires (BTS – Licence) — Tome 1",
+        "meta": "2015 · Ouvrage pédagogique",
+        "description": "Un support de référence conçu pour renforcer la maîtrise de l'anglais appliqué au monde des affaires, destiné aux étudiants et professionnels.",
+        "img_alt": "Couverture : L'Essentiel de l'Anglais des Affaires BTS-Licence Tome 1"
+      },
+      "book5": {
+        "title": "L'Essentiel de l'Anglais des Affaires (BTS – Licence) — Tome 2",
+        "meta": "2016 · Ouvrage pédagogique",
+        "description": "Suite du Tome 1, ce volume approfondit les outils linguistiques essentiels pour la communication professionnelle et la compréhension des documents commerciaux.",
+        "img_alt": "Couverture : L'Essentiel de l'Anglais des Affaires BTS-Licence Tome 2"
+      },
+      "book6": {
+        "title": "L'Essentiel pour Réussir sa Préparation Orale au BTS",
+        "meta": "2015 · Ouvrage pédagogique",
+        "description": "Un guide pratique destiné aux candidats au BTS, conçu pour renforcer la préparation à l'oral, structurer les prises de parole et améliorer la performance en situation d'examen.",
+        "img_alt": "Couverture : L'Essentiel pour Réussir sa Préparation Orale au BTS"
+      }
+    },
+
+    "articles": {
+      "category_title": "Articles & études scientifiques",
+      "category_description": "Des analyses et études portant sur les politiques économiques, l'intégration régionale et les dynamiques d'échanges en Afrique de l'Ouest.",
+
+      "article1": {
+        "title": "Assessing the Economic Strategies of Benin from 1960 to 2000",
+        "meta": "2012 · Étude scientifique",
+        "description": "Analyse des stratégies économiques du Bénin entre 1960 et 2000, avec une lecture historique et institutionnelle des choix politiques et de leurs impacts.",
+        "img_alt": "Publication : Assessing the Economic Strategies of Benin from 1960 to 2000"
+      },
+      "article2": {
+        "title": "Economic Impacts of the Achievements of ECOWAS in Member States: Issues of Customs Union for Benin",
+        "meta": "2012 · Étude scientifique",
+        "description": "Étude sur les impacts économiques des réalisations de la CEDEAO dans les États membres, avec un focus sur les enjeux d'union douanière pour le Bénin.",
+        "img_alt": "Publication : Economic Impacts of the Achievements of ECOWAS in Member States"
+      },
+      "article3": {
+        "title": "Regional Integration in West Africa: Challenges and Perspectives",
+        "meta": "2014 · Article scientifique",
+        "description": "Réflexion sur les défis structurels de l'intégration régionale en Afrique de l'Ouest et les perspectives d'amélioration des politiques régionales.",
+        "img_alt": "Publication : Regional Integration in West Africa: Challenges and Perspectives"
+      },
+      "article4": {
+        "title": "La réalité de la libre circulation des personnes et des véhicules sur le corridor Abidjan–Lagos",
+        "meta": "2016 · Étude scientifique",
+        "description": "Analyse des défis de mobilité et de circulation dans l'espace CEDEAO, avec une attention particulière portée aux obstacles institutionnels et pratiques sur le corridor Abidjan–Lagos.",
+        "img_alt": "Publication : La réalité de la libre circulation des personnes et des véhicules sur le corridor Abidjan-Lagos"
+      },
+      "article5": {
+        "title": "Les échanges commerciaux entre la Mauritanie et la CEDEAO : Enjeux pour l'Afrique de l'Ouest",
+        "meta": "2016 · Article / étude scientifique",
+        "description": "Étude des enjeux économiques et politiques des relations commerciales entre la Mauritanie et la CEDEAO dans une perspective de coopération régionale.",
+        "img_alt": "Publication : Les échanges commerciaux entre la Mauritanie et la CEDEAO"
+      },
+      "article6": {
+        "title": "Assessing the free movement of goods and peoples in West Africa",
+        "meta": "2017 · Étude scientifique",
+        "description": "Une étude centrée sur la circulation des biens et des personnes dans l'espace ouest-africain, et les impacts socio-économiques de la mobilité régionale.",
+        "img_alt": "Publication : Assessing the free movement of goods and peoples in West Africa"
+      },
+      "article7": {
+        "title": "Rôle de leadership du Nigeria dans la CEDEAO : Enjeux pour un développement socio-économique de l'Afrique de l'Ouest",
+        "meta": "2017 · Article scientifique",
+        "description": "Analyse du leadership du Nigeria dans l'espace CEDEAO et de ses implications sur le développement socio-économique régional.",
+        "img_alt": "Publication : Rôle de leadership du Nigeria dans la CEDEAO"
+      },
+      "article8": {
+        "title": "Influence of English language on exchanges between Benin and Nigeria",
+        "meta": "2018 · Article scientifique",
+        "description": "Une étude sur l'influence de la langue anglaise dans les échanges économiques et sociaux entre le Bénin et le Nigeria.",
+        "img_alt": "Publication : Influence of English language on exchanges between Benin and Nigeria"
+      },
+      "article9": {
+        "title": "Influence of Nigeria in West Africa: Challenges and Prospects",
+        "meta": "2020 · Article scientifique",
+        "description": "Analyse de l'influence géopolitique et socio-économique du Nigeria dans l'espace ouest-africain, avec une lecture des enjeux et perspectives régionales.",
+        "img_alt": "Publication : Influence of Nigeria in West Africa: Challenges and Prospects"
+      }
+    },
+
+    "upcoming": {
+      "category_title": "Livres à paraître",
+      "category_description": "Des projets d'ouvrages en cours de finalisation, portant sur les mutations sociales, les enjeux sécuritaires et les transformations contemporaines en Afrique de l'Ouest.",
+
+      "upcoming1": {
+        "title": "Intégration socio-culturelle des étudiants béninois revenus de la Côte d'Ivoire",
+        "meta": "2025 · Livre à paraître",
+        "description": "Un ouvrage centré sur les dynamiques d'intégration, de réinsertion sociale et de reconstruction identitaire des étudiants béninois ayant vécu en Côte d'Ivoire.",
+        "img_alt": "Livre à paraître : Intégration socio-culturelle des étudiants béninois revenus de la Côte d'Ivoire",
+        "link_more": "En savoir plus"
+      },
+      "upcoming2": {
+        "title": "Institutions sécuritaires et recompositions sociales en Afrique de l'Ouest : entre ordre, pouvoir et développement",
+        "meta": "2025 · Livre à paraître",
+        "description": "Une analyse critique du rôle des institutions sécuritaires dans les recompositions sociales, les rapports de pouvoir et les dynamiques de développement dans l'espace ouest-africain.",
+        "img_alt": "Livre à paraître : Institutions sécuritaires et recompositions sociales en Afrique de l'Ouest",
+        "link_more": "En savoir plus"
+      },
+      "upcoming3": {
+        "title": "Sexualité numérique et économie du désir : une anthropologie critique des mutations sociales au Bénin",
+        "meta": "2025 · Livre à paraître",
+        "description": "Un regard anthropologique sur l'évolution des pratiques sociales et des comportements liés au numérique, à la sexualité et aux transformations culturelles contemporaines.",
+        "img_alt": "Livre à paraître : Sexualité numérique et économie du désir",
+        "link_more": "En savoir plus"
+      },
+      "upcoming4": {
+        "title": "Assessing the social influence of Nigeria in ECOWAS",
+        "meta": "2026 · Livre à paraître",
+        "description": "Une étude portant sur l'influence sociale du Nigeria au sein de la CEDEAO, et les impacts de cette influence sur les politiques, les échanges et la coopération régionale.",
+        "img_alt": "Livre à paraître : Assessing the social influence of Nigeria in ECOWAS",
+        "link_more": "En savoir plus"
+      }
+    },
+
+    "card": {
+      "link_pdf": "PDF",
+      "link_external": "Lien externe"
+    }
+  },
+
+  "footer": {
+    "tagline": "Construire le succès de demain",
+    "nav_title": "Liens rapides",
+    "nav_home": "Accueil",
+    "nav_about": "À propos",
+    "nav_expertise": "Expertise",
+    "nav_contact": "Contact",
+    "contact_title": "Contact",
+    "social_title": "Réseaux sociaux",
+    "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - Tous droits réservés",
+    "credits": "Conception : Dias SARE KPERA"
+  },
+
+  "accessibility": {
+    "back_to_top": "Retour en haut",
+    "lang_select": "Langue"
+  }
+}

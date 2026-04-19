@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "description": "Descubra las intervenciones mediáticas, conferencias, entrevistas y apariciones públicas del Dr. C. Joscky Ibrahim AHO sobre el desarrollo, la gobernanza, el marketing estratégico y la integración regional en África.",
+    "og_title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "og_description": "Entrevistas, conferencias e intervenciones mediáticas sobre integración regional, gestión y desarrollo en África.",
+    "twitter_title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "twitter_description": "Entrevistas, conferencias e intervenciones mediáticas sobre integración regional, gestión y desarrollo en África."
+  },
+
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "publications": "Publicaciones",
+    "media": "Medios",
+    "contact": "Contacto",
+    "aria_label": "Navegación principal",
+    "open_menu": "Abrir menú",
+    "home_aria": "Página de inicio del sitio"
+  },
+
+  "hero": {
+    "title": "Medios & Intervenciones",
+    "description": "Esta sección reúne una selección de intervenciones públicas, conferencias académicas, contribuciones mediáticas y participaciones en eventos científicos y profesionales."
+  },
+
+  "talks": {
+    "section_title": "Intervenciones & Conferencias",
+    "section_description": "Participo regularmente en conferencias académicas, talleres profesionales y foros internacionales sobre integración regional, gestión estratégica, gobernanza y desarrollo socioeconómico en África.",
+
+    "talk1": {
+      "title": "Integración regional y rendimiento empresarial en el marco de la ZLECAf",
+      "location": "Lagos, Nigeria",
+      "date": "Junio de 2024",
+      "description": "Una presentación centrada en los desafíos económicos de la integración regional y el impacto de la ZLECAf en la competitividad de las empresas africanas.",
+      "link_label": "Ver conferencia",
+      "link_aria": "Ver los detalles de la conferencia sobre integración regional y la ZLECAf",
+      "img_alt": "Intervención académica sobre integración regional y la ZLECAf"
+    },
+    "talk2": {
+      "title": "Marketing estratégico, comunicación institucional y rendimiento organizacional",
+      "location": "Cotonú, Benín",
+      "date": "Noviembre de 2023",
+      "description": "Sesión de formación destinada a directivos y responsables de instituciones sobre herramientas de posicionamiento estratégico, comunicación y gestión de resultados.",
+      "link_label": "Ver intervención",
+      "link_aria": "Ver los detalles de la intervención sobre marketing estratégico",
+      "img_alt": "Taller profesional sobre marketing estratégico y comunicación institucional"
+    },
+    "talk3": {
+      "title": "Gobernanza territorial y desarrollo local: desafíos y perspectivas en África Occidental",
+      "location": "Abomey-Calavi, Benín",
+      "date": "Mayo de 2022",
+      "description": "Comunicación científica sobre dinámicas institucionales, políticas públicas locales y mecanismos de gobernanza orientados al rendimiento y al impacto.",
+      "link_label": "Ver presentación",
+      "link_aria": "Ver la presentación sobre gobernanza territorial",
+      "img_alt": "Comunicación científica sobre gobernanza territorial y desarrollo local"
+    }
+  },
+
+  "press": {
+    "section_title": "Prensa & Publicaciones mediáticas",
+    "section_description": "Mis análisis e intervenciones son a veces difundidos en medios y plataformas especializadas, en torno a los desafíos del desarrollo, la integración regional, la gestión y la transformación institucional en África.",
+
+    "press1": {
+      "title": "ZLECAf: oportunidades, desafíos y perspectivas para las economías africanas",
+      "source": "Plataforma Economía & Desarrollo",
+      "date": "Marzo de 2023",
+      "link_label": "Leer artículo",
+      "link_aria": "Leer el artículo sobre la ZLECAf y las economías africanas",
+      "img_alt": "Logo de medio: plataforma económica"
+    },
+    "press2": {
+      "title": "Nigeria y su papel estratégico en la integración regional de África Occidental",
+      "source": "Revista Universitaria & Investigación",
+      "date": "Junio de 2021",
+      "link_label": "Leer publicación",
+      "link_aria": "Leer la publicación sobre el papel de Nigeria en la integración regional",
+      "img_alt": "Logo de medio: revista universitaria"
+    },
+    "press3": {
+      "title": "Comunicación institucional y rendimiento: reforzar el impacto de las organizaciones públicas",
+      "source": "Revista Gestión & Estrategias",
+      "date": "Septiembre de 2019",
+      "link_label": "Leer entrevista",
+      "link_aria": "Leer la entrevista sobre comunicación institucional",
+      "img_alt": "Logo de medio: revista de gestión"
+    }
+  },
+
+  "gallery": {
+    "section_title": "Galería",
+    "section_description": "Momentos destacados de conferencias, formaciones y eventos académicos.",
+    "img1_alt": "Conferencia académica",
+    "img2_alt": "Intervención profesional",
+    "img3_alt": "Coloquio científico",
+    "img4_alt": "Formación estratégica",
+    "img5_alt": "Taller profesional",
+    "img6_alt": "Evento académico"
+  },
+
+  "footer": {
+    "tagline": "Construyendo el éxito del mañana",
+    "nav_title": "Enlaces rápidos",
+    "nav_home": "Inicio",
+    "nav_about": "Acerca de",
+    "nav_expertise": "Experiencia",
+    "nav_contact": "Contacto",
+    "contact_title": "Contacto",
+    "social_title": "Redes sociales",
+    "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - Todos los derechos reservados",
+    "credits": "Diseño: Dias SARE KPERA"
+  },
+
+  "accessibility": {
+    "back_to_top": "Volver arriba",
+    "lang_select": "Idioma"
+  }
+}
