@@ -156,14 +156,6 @@
    7. MICRO-INTERACTIONS PARTAGÉES
    ───────────────────────────────────────────── */
 
-/* Navigation */
-.header__nav-link {
-  transition: opacity 0.2s ease;
-}
-.header__nav-link:hover {
-  opacity: 0.7;
-}
-
 /* Footer links */
 .footer__link {
   transition: opacity 0.2s ease;
