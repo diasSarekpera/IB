@@ -7,7 +7,6 @@
     "twitter_title": "Publications | Dr. C. Joscky Ibrahim AHO",
     "twitter_description": "Ouvrages, articles et recherches scientifiques sur l'intégration régionale, le management et le développement en Afrique."
   },
-
   "nav": {
     "home": "Accueil",
     "about": "À propos",
@@ -18,60 +17,61 @@
     "open_menu": "Ouvrir le menu",
     "home_aria": "Accueil du site"
   },
-
   "publications": {
     "title": "Publications",
     "intro": "À travers mes travaux, je m'intéresse aux dynamiques d'intégration régionale, aux stratégies de développement socio-économique, ainsi qu'aux enjeux de gouvernance, de communication et de transformation organisationnelle en Afrique. Cette section présente une sélection de mes ouvrages, articles et contributions scientifiques.",
-
     "books": {
       "category_title": "Ouvrages & livres publiés",
       "category_description": "Une sélection de mes ouvrages académiques et pédagogiques, publiés dans les domaines du management, de l'intégration régionale et de l'anglais des affaires.",
-
       "book1": {
         "title": "Business Leader BBA and MBA — Tome 2",
-        "meta": "2024 · Ouvrage académique",
+        "meta": "2024, 2025 · Ouvrage académique",
         "description": "Ouvrage dédié à la formation des futurs cadres et leaders, intégrant des outils concrets de management, d'administration des affaires et de stratégie organisationnelle.",
         "img_alt": "Couverture : Business Leader BBA and MBA, Tome 2"
       },
       "book2": {
         "title": "Business Leader BBA and MBA — Tome 1",
-        "meta": "2020 · Ouvrage académique",
+        "meta": "2020, 2022 · Ouvrage académique",
         "description": "Un ouvrage structuré autour des fondamentaux du leadership, de la gestion des organisations et des pratiques managériales adaptées aux réalités contemporaines.",
         "img_alt": "Couverture : Business Leader BBA and MBA, Tome 1"
       },
       "book3": {
         "title": "Regional Integration in Africa: Challenges and Perspectives of ECOWAS",
-        "meta": "2015 · UAC Publication (Bénin)",
+        "meta": "2015 · UAC Publication, Bénin",
         "description": "Une analyse approfondie des défis et perspectives de l'intégration régionale en Afrique, avec un focus sur la CEDEAO et ses implications politiques, économiques et sociales.",
         "img_alt": "Couverture : Regional Integration in Africa: Challenges and Perspectives of ECOWAS"
       },
       "book4": {
         "title": "L'Essentiel de l'Anglais des Affaires (BTS – Licence) — Tome 1",
-        "meta": "2015 · Ouvrage pédagogique",
+        "meta": "2015 · 1ère Édition · Ouvrage pédagogique, Bénin",
         "description": "Un support de référence conçu pour renforcer la maîtrise de l'anglais appliqué au monde des affaires, destiné aux étudiants et professionnels.",
         "img_alt": "Couverture : L'Essentiel de l'Anglais des Affaires BTS-Licence Tome 1"
       },
       "book5": {
         "title": "L'Essentiel de l'Anglais des Affaires (BTS – Licence) — Tome 2",
-        "meta": "2016 · Ouvrage pédagogique",
+        "meta": "2016 · 1ère Édition · Ouvrage pédagogique, Bénin",
         "description": "Suite du Tome 1, ce volume approfondit les outils linguistiques essentiels pour la communication professionnelle et la compréhension des documents commerciaux.",
         "img_alt": "Couverture : L'Essentiel de l'Anglais des Affaires BTS-Licence Tome 2"
       },
       "book6": {
+        "title": "L'Essentiel de l'Anglais des Affaires — Licence",
+        "meta": "2015 · 1ère Édition · Ouvrage pédagogique, Bénin",
+        "description": "Un ouvrage pédagogique spécialement conçu pour les étudiants de niveau Licence, axé sur la maîtrise de l'anglais des affaires dans les contextes professionnels et académiques.",
+        "img_alt": "Couverture : L'Essentiel de l'Anglais des Affaires — Licence"
+      },
+      "book7": {
         "title": "L'Essentiel pour Réussir sa Préparation Orale au BTS",
-        "meta": "2015 · Ouvrage pédagogique",
+        "meta": "2015 · 1ère Édition · Ouvrage pédagogique, Bénin",
         "description": "Un guide pratique destiné aux candidats au BTS, conçu pour renforcer la préparation à l'oral, structurer les prises de parole et améliorer la performance en situation d'examen.",
         "img_alt": "Couverture : L'Essentiel pour Réussir sa Préparation Orale au BTS"
       }
     },
-
     "articles": {
       "category_title": "Articles & études scientifiques",
       "category_description": "Des analyses et études portant sur les politiques économiques, l'intégration régionale et les dynamiques d'échanges en Afrique de l'Ouest.",
-
       "article1": {
         "title": "Assessing the Economic Strategies of Benin from 1960 to 2000",
-        "meta": "2012 · Étude scientifique",
+        "meta": "2012 · Étude scientifique, Bénin",
         "description": "Analyse des stratégies économiques du Bénin entre 1960 et 2000, avec une lecture historique et institutionnelle des choix politiques et de leurs impacts.",
         "img_alt": "Publication : Assessing the Economic Strategies of Benin from 1960 to 2000"
       },
@@ -124,11 +124,9 @@
         "img_alt": "Publication : Influence of Nigeria in West Africa: Challenges and Prospects"
       }
     },
-
     "upcoming": {
       "category_title": "Livres à paraître",
       "category_description": "Des projets d'ouvrages en cours de finalisation, portant sur les mutations sociales, les enjeux sécuritaires et les transformations contemporaines en Afrique de l'Ouest.",
-
       "upcoming1": {
         "title": "Intégration socio-culturelle des étudiants béninois revenus de la Côte d'Ivoire",
         "meta": "2025 · Livre à paraître",
@@ -158,13 +156,11 @@
         "link_more": "En savoir plus"
       }
     },
-
     "card": {
       "link_pdf": "PDF",
       "link_external": "Lien externe"
     }
   },
-
   "footer": {
     "tagline": "Construire le succès de demain",
     "nav_title": "Liens rapides",
@@ -177,7 +173,6 @@
     "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - Tous droits réservés",
     "credits": "Conception : Dias SARE KPERA"
   },
-
   "accessibility": {
     "back_to_top": "Retour en haut",
     "lang_select": "Langue"

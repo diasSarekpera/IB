@@ -7,7 +7,6 @@
     "twitter_title": "Publications | Dr. C. Joscky Ibrahim AHO",
     "twitter_description": "Books, articles and scientific research on regional integration, management and development in Africa."
   },
-
   "nav": {
     "home": "Home",
     "about": "About",
@@ -18,60 +17,61 @@
     "open_menu": "Open menu",
     "home_aria": "Site homepage"
   },
-
   "publications": {
     "title": "Publications",
     "intro": "Through my work, I focus on the dynamics of regional integration, socio-economic development strategies, as well as governance, communication and organisational transformation challenges in Africa. This section presents a selection of my books, articles and scientific contributions.",
-
     "books": {
       "category_title": "Published books & works",
       "category_description": "A selection of my academic and pedagogical works, published in the fields of management, regional integration and business English.",
-
       "book1": {
         "title": "Business Leader BBA and MBA — Volume 2",
-        "meta": "2024 · Academic work",
+        "meta": "2024, 2025 · Academic work",
         "description": "A book dedicated to the training of future executives and leaders, integrating concrete tools in management, business administration and organisational strategy.",
         "img_alt": "Cover: Business Leader BBA and MBA, Volume 2"
       },
       "book2": {
         "title": "Business Leader BBA and MBA — Volume 1",
-        "meta": "2020 · Academic work",
+        "meta": "2020, 2022 · Academic work",
         "description": "A book structured around the fundamentals of leadership, organisational management and managerial practices adapted to contemporary realities.",
         "img_alt": "Cover: Business Leader BBA and MBA, Volume 1"
       },
       "book3": {
         "title": "Regional Integration in Africa: Challenges and Perspectives of ECOWAS",
-        "meta": "2015 · UAC Publication (Benin)",
+        "meta": "2015 · UAC Publication, Benin",
         "description": "An in-depth analysis of the challenges and prospects of regional integration in Africa, with a focus on ECOWAS and its political, economic and social implications.",
         "img_alt": "Cover: Regional Integration in Africa: Challenges and Perspectives of ECOWAS"
       },
       "book4": {
         "title": "The Essentials of Business English (BTS – Degree) — Volume 1",
-        "meta": "2015 · Pedagogical work",
+        "meta": "2015 · 1st Edition · Pedagogical work, Benin",
         "description": "A reference resource designed to strengthen proficiency in English applied to the business world, intended for students and professionals.",
         "img_alt": "Cover: The Essentials of Business English BTS-Degree Volume 1"
       },
       "book5": {
         "title": "The Essentials of Business English (BTS – Degree) — Volume 2",
-        "meta": "2016 · Pedagogical work",
+        "meta": "2016 · 1st Edition · Pedagogical work, Benin",
         "description": "A follow-up to Volume 1, this book deepens the essential linguistic tools for professional communication and understanding of commercial documents.",
         "img_alt": "Cover: The Essentials of Business English BTS-Degree Volume 2"
       },
       "book6": {
+        "title": "The Essentials of Business English — Degree Level",
+        "meta": "2015 · 1st Edition · Pedagogical work, Benin",
+        "description": "A pedagogical work specifically designed for degree-level students, focused on mastering business English in professional and academic contexts.",
+        "img_alt": "Cover: The Essentials of Business English — Degree Level"
+      },
+      "book7": {
         "title": "The Essentials for Successful BTS Oral Preparation",
-        "meta": "2015 · Pedagogical work",
+        "meta": "2015 · 1st Edition · Pedagogical work, Benin",
         "description": "A practical guide for BTS candidates, designed to strengthen oral preparation, structure speaking performances and improve examination results.",
         "img_alt": "Cover: The Essentials for Successful BTS Oral Preparation"
       }
     },
-
     "articles": {
       "category_title": "Articles & scientific studies",
       "category_description": "Analyses and studies focusing on economic policies, regional integration and trade dynamics in West Africa.",
-
       "article1": {
         "title": "Assessing the Economic Strategies of Benin from 1960 to 2000",
-        "meta": "2012 · Scientific study",
+        "meta": "2012 · Scientific study, Benin",
         "description": "An analysis of the economic strategies of Benin between 1960 and 2000, with a historical and institutional reading of political choices and their impacts.",
         "img_alt": "Publication: Assessing the Economic Strategies of Benin from 1960 to 2000"
       },
@@ -124,11 +124,9 @@
         "img_alt": "Publication: Influence of Nigeria in West Africa: Challenges and Prospects"
       }
     },
-
     "upcoming": {
       "category_title": "Forthcoming books",
       "category_description": "Book projects currently being finalised, focusing on social changes, security issues and contemporary transformations in West Africa.",
-
       "upcoming1": {
         "title": "Socio-Cultural Integration of Beninese Students Returning from Côte d'Ivoire",
         "meta": "2025 · Forthcoming book",
@@ -158,13 +156,11 @@
         "link_more": "Learn more"
       }
     },
-
     "card": {
       "link_pdf": "PDF",
       "link_external": "External link"
     }
   },
-
   "footer": {
     "tagline": "Building tomorrow's success",
     "nav_title": "Quick links",
@@ -177,7 +173,6 @@
     "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - All rights reserved",
     "credits": "Design: Dias SARE KPERA"
   },
-
   "accessibility": {
     "back_to_top": "Back to top",
     "lang_select": "Language"

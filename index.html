@@ -52,6 +52,11 @@
         CSS PRINCIPAL
     ========================== -->
     <link rel="stylesheet" href="./css/01-home/main.css">
+
+    <!-- =========================
+        CSS ANIMATIONS
+    ========================== -->
+    <link rel="stylesheet" href="./css/01-home/animations.css">
     </head>
     <body id="top" class="home">
         <!-- =========================
@@ -120,16 +125,16 @@
             <div class="hero__container container">
 
                 <!-- Image -->
-                <figure class="hero__figure">
+                <figure class="hero__figure anim-hero-image">
                     <img src="./assets/03-images/i.png" alt="Portrait du Dr AHO KORRO Ibrahim" class="hero__image">
                 </figure>
 
                 <!-- Contenu -->
                 <div class="hero__content">
-                    <p class="hero__intro" data-i18n="hero_intro">Bienvenue sur mon site officiel</p>
-                    <h1 class="hero__title">Dr. C. Joscky Ibrahim AHO</h1>
-                    <p class="hero__connect" data-i18n="hero_connect">Connectons-nous&nbsp;!</p>
-                    <ul class="hero__socials" aria-label="Liens vers les réseaux sociaux">
+                    <p class="hero__intro anim-fade-up" style="--anim-delay: 0.1s" data-i18n="hero_intro">Bienvenue sur mon site officiel</p>
+                    <h1 class="hero__title anim-fade-up" style="--anim-delay: 0.25s">Dr. C. Joscky Ibrahim AHO</h1>
+                    <p class="hero__connect anim-fade-up" style="--anim-delay: 0.4s" data-i18n="hero_connect">Connectons-nous&nbsp;!</p>
+                    <ul class="hero__socials anim-fade-up" style="--anim-delay: 0.55s" aria-label="Liens vers les réseaux sociaux">
                         <li class="hero__social-item">
                             <a href="#" aria-label="LinkedIn" class="hero__social-link">
                                 <i class="fa-brands fa-linkedin-in"></i>
@@ -164,14 +169,14 @@
             <div class="about__container">
 
                 <!-- Colonne image -->
-                <figure class="about__figure">
+                <figure class="about__figure anim-reveal" data-anim="fade-left">
                     <img
                         src="/assets/03-images/img2.png"
                         alt="Dr. C. Joscky Ibrahim AHO en situation de travail"
                         class="about__image"
                     >
                     <!-- Badge flottant -->
-                    <figcaption class="about__badge">
+                    <figcaption class="about__badge anim-reveal" data-anim="fade-up" data-anim-delay="0.3">
                         <span class="about__badge-value">19+</span>
                         <span class="about__badge-label">ans d'expérience</span>
                     </figcaption>
@@ -180,30 +185,30 @@
                 <!-- Colonne contenu -->
                 <div class="about__content">            
                     <!-- Titre -->
-                    <h2 id="about-title" class="about__title" data-i18n="about_title">
+                    <h2 id="about-title" class="about__title anim-reveal" data-anim="fade-up" data-i18n="about_title">
                         Profil
                     </h2>
 
-                    <div class="about__divider" aria-hidden="true"></div>
+                    <div class="about__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
 
                     <!-- Spécialités -->
-                    <ul class="about__tags" aria-label="Domaines d'expertise">
+                    <ul class="about__tags anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-label="Domaines d'expertise">
                         <li class="about__tag" data-i18n="about_tag1">Enseignant-Chercheur</li>
                         <li class="about__tag" data-i18n="about_tag2">Consultant-Formateur</li>
                         <li class="about__tag" data-i18n="about_tag3">Expert en Management</li>
                     </ul>
 
                     <!-- Séparateur -->
-                    <hr class="about__rule">
+                    <hr class="about__rule anim-reveal" data-anim="fade-up" data-anim-delay="0.2">
 
                     <!-- Texte -->
                     <div class="about__text">
-                        <p data-i18n="about_p1">
+                        <p class="anim-reveal" data-anim="fade-up" data-anim-delay="0.25" data-i18n="about_p1">
                         Depuis plus de dix-neuf ans, j'évolue dans l'enseignement supérieur,
                         la formation professionnelle et l'accompagnement stratégique des
                         organisations en Afrique de l'Ouest.
                         </p>
-                        <p data-i18n="about_p2">
+                        <p class="anim-reveal" data-anim="fade-up" data-anim-delay="0.35" data-i18n="about_p2">
                         Mon parcours s'inscrit à la croisée des études africaines anglophones,
                         de l'intégration régionale et du management des organisations  au
                         service d'un développement durable, inclusif et orienté résultats.
@@ -211,7 +216,7 @@
                     </div>
 
                     <!-- Footer du contenu -->
-                    <div class="about__footer">
+                    <div class="about__footer anim-reveal" data-anim="fade-up" data-anim-delay="0.45">
 
                         <!-- Socials -->
                         <ul class="about__socials" aria-label="Réseaux sociaux">
@@ -256,15 +261,15 @@
             <div class="expertise__container">
 
                 <header class="expertise__header">
-                    <h2 id="expertise-title" class="expertise__title" data-i18n="expertise_title">
+                    <h2 id="expertise-title" class="expertise__title anim-reveal" data-anim="fade-up" data-i18n="expertise_title">
                     Domaines d'expertise
                     </h2>
                 </header>
 
                 <div class="expertise__list">
 
-                    <!-- Item -->
-                    <article class="expertise-item">
+                    <!-- Item 1 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                         <div class="expertise-item__meta">
                         <span class="expertise-item__index">01</span>
                             <i class="fa-solid fa-globe"></i>
@@ -276,9 +281,9 @@
                         </h3>
 
                         <p class="expertise-item__text" data-i18n="expertise_item1_text">
-                            Analyse des dynamiques d’intégration en Afrique de l’Ouest (CEDEAO,
+                            Analyse des dynamiques d'intégration en Afrique de l'Ouest (CEDEAO,
                             ZLECAf), gouvernance régionale et performance des organisations dans
-                            les contextes d’intégration économique.
+                            les contextes d'intégration économique.
                         </p>
 
                         <div class="expertise-item__badges">
@@ -288,8 +293,8 @@
                         </div>
                     </article>
 
-                    <!-- Item -->
-                    <article class="expertise-item">
+                    <!-- Item 2 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.15">
                         <div class="expertise-item__meta">
                         <span class="expertise-item__index">02</span>
                         <i class="fa-solid fa-bullhorn"></i>
@@ -313,19 +318,19 @@
                         </div>
                     </article>
 
-                    <!-- Item -->
-                    <article class="expertise-item">
+                    <!-- Item 3 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.25">
                         <div class="expertise-item__meta">
                         <span class="expertise-item__index">03</span>
                         <i class="fa-solid fa-chart-line"></i>
                         </div>
 
                         <div class="expertise-item__content">
-                        <h3 class="expertise-item__title" data-i18n="expertise_item1_title">
+                        <h3 class="expertise-item__title" data-i18n="expertise_item3_title">
                             Gestion de projets & suivi-évaluation
                         </h3>
 
-                        <p class="expertise-item__text"  data-i18n="expertise_item2_text" >
+                        <p class="expertise-item__text"  data-i18n="expertise_item3_text" >
                             Pilotage de projets complexes, planification stratégique et gestion
                             axée sur les résultats au service du développement local,
                             institutionnel et de la performance organisationnelle.
@@ -350,16 +355,16 @@
             <div class="key-metrics__container">
 
                 <header class="key-metrics__header">
-                <h2 id="key-metrics-title" class="key-metrics__title" data-i18n="metrics_title">
+                <h2 id="key-metrics-title" class="key-metrics__title anim-reveal" data-anim="fade-up" data-i18n="metrics_title">
                     Indicateurs
                 </h2>
-                <div class="key-metrics__divider" aria-hidden="true"></div>
+                <div class="key-metrics__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
                 </header>
 
                 <div class="key-metrics__grid">
 
                 <!-- Metric 1 -->
-                <article class="metric-card">
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <!-- Decorative corners -->
                     <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
                     <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
@@ -369,7 +374,7 @@
 
                     <div class="metric-card__content">
                     <p class="metric-card__value">
-                        <span class="metric-card__number">19+</span>
+                        <span class="metric-card__number" data-counter="19">19+</span>
                     </p>
 
                     <div class="metric-card__separator" aria-hidden="true"></div>
@@ -381,7 +386,7 @@
                 </article>
 
                 <!-- Metric 2 -->
-                <article class="metric-card">
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.15">
                     <!-- Decorative corners -->
                     <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
                     <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
@@ -391,7 +396,7 @@
 
                     <div class="metric-card__content">
                     <p class="metric-card__value">
-                        <span class="metric-card__number">15+</span>
+                        <span class="metric-card__number" data-counter="15">15+</span>
                     </p>
 
                     <div class="metric-card__separator" aria-hidden="true"></div>
@@ -403,7 +408,7 @@
                 </article>
 
                 <!-- Metric 3 -->
-                <article class="metric-card">
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.25">
                     <!-- Decorative corners -->
                     <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
                     <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
@@ -413,13 +418,13 @@
 
                     <div class="metric-card__content">
                     <p class="metric-card__value">
-                        <span class="metric-card__number">6+</span>
+                        <span class="metric-card__number" data-counter="6">6+</span>
                     </p>
 
                     <div class="metric-card__separator" aria-hidden="true"></div>
 
                     <p class="metric-card__label"  data-i18n="metric3_label">
-                        pays d’intervention en Afrique et à l’international
+                        pays d'intervention en Afrique et à l'international
                     </p>
                     </div>
                 </article>
@@ -436,7 +441,7 @@
             <div class="contact__container">
 
                 <!-- Colonne gauche : identité + coordonnées -->
-                <aside class="contact__info">
+                <aside class="contact__info anim-reveal" data-anim="fade-left">
 
                 <div class="contact__identity">
                     <h2 id="contact-title" class="contact__title" data-i18n="contact_title">Me contacter</h2>
@@ -455,8 +460,8 @@
                     </span>
                     <div class="contact__item-body">
                         <span class="contact__item-label">E-mail</span>
-                        <a href="mailto:contact@votredomaine.com" class="contact__link">
-                        contact@votredomaine.com
+                        <a href="mailto:ahoibrahim66@gmail.com" class="contact__link">
+                        ahoibrahim66@gmail.com
                         </a>
                     </div>
                     </li>
@@ -467,8 +472,8 @@
                     </span>
                     <div class="contact__item-body">
                         <span class="contact__item-label">Téléphone</span>
-                        <a href="tel:+22900000000" class="contact__link">
-                        +229 00 00 00 00
+                        <a href="tel:+22995962452" class="contact__link">
+                        +229 95 96 24 52
                         </a>
                     </div>
                     </li>
@@ -514,7 +519,7 @@
                 </aside>
 
                 <!-- Colonne droite : formulaire -->
-                <div class="contact__form-wrapper">
+                <div class="contact__form-wrapper anim-reveal" data-anim="fade-right">
 
                 <form class="contact__form" action="#" method="post" novalidate>
 
@@ -556,7 +561,7 @@
                         name="subject"
                         class="form-input"
                         placeholder="Collaboration · Intervention · Conseil"
-                        placeholder="Collaboration · Intervention · Conseil" data-i18n-placeholder="placeholder_subject"
+                        data-i18n-placeholder="placeholder_subject"
                         required
                     >
                     </div>
@@ -596,13 +601,13 @@
             <div class="footer__container">
 
                 <!-- Branding / Identity -->
-                <div class="footer__brand">
+                <div class="footer__brand anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                 <h2 class="footer__name">Dr. C. Joscky Ibrahim AHO</h2>
                 <p class="footer__tagline" data-i18n="footer_tagline">Construire le succès de demain</p>
                 </div>
 
                 <!-- Quick Links -->
-                <nav class="footer__nav" aria-labelledby="footer-nav-title">
+                <nav class="footer__nav anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-labelledby="footer-nav-title">
                 <h2 id="footer-nav-title" class="footer__title" data-i18n="footer_links">Liens rapides</h2>
                 <ul class="footer__list">
                     <li class="footer__item">
@@ -621,24 +626,24 @@
                 </nav>
 
                 <!-- Contact -->
-                <address class="footer__contact" aria-labelledby="footer-contact-title">
+                <address class="footer__contact anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-labelledby="footer-contact-title">
                 <h2 id="footer-contact-title" class="footer__title" data-i18n="footer_contact">Contact</h2>
                 <ul class="footer__list">
                     <li class="footer__item">
-                    <a href="mailto:contact@email.com" class="footer__link">
-                        contact@email.com
+                    <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
+                        ahoibrahim66@gmail.com
                     </a>
                     </li>
                     <li class="footer__item">
-                    <a href="tel:+33612345678" class="footer__link">
-                        +33 6 12 34 56 78
+                    <a href="tel:+22995962452" class="footer__link">
+                        +229 95 96 24 52
                     </a>
                     </li>
                 </ul>
                 </address>
 
                 <!-- Social Links -->
-                <div class="footer__social" aria-labelledby="footer-social-title">
+                <div class="footer__social anim-reveal" data-anim="fade-up" data-anim-delay="0.2" aria-labelledby="footer-social-title">
                 <h2 id="footer-social-title" class="footer__title" data-i18n="footer_social">Réseaux sociaux</h2>
 
                 <ul class="footer__social-list">
@@ -697,9 +702,6 @@
         <script src="/js/global/backtop.js"></script>
         <script src="/js/01-home/i18n.js"></script>
         <script src="/js/global/menu.js"></script>
+        <script src="/js/01-home/animations.js"></script>
     </body>
 </html>
-
-
-
-

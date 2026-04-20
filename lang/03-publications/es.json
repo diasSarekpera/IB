@@ -7,7 +7,6 @@
     "twitter_title": "Publicaciones | Dr. C. Joscky Ibrahim AHO",
     "twitter_description": "Obras, artículos e investigaciones científicas sobre integración regional, gestión y desarrollo en África."
   },
-
   "nav": {
     "home": "Inicio",
     "about": "Acerca de",
@@ -18,60 +17,61 @@
     "open_menu": "Abrir menú",
     "home_aria": "Página de inicio del sitio"
   },
-
   "publications": {
     "title": "Publicaciones",
     "intro": "A través de mis trabajos, me intereso por las dinámicas de integración regional, las estrategias de desarrollo socioeconómico, así como los desafíos de gobernanza, comunicación y transformación organizacional en África. Esta sección presenta una selección de mis obras, artículos y contribuciones científicas.",
-
     "books": {
       "category_title": "Obras y libros publicados",
       "category_description": "Una selección de mis obras académicas y pedagógicas, publicadas en los ámbitos de la gestión, la integración regional y el inglés de negocios.",
-
       "book1": {
         "title": "Business Leader BBA and MBA — Tomo 2",
-        "meta": "2024 · Obra académica",
+        "meta": "2024, 2025 · Obra académica",
         "description": "Obra dedicada a la formación de futuros cuadros y líderes, que integra herramientas concretas de gestión, administración de empresas y estrategia organizacional.",
         "img_alt": "Portada: Business Leader BBA and MBA, Tomo 2"
       },
       "book2": {
         "title": "Business Leader BBA and MBA — Tomo 1",
-        "meta": "2020 · Obra académica",
+        "meta": "2020, 2022 · Obra académica",
         "description": "Una obra estructurada en torno a los fundamentos del liderazgo, la gestión de organizaciones y las prácticas de gestión adaptadas a las realidades contemporáneas.",
         "img_alt": "Portada: Business Leader BBA and MBA, Tomo 1"
       },
       "book3": {
         "title": "Regional Integration in Africa: Challenges and Perspectives of ECOWAS",
-        "meta": "2015 · UAC Publication (Benín)",
+        "meta": "2015 · UAC Publication, Benín",
         "description": "Un análisis profundo de los desafíos y perspectivas de la integración regional en África, con un enfoque en la CEDEAO y sus implicaciones políticas, económicas y sociales.",
         "img_alt": "Portada: Regional Integration in Africa: Challenges and Perspectives of ECOWAS"
       },
       "book4": {
         "title": "Lo Esencial del Inglés de Negocios (BTS – Licenciatura) — Tomo 1",
-        "meta": "2015 · Obra pedagógica",
+        "meta": "2015 · 1ª Edición · Obra pedagógica, Benín",
         "description": "Un recurso de referencia diseñado para fortalecer el dominio del inglés aplicado al mundo empresarial, destinado a estudiantes y profesionales.",
         "img_alt": "Portada: Lo Esencial del Inglés de Negocios BTS-Licenciatura Tomo 1"
       },
       "book5": {
         "title": "Lo Esencial del Inglés de Negocios (BTS – Licenciatura) — Tomo 2",
-        "meta": "2016 · Obra pedagógica",
+        "meta": "2016 · 1ª Edición · Obra pedagógica, Benín",
         "description": "Continuación del Tomo 1, este volumen profundiza en las herramientas lingüísticas esenciales para la comunicación profesional y la comprensión de documentos comerciales.",
         "img_alt": "Portada: Lo Esencial del Inglés de Negocios BTS-Licenciatura Tomo 2"
       },
       "book6": {
+        "title": "Lo Esencial del Inglés de Negocios — Nivel Licenciatura",
+        "meta": "2015 · 1ª Edición · Obra pedagógica, Benín",
+        "description": "Una obra pedagógica especialmente diseñada para estudiantes de licenciatura, centrada en el dominio del inglés de negocios en contextos profesionales y académicos.",
+        "img_alt": "Portada: Lo Esencial del Inglés de Negocios — Nivel Licenciatura"
+      },
+      "book7": {
         "title": "Lo Esencial para Superar la Preparación Oral del BTS",
-        "meta": "2015 · Obra pedagógica",
+        "meta": "2015 · 1ª Edición · Obra pedagógica, Benín",
         "description": "Una guía práctica para los candidatos al BTS, diseñada para reforzar la preparación oral, estructurar las intervenciones y mejorar el desempeño en situación de examen.",
         "img_alt": "Portada: Lo Esencial para Superar la Preparación Oral del BTS"
       }
     },
-
     "articles": {
       "category_title": "Artículos y estudios científicos",
       "category_description": "Análisis y estudios sobre las políticas económicas, la integración regional y las dinámicas de intercambio en África Occidental.",
-
       "article1": {
         "title": "Assessing the Economic Strategies of Benin from 1960 to 2000",
-        "meta": "2012 · Estudio científico",
+        "meta": "2012 · Estudio científico, Benín",
         "description": "Análisis de las estrategias económicas de Benín entre 1960 y 2000, con una lectura histórica e institucional de las decisiones políticas y sus impactos.",
         "img_alt": "Publicación: Assessing the Economic Strategies of Benin from 1960 to 2000"
       },
@@ -124,11 +124,9 @@
         "img_alt": "Publicación: Influence of Nigeria in West Africa: Challenges and Prospects"
       }
     },
-
     "upcoming": {
       "category_title": "Próximas publicaciones",
       "category_description": "Proyectos de obras en proceso de finalización, sobre las transformaciones sociales, los desafíos de seguridad y los cambios contemporáneos en África Occidental.",
-
       "upcoming1": {
         "title": "Integración sociocultural de los estudiantes benineses que regresan de Costa de Marfil",
         "meta": "2025 · Próxima publicación",
@@ -158,13 +156,11 @@
         "link_more": "Más información"
       }
     },
-
     "card": {
       "link_pdf": "PDF",
       "link_external": "Enlace externo"
     }
   },
-
   "footer": {
     "tagline": "Construyendo el éxito del mañana",
     "nav_title": "Enlaces rápidos",
@@ -177,7 +173,6 @@
     "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - Todos los derechos reservados",
     "credits": "Diseño: Dias SARE KPERA"
   },
-
   "accessibility": {
     "back_to_top": "Volver arriba",
     "lang_select": "Idioma"

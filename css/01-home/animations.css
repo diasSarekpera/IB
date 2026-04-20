@@ -1,0 +1,191 @@
+/* =============================================================
+   animations.css — Animations professionnelles & discrètes
+   Site Dr. C. Joscky Ibrahim AHO
+   ============================================================= */
+
+
+/* ─────────────────────────────────────────────
+   1. PRÉFÉRENCE ACCESSIBILITÉ : pas d'animation
+   ───────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   2. ÉTAT INITIAL — éléments invisibles avant révélation
+   ───────────────────────────────────────────── */
+
+/* Scroll reveal générique */
+.anim-reveal {
+  opacity: 0;
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: var(--anim-delay, 0s);
+  will-change: opacity, transform;
+}
+
+/* Directions d'entrée */
+.anim-reveal[data-anim="fade-up"]    { transform: translateY(32px); }
+.anim-reveal[data-anim="fade-left"]  { transform: translateX(-36px); }
+.anim-reveal[data-anim="fade-right"] { transform: translateX(36px); }
+.anim-reveal[data-anim="fade-in"]    { transform: none; }
+
+/* État visible (ajouté par JS via IntersectionObserver) */
+.anim-reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Gestion des délais via data-attribute (utilisé en JS) */
+/* Les valeurs sont injectées via JS en style inline --anim-delay */
+
+
+/* ─────────────────────────────────────────────
+   3. HERO — animation au chargement de la page
+   ───────────────────────────────────────────── */
+
+/* Image hero : entrée depuis la gauche / bas avec légère scale */
+.anim-hero-image {
+  animation: heroImageIn 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+@keyframes heroImageIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Éléments texte hero : fade-up séquentiel */
+.anim-fade-up {
+  animation: fadeUp 0.75s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   4. MICRO-INTERACTIONS — hover subtils
+   ───────────────────────────────────────────── */
+
+/* Liens sociaux */
+.hero__social-link,
+.about__social-link,
+.contact__social-link,
+.footer__social-link {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.hero__social-link:hover,
+.about__social-link:hover,
+.contact__social-link:hover,
+.footer__social-link:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+/* Bouton CTA about */
+.about__button {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.about__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Bouton contact submit */
+.contact__button {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.contact__button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Inputs focus */
+.form-input,
+.form-textarea {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.form-input:focus,
+.form-textarea:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+}
+
+/* Metric cards */
+.metric-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Expertise items */
+.expertise-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.expertise-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Footer links */
+.footer__link {
+  transition: opacity 0.2s ease;
+}
+.footer__link:hover {
+  opacity: 0.7;
+}
+
+
+/* ─────────────────────────────────────────────
+   5. BADGE FLOTTANT — légère animation flottante
+   ───────────────────────────────────────────── */
+.about__badge {
+  animation: badgeFloat 4s ease-in-out infinite;
+  animation-play-state: paused; /* démarré après révélation */
+}
+.about__badge.is-visible {
+  animation-play-state: running;
+}
+
+@keyframes badgeFloat {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+
+/* ─────────────────────────────────────────────
+   6. DIVIDER — animation de largeur
+───────────────────────────────────────────── */
+.about__divider,
+.key-metrics__divider,
+.contact__divider {
+  transform-origin: left center;
+  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+              opacity 0.6s ease;
+}
+
+/* Le scale de width est géré par la classe is-visible via anim-reveal */

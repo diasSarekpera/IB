@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Media | Dr. C. Joscky Ibrahim AHO",
-    "description": "Discover the media appearances, conferences, interviews and public interventions of Dr. C. Joscky Ibrahim AHO on development, governance, strategic marketing and regional integration in Africa.",
+    "description": "Discover the public interventions, academic conferences, seminars and media contributions of Dr. C. Joscky Ibrahim AHO on regional integration, management and development in Africa.",
     "og_title": "Media | Dr. C. Joscky Ibrahim AHO",
-    "og_description": "Interviews, conferences and media appearances on regional integration, management and development in Africa.",
+    "og_description": "Conferences, seminars and contributions on regional integration, management and development in Africa.",
     "twitter_title": "Media | Dr. C. Joscky Ibrahim AHO",
-    "twitter_description": "Interviews, conferences and media appearances on regional integration, management and development in Africa."
+    "twitter_description": "Conferences, seminars and contributions on regional integration, management and development in Africa."
   },
 
   "nav": {
@@ -21,78 +21,96 @@
 
   "hero": {
     "title": "Media & Appearances",
-    "description": "This section brings together a selection of public interventions, academic conferences, media contributions and participations in scientific and professional events."
+    "description": "This section brings together a selection of public interventions, academic conferences, professional seminars and scientific contributions in which I have participated as a speaker or presenter."
   },
 
   "talks": {
     "section_title": "Talks & Conferences",
-    "section_description": "I regularly participate in academic conferences, professional workshops and international forums on regional integration, strategic management, governance and socio-economic development in Africa.",
+    "section_description": "I regularly participate in international academic conferences, professional workshops and forums on regional integration, strategic management, governance and socio-economic development in Africa.",
 
     "talk1": {
-      "title": "Regional Integration and Business Performance within the AfCFTA Framework",
-      "location": "Lagos, Nigeria",
-      "date": "June 2024",
-      "description": "A presentation focused on the economic challenges of regional integration and the impact of the AfCFTA on the competitiveness of African businesses.",
-      "link_label": "View conference",
-      "link_aria": "View details of the conference on regional integration and the AfCFTA",
-      "img_alt": "Academic talk on regional integration and the AfCFTA"
+      "title": "Mobilisation of Islamic Green Finance — MEF Training Seminar",
+      "location": "Cotonou, Benin",
+      "date": "November 2025",
+      "description": "Simultaneous booth interpretation at a training seminar for agents of the Ministry of Economy and Finance of Benin, on the theme of Islamic green finance mobilisation, funded by the Turkish Government.",
+      "link_label": "View intervention",
+      "link_aria": "View details of the Islamic green finance seminar — MEF Benin, November 2025",
+      "img_alt": "Training seminar on Islamic green finance mobilisation — MEF Benin, November 2025"
     },
     "talk2": {
-      "title": "Strategic Marketing, Institutional Communication and Organisational Performance",
-      "location": "Cotonou, Benin",
-      "date": "November 2023",
-      "description": "A training session for executives and institutional managers on strategic positioning tools, communication and results management.",
-      "link_label": "View talk",
-      "link_aria": "View details of the talk on strategic marketing",
-      "img_alt": "Professional workshop on strategic marketing and institutional communication"
+      "title": "5th International Conference on Arts, Sciences, Cultures and Technologies for the Socio-Economic Development of Nations",
+      "location": "University of Abomey-Calavi (UAC), Benin",
+      "date": "25 – 30 September 2017",
+      "description": "Participation with article submission and thematic panel presentation at the 5th International Conference of UAC, focusing on the socio-economic development of African nations.",
+      "link_label": "View paper",
+      "link_aria": "View details of the 5th International UAC Conference 2017",
+      "img_alt": "5th International Conference on Arts, Sciences, Cultures and Technologies — UAC, 2017"
     },
     "talk3": {
-      "title": "Territorial Governance and Local Development: Challenges and Perspectives in West Africa",
-      "location": "Abomey-Calavi, Benin",
-      "date": "May 2022",
-      "description": "A scientific presentation on institutional dynamics, local public policies and governance mechanisms aimed at performance and impact.",
-      "link_label": "View presentation",
-      "link_aria": "View the presentation on territorial governance",
-      "img_alt": "Scientific paper on territorial governance and local development"
+      "title": "4th International Conference of the University of Parakou — Scientific Research as a Pillar of the Social Responsibility of Universities",
+      "location": "University of Parakou, Benin",
+      "date": "28 – 30 November 2018",
+      "description": "Participation with article submission and thematic panel presentation at the 4th International Conference of the University of Parakou, on the theme of the social responsibility of universities and the role of scientific research in development.",
+      "link_label": "View paper",
+      "link_aria": "View details of the 4th International Conference of the University of Parakou 2018",
+      "img_alt": "4th International Conference of the University of Parakou — November 2018"
+    },
+    "talk4": {
+      "title": "6th International Conference on Arts, Sciences, Cultures and Technologies for the Socio-Economic Development of Nations",
+      "location": "University of Abomey-Calavi (UAC), Benin",
+      "date": "28 September – 2 October 2015",
+      "description": "Participation with article submission and thematic panel presentation at the 6th International Conference of UAC, focused on arts, sciences, cultures and technologies in service of the socio-economic development of nations.",
+      "link_label": "View paper",
+      "link_aria": "View details of the 6th International UAC Conference 2015",
+      "img_alt": "6th International Conference on Arts, Sciences, Cultures and Technologies — UAC, 2015"
+    },
+    "talk5": {
+      "title": "Annual Borderless Conference — Regional Integration through the Development of Trade and Transport",
+      "location": "Cotonou, Benin",
+      "date": "May 2016",
+      "description": "Participation in the Alliance Borderless annual conference, dedicated to the challenges of regional integration in West Africa through the development of cross-border trade and transport infrastructure.",
+      "link_label": "View conference",
+      "link_aria": "View details of the Borderless Conference 2016",
+      "img_alt": "Annual Borderless Conference on regional integration — Cotonou, May 2016"
     }
   },
 
   "press": {
     "section_title": "Press & Media Publications",
-    "section_description": "My analyses and talks are sometimes featured in specialised media and platforms, covering development issues, regional integration, management and institutional transformation in Africa.",
+    "section_description": "My analyses and academic contributions are featured in university reviews and institutional communication materials, covering regional integration, management and development in West Africa.",
 
     "press1": {
-      "title": "AfCFTA: Opportunities, Challenges and Prospects for African Economies",
-      "source": "Economics & Development Platform",
-      "date": "March 2023",
-      "link_label": "Read article",
-      "link_aria": "Read the article on the AfCFTA and African economies",
-      "img_alt": "Media logo: economics platform"
+      "title": "Translation and contribution to the institutional magazine of the Autonomous Port of Cotonou",
+      "source": "Autonomous Port of Cotonou, Benin",
+      "date": "2022 – 2025",
+      "link_label": "Learn more",
+      "link_aria": "Learn more about the contribution to the Autonomous Port of Cotonou magazine",
+      "img_alt": "Autonomous Port of Cotonou magazine"
     },
     "press2": {
-      "title": "Nigeria and Its Strategic Role in West African Regional Integration",
-      "source": "University Review & Research",
-      "date": "June 2021",
-      "link_label": "Read publication",
-      "link_aria": "Read the publication on Nigeria's role in regional integration",
-      "img_alt": "Media logo: university review"
+      "title": "Translation of scientific articles and Proof Reading for the Ivey Business School",
+      "source": "Ivey Business School, Western University — London, Ontario, Canada",
+      "date": "2022 – 2025",
+      "link_label": "Learn more",
+      "link_aria": "Learn more about translations for Ivey Business School",
+      "img_alt": "Ivey Business School — Western University, Canada"
     },
     "press3": {
-      "title": "Institutional Communication and Performance: Strengthening the Impact of Public Organisations",
-      "source": "Management & Strategies Magazine",
-      "date": "September 2019",
-      "link_label": "Read interview",
-      "link_aria": "Read the interview on institutional communication",
-      "img_alt": "Media logo: management magazine"
+      "title": "Train-the-Trainers Seminar on Import Customs Procedures — CNCB",
+      "source": "CNCB Continuing Education Centre, Benin",
+      "date": "30 October – 2 November 2012",
+      "link_label": "Learn more",
+      "link_aria": "Learn more about the CNCB seminar 2012",
+      "img_alt": "National Shippers Council of Benin (CNCB)"
     }
   },
 
   "gallery": {
     "section_title": "Gallery",
-    "section_description": "Key moments from conferences, training sessions and academic events.",
-    "img1_alt": "Academic conference",
-    "img2_alt": "Professional talk",
-    "img3_alt": "Scientific symposium",
+    "section_description": "Key moments from international conferences, professional seminars and academic events.",
+    "img1_alt": "International UAC conference",
+    "img2_alt": "Professional seminar",
+    "img3_alt": "Scientific conference",
     "img4_alt": "Strategic training",
     "img5_alt": "Professional workshop",
     "img6_alt": "Academic event"
@@ -103,7 +121,7 @@
     "nav_title": "Quick links",
     "nav_home": "Home",
     "nav_about": "About",
-    "nav_expertise": "Expertise",
+    "nav_expertise": "Publications",
     "nav_contact": "Contact",
     "contact_title": "Contact",
     "social_title": "Social media",

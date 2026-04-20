@@ -36,7 +36,6 @@
         ========================== -->
         <link rel="shortcut icon" href="/assets/03-images/favicon.ico" type="image/x-icon">
 
-
         <!-- =========================
             FONT AWESOME
         ========================== -->
@@ -52,15 +51,15 @@
             CSS PRINCIPAL
         ========================== -->
         <link rel="stylesheet" href="../css/04-media/main.css">
+
+        <!-- =========================
+            CSS ANIMATIONS
+        ========================== -->
+        <link rel="stylesheet" href="../css/04-media/animations.css">
     </head>
-    <body  id="top">
+    <body id="top">
         <!-- =========================
-            HEADER + HERO SECTION
-            Page d'accueil - Site du Dr AHO KORRO Ibrahim
-        ========================= -->
-        <!-- =========================
-            HEADER + HERO SECTION
-            Page d'accueil - Site du Dr AHO KORRO Ibrahim
+            HEADER
         ========================= -->
         <header class="header">
             <div class="header__container container">
@@ -114,25 +113,25 @@
 
             <div class="header__overlay" id="header-overlay" aria-hidden="true"></div>
         </header>
-        <!-- ✅ header fermé ici -->
 
 
         <!-- =========================================================
-        SECTION — MÉDIAS (STRUCTURE GLOBALE)
+        SECTION — MÉDIAS (HERO)
         ========================================================= -->
         <section class="hero-media" aria-labelledby="media-title">
         <div class="media__container">
 
             <header class="media__header">
-                <h1 id="media-title" class="media__title" data-i18n="hero.title">
-                    Médias & Interventions
+                <h1 id="media-title" class="media__title anim-fade-up" style="--anim-delay: 0.1s" data-i18n="hero.title">
+                    Médias &amp; Interventions
                 </h1>
 
-                <div class="media__divider" aria-hidden="true"></div>
+                <div class="media__divider anim-fade-up" style="--anim-delay: 0.25s" aria-hidden="true"></div>
 
-                <p class="media__description" data-i18n="hero.description">
-                    Cette section regroupe une sélection d'interventions publiques, conférences académiques,
-                    contributions médiatiques et participations à des événements scientifiques et professionnels.
+                <p class="media__description anim-fade-up" style="--anim-delay: 0.38s" data-i18n="hero.description">
+                    Cette section regroupe une sélection d'interventions publiques, colloques académiques,
+                    séminaires professionnels et contributions scientifiques auxquels j'ai participé
+                    en tant qu'intervenant ou communicant.
                 </p>
             </header>
 
@@ -147,27 +146,27 @@
             <div class="talks__container container">
 
                 <header class="talks__header">
-                <h2 id="talks-title" class="talks__title" data-i18n="talks.section_title">
-                    Interventions &amp; Conférences
-                </h2>
+                    <h2 id="talks-title" class="talks__title anim-reveal" data-anim="fade-up" data-i18n="talks.section_title">
+                        Interventions &amp; Conférences
+                    </h2>
 
-                <div class="talks__divider" aria-hidden="true"></div>
+                    <div class="talks__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
 
-                <p class="talks__description" data-i18n="talks.section_description">
-                    Je participe régulièrement à des conférences académiques, ateliers professionnels et forums
-                    internationaux portant sur l'intégration régionale, le management stratégique, la gouvernance
-                    et le développement socio-économique en Afrique.
-                </p>
+                    <p class="talks__description anim-reveal" data-anim="fade-up" data-anim-delay="0.15" data-i18n="talks.section_description">
+                        Je participe régulièrement à des colloques académiques internationaux, séminaires professionnels
+                        et forums portant sur l'intégration régionale, le management stratégique, la gouvernance
+                        et le développement socio-économique en Afrique.
+                    </p>
                 </header>
 
                 <div class="talks__grid">
 
                 <!-- Conférence 1 -->
-                <article class="talk-card">
+                <article class="talk-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <div class="talk-card__media">
                     <img 
                         src="./assets/03-images/placeholders/conference-placeholder.jpg" 
-                        alt="Intervention académique sur l'intégration régionale et la ZLECAf"
+                        alt="Séminaire de formation sur la mobilisation de la finance verte islamique — MEF Bénin, novembre 2025"
                         class="talk-card__image"
                         data-i18n-title="talks.talk1.img_alt"
                     >
@@ -175,38 +174,39 @@
 
                     <div class="talk-card__content">
                     <h3 class="talk-card__title" data-i18n="talks.talk1.title">
-                        Intégration régionale et performance des entreprises dans le cadre de la ZLECAf
+                        Mobilisation de la finance verte islamique — Séminaire de formation du MEF
                     </h3>
 
                     <p class="talk-card__meta">
-                        <span class="talk-card__location" data-i18n="talks.talk1.location">Lagos, Nigeria</span>
+                        <span class="talk-card__location" data-i18n="talks.talk1.location">Cotonou, Bénin</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2024-06" class="talk-card__date" data-i18n="talks.talk1.date">Juin 2024</time>
+                        <time datetime="2025-11" class="talk-card__date" data-i18n="talks.talk1.date">Novembre 2025</time>
                     </p>
 
                     <p class="talk-card__description" data-i18n="talks.talk1.description">
-                        Présentation axée sur les enjeux économiques de l'intégration régionale et l'impact de la ZLECAf
-                        sur la compétitivité des entreprises africaines.
+                        Interprétation simultanée en cabine lors d'un séminaire de formation des agents du Ministère
+                        de l'Économie et des Finances du Bénin, sur le thème de la mobilisation de la finance verte
+                        islamique, financé par le Gouvernement Turc.
                     </p>
 
                     <a 
                         href="#" 
                         class="talk-card__link"
-                        aria-label="Voir les détails de la conférence sur l'intégration régionale et la ZLECAf"
+                        aria-label="Voir les détails du séminaire sur la finance verte islamique"
                         data-i18n="talks.talk1.link_label"
                         data-i18n-aria="talks.talk1.link_aria"
                     >
-                        Voir la conférence
+                        Voir l'intervention
                     </a>
                     </div>
                 </article>
 
                 <!-- Conférence 2 -->
-                <article class="talk-card">
+                <article class="talk-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <div class="talk-card__media">
                     <img 
                         src="./assets/03-images/placeholders/conference-placeholder.jpg" 
-                        alt="Atelier professionnel en marketing stratégique et communication institutionnelle"
+                        alt="Ve Colloque international des Arts, Sciences, Cultures et Technologies — UAC, 2017"
                         class="talk-card__image"
                         data-i18n-title="talks.talk2.img_alt"
                     >
@@ -214,38 +214,39 @@
 
                     <div class="talk-card__content">
                     <h3 class="talk-card__title" data-i18n="talks.talk2.title">
-                        Marketing stratégique, communication institutionnelle et performance organisationnelle
+                        Ve Colloque international des Arts, Sciences, Cultures et Technologies pour le Développement Socio-économique des Nations
                     </h3>
 
                     <p class="talk-card__meta">
-                        <span class="talk-card__location" data-i18n="talks.talk2.location">Cotonou, Bénin</span>
+                        <span class="talk-card__location" data-i18n="talks.talk2.location">Université d'Abomey-Calavi (UAC), Bénin</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2023-11" class="talk-card__date" data-i18n="talks.talk2.date">Novembre 2023</time>
+                        <time datetime="2017-09" class="talk-card__date" data-i18n="talks.talk2.date">25 – 30 Septembre 2017</time>
                     </p>
 
                     <p class="talk-card__description" data-i18n="talks.talk2.description">
-                        Session de formation destinée aux cadres et responsables d'institutions sur les outils de
-                        positionnement stratégique, de communication et de pilotage des résultats.
+                        Participation avec soumission d'article et présentation en panel thématique au Ve Colloque
+                        international organisé par l'Université d'Abomey-Calavi, portant sur le développement
+                        socio-économique des nations africaines.
                     </p>
 
                     <a 
                         href="#" 
                         class="talk-card__link"
-                        aria-label="Voir les détails de l'intervention sur le marketing stratégique"
+                        aria-label="Voir les détails du colloque UAC 2017"
                         data-i18n="talks.talk2.link_label"
                         data-i18n-aria="talks.talk2.link_aria"
                     >
-                        Voir l'intervention
+                        Voir la communication
                     </a>
                     </div>
                 </article>
 
                 <!-- Conférence 3 -->
-                <article class="talk-card">
+                <article class="talk-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <div class="talk-card__media">
                     <img 
                         src="./assets/03-images/placeholders/conference-placeholder.jpg" 
-                        alt="Communication scientifique sur la gouvernance territoriale et le développement local"
+                        alt="IVe Colloque international de l'Université de Parakou — novembre 2018"
                         class="talk-card__image"
                         data-i18n-title="talks.talk3.img_alt"
                     >
@@ -253,28 +254,109 @@
 
                     <div class="talk-card__content">
                     <h3 class="talk-card__title" data-i18n="talks.talk3.title">
-                        Gouvernance territoriale et développement local : défis et perspectives en Afrique de l'Ouest
+                        IVe Colloque international de l'Université de Parakou — La recherche scientifique, pilier essentiel de la responsabilité sociale des Universités
                     </h3>
 
                     <p class="talk-card__meta">
-                        <span class="talk-card__location" data-i18n="talks.talk3.location">Abomey-Calavi, Bénin</span>
+                        <span class="talk-card__location" data-i18n="talks.talk3.location">Université de Parakou, Bénin</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2022-05" class="talk-card__date" data-i18n="talks.talk3.date">Mai 2022</time>
+                        <time datetime="2018-11" class="talk-card__date" data-i18n="talks.talk3.date">28 – 30 Novembre 2018</time>
                     </p>
 
                     <p class="talk-card__description" data-i18n="talks.talk3.description">
-                        Communication scientifique portant sur les dynamiques institutionnelles, les politiques publiques
-                        locales et les mécanismes de gouvernance orientés vers la performance et l'impact.
+                        Participation avec soumission d'article et présentation en panel thématique au IVe Colloque
+                        international de l'Université de Parakou, sur le thème de la responsabilité sociale des
+                        universités et du rôle de la recherche scientifique dans le développement.
                     </p>
 
                     <a 
                         href="#" 
                         class="talk-card__link"
-                        aria-label="Voir la présentation sur la gouvernance territoriale"
+                        aria-label="Voir les détails du colloque de Parakou 2018"
                         data-i18n="talks.talk3.link_label"
                         data-i18n-aria="talks.talk3.link_aria"
                     >
-                        Voir la présentation
+                        Voir la communication
+                    </a>
+                    </div>
+                </article>
+
+                <!-- Conférence 4 -->
+                <article class="talk-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                    <div class="talk-card__media">
+                    <img 
+                        src="./assets/03-images/placeholders/conference-placeholder.jpg" 
+                        alt="VIe Colloque international des Arts, Sciences, Cultures et Technologies — UAC, 2015"
+                        class="talk-card__image"
+                        data-i18n-title="talks.talk4.img_alt"
+                    >
+                    </div>
+
+                    <div class="talk-card__content">
+                    <h3 class="talk-card__title" data-i18n="talks.talk4.title">
+                        VIe Colloque international des Arts, Sciences, Cultures et Technologies pour le Développement Socio-économique des Nations
+                    </h3>
+
+                    <p class="talk-card__meta">
+                        <span class="talk-card__location" data-i18n="talks.talk4.location">Université d'Abomey-Calavi (UAC), Bénin</span>
+                        <span aria-hidden="true"> — </span>
+                        <time datetime="2015-09" class="talk-card__date" data-i18n="talks.talk4.date">28 Septembre – 2 Octobre 2015</time>
+                    </p>
+
+                    <p class="talk-card__description" data-i18n="talks.talk4.description">
+                        Participation avec soumission d'article et présentation en panel thématique au VIe Colloque
+                        international de l'UAC, axé sur les arts, sciences, cultures et technologies au service
+                        du développement socio-économique des nations.
+                    </p>
+
+                    <a 
+                        href="#" 
+                        class="talk-card__link"
+                        aria-label="Voir les détails du colloque UAC 2015"
+                        data-i18n="talks.talk4.link_label"
+                        data-i18n-aria="talks.talk4.link_aria"
+                    >
+                        Voir la communication
+                    </a>
+                    </div>
+                </article>
+
+                <!-- Conférence 5 -->
+                <article class="talk-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
+                    <div class="talk-card__media">
+                    <img 
+                        src="./assets/03-images/placeholders/conference-placeholder.jpg" 
+                        alt="Conférence annuelle Borderless sur l'intégration régionale — Cotonou, 2016"
+                        class="talk-card__image"
+                        data-i18n-title="talks.talk5.img_alt"
+                    >
+                    </div>
+
+                    <div class="talk-card__content">
+                    <h3 class="talk-card__title" data-i18n="talks.talk5.title">
+                        Conférence annuelle Borderless — L'intégration régionale à travers le développement du commerce et des transports
+                    </h3>
+
+                    <p class="talk-card__meta">
+                        <span class="talk-card__location" data-i18n="talks.talk5.location">Cotonou, Bénin</span>
+                        <span aria-hidden="true"> — </span>
+                        <time datetime="2016-05" class="talk-card__date" data-i18n="talks.talk5.date">Mai 2016</time>
+                    </p>
+
+                    <p class="talk-card__description" data-i18n="talks.talk5.description">
+                        Participation à la conférence annuelle de l'Alliance Borderless, dédiée aux enjeux de
+                        l'intégration régionale en Afrique de l'Ouest à travers le développement du commerce
+                        transfrontalier et des infrastructures de transport.
+                    </p>
+
+                    <a 
+                        href="#" 
+                        class="talk-card__link"
+                        aria-label="Voir les détails de la conférence Borderless 2016"
+                        data-i18n="talks.talk5.link_label"
+                        data-i18n-aria="talks.talk5.link_aria"
+                    >
+                        Voir la conférence
                     </a>
                     </div>
                 </article>
@@ -291,27 +373,27 @@
             <div class="press__container container">
 
                 <header class="press__header">
-                <h2 id="press-title" class="press__title" data-i18n="press.section_title">
-                    Presse &amp; Publications médiatiques
-                </h2>
+                    <h2 id="press-title" class="press__title anim-reveal" data-anim="fade-up" data-i18n="press.section_title">
+                        Presse &amp; Publications médiatiques
+                    </h2>
 
-                <div class="press__divider" aria-hidden="true"></div>
+                    <div class="press__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
 
-                <p class="press__description" data-i18n="press.section_description">
-                    Mes analyses et interventions sont parfois relayées dans des médias et plateformes spécialisées,
-                    autour des enjeux de développement, d'intégration régionale, de management et de transformation
-                    institutionnelle en Afrique.
-                </p>
+                    <p class="press__description anim-reveal" data-anim="fade-up" data-anim-delay="0.15" data-i18n="press.section_description">
+                        Mes analyses et contributions académiques sont relayées dans des revues universitaires
+                        et des supports de communication institutionnels, autour des enjeux d'intégration régionale,
+                        de management et de développement en Afrique de l'Ouest.
+                    </p>
                 </header>
 
                 <div class="press__list">
 
                 <!-- Article 1 -->
-                <article class="press-item">
+                <article class="press-item anim-reveal" data-anim="fade-left" data-anim-delay="0.05">
                     <div class="press-item__media">
                     <img 
                         src="./assets/03-images/placeholders/media-placeholder.png" 
-                        alt="Logo média : plateforme économique"
+                        alt="Magazine du Port Autonome de Cotonou"
                         class="press-item__logo"
                         data-i18n-title="press.press1.img_alt"
                     >
@@ -319,33 +401,33 @@
 
                     <div class="press-item__content">
                     <h3 class="press-item__title" data-i18n="press.press1.title">
-                        ZLECAf : opportunités, défis et perspectives pour les économies africaines
+                        Traduction et contribution au magazine institutionnel du Port Autonome de Cotonou
                     </h3>
 
                     <p class="press-item__meta">
-                        <span class="press-item__source" data-i18n="press.press1.source">Plateforme Économie &amp; Développement</span>
+                        <span class="press-item__source" data-i18n="press.press1.source">Port Autonome de Cotonou, Bénin</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2023-03" data-i18n="press.press1.date">Mars 2023</time>
+                        <time datetime="2022" data-i18n="press.press1.date">2022 – 2025</time>
                     </p>
 
                     <a 
                         href="#" 
                         class="press-item__link"
-                        aria-label="Lire l'article sur la ZLECAf et les économies africaines"
+                        aria-label="En savoir plus sur la contribution au magazine du Port Autonome de Cotonou"
                         data-i18n="press.press1.link_label"
                         data-i18n-aria="press.press1.link_aria"
                     >
-                        Lire l'article
+                        En savoir plus
                     </a>
                     </div>
                 </article>
 
                 <!-- Article 2 -->
-                <article class="press-item">
+                <article class="press-item anim-reveal" data-anim="fade-left" data-anim-delay="0.12">
                     <div class="press-item__media">
                     <img 
                         src="./assets/03-images/placeholders/media-placeholder.png" 
-                        alt="Logo média : revue universitaire"
+                        alt="Ivey Business School — Western University, Canada"
                         class="press-item__logo"
                         data-i18n-title="press.press2.img_alt"
                     >
@@ -353,33 +435,33 @@
 
                     <div class="press-item__content">
                     <h3 class="press-item__title" data-i18n="press.press2.title">
-                        Le Nigeria et son rôle stratégique dans l'intégration régionale ouest-africaine
+                        Traduction d'articles scientifiques et relecture (Proof Reading) pour l'Ivey Business School
                     </h3>
 
                     <p class="press-item__meta">
-                        <span class="press-item__source" data-i18n="press.press2.source">Revue Universitaire &amp; Recherche</span>
+                        <span class="press-item__source" data-i18n="press.press2.source">Ivey Business School, Western University — London, Ontario, Canada</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2021-06" data-i18n="press.press2.date">Juin 2021</time>
+                        <time datetime="2022" data-i18n="press.press2.date">2022 – 2025</time>
                     </p>
 
                     <a 
                         href="#" 
                         class="press-item__link"
-                        aria-label="Lire la publication sur le rôle du Nigeria dans l'intégration régionale"
+                        aria-label="En savoir plus sur les traductions pour Ivey Business School"
                         data-i18n="press.press2.link_label"
                         data-i18n-aria="press.press2.link_aria"
                     >
-                        Lire la publication
+                        En savoir plus
                     </a>
                     </div>
                 </article>
 
                 <!-- Article 3 -->
-                <article class="press-item">
+                <article class="press-item anim-reveal" data-anim="fade-left" data-anim-delay="0.19">
                     <div class="press-item__media">
                     <img 
                         src="./assets/03-images/placeholders/media-placeholder.png" 
-                        alt="Logo média : magazine management"
+                        alt="Conseil National des Chargeurs du Bénin (CNCB)"
                         class="press-item__logo"
                         data-i18n-title="press.press3.img_alt"
                     >
@@ -387,23 +469,23 @@
 
                     <div class="press-item__content">
                     <h3 class="press-item__title" data-i18n="press.press3.title">
-                        Communication institutionnelle et performance : renforcer l'impact des organisations publiques
+                        Séminaire de formation des formateurs sur les procédures douanières à l'importation — CNCB
                     </h3>
 
                     <p class="press-item__meta">
-                        <span class="press-item__source" data-i18n="press.press3.source">Magazine Management &amp; Stratégies</span>
+                        <span class="press-item__source" data-i18n="press.press3.source">Centre de Formation Continue du CNCB, Bénin</span>
                         <span aria-hidden="true"> — </span>
-                        <time datetime="2019-09" data-i18n="press.press3.date">Septembre 2019</time>
+                        <time datetime="2012-10" data-i18n="press.press3.date">30 Octobre – 2 Novembre 2012</time>
                     </p>
 
                     <a 
                         href="#" 
                         class="press-item__link"
-                        aria-label="Lire l'interview sur la communication institutionnelle"
+                        aria-label="En savoir plus sur le séminaire CNCB 2012"
                         data-i18n="press.press3.link_label"
                         data-i18n-aria="press.press3.link_aria"
                     >
-                        Lire l'interview
+                        En savoir plus
                     </a>
                     </div>
                 </article>
@@ -420,40 +502,40 @@
         <div class="gallery__container">
 
             <header class="gallery__header">
-                <h2 id="gallery-title" class="gallery__title" data-i18n="gallery.section_title">
+                <h2 id="gallery-title" class="gallery__title anim-reveal" data-anim="fade-up" data-i18n="gallery.section_title">
                     Galerie
                 </h2>
 
-                <span class="gallery__divider"></span>
+                <span class="gallery__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.08"></span>
 
-                <p class="gallery__description" data-i18n="gallery.section_description">
-                    Moments marquants issus de conférences, formations et événements académiques.
+                <p class="gallery__description anim-reveal" data-anim="fade-up" data-anim-delay="0.14" data-i18n="gallery.section_description">
+                    Moments marquants issus de colloques, séminaires de formation et événements académiques.
                 </p>
             </header>
 
             <div class="gallery__grid">
 
-                <figure class="gallery__item">
-                    <img src="assets/images/gallery-1.jpg" alt="Conférence académique" class="gallery__image" data-i18n-title="gallery.img1_alt">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                    <img src="assets/images/gallery-1.jpg" alt="Colloque international UAC" class="gallery__image" data-i18n-title="gallery.img1_alt">
                 </figure>
 
-                <figure class="gallery__item">
-                    <img src="assets/images/gallery-2.jpg" alt="Intervention professionnelle" class="gallery__image" data-i18n-title="gallery.img2_alt">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.1">
+                    <img src="assets/images/gallery-2.jpg" alt="Séminaire professionnel" class="gallery__image" data-i18n-title="gallery.img2_alt">
                 </figure>
 
-                <figure class="gallery__item">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.15">
                     <img src="assets/images/gallery-3.jpg" alt="Colloque scientifique" class="gallery__image" data-i18n-title="gallery.img3_alt">
                 </figure>
 
-                <figure class="gallery__item">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.2">
                     <img src="assets/images/gallery-4.jpg" alt="Formation stratégique" class="gallery__image" data-i18n-title="gallery.img4_alt">
                 </figure>
 
-                <figure class="gallery__item">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.25">
                     <img src="assets/images/gallery-5.jpg" alt="Atelier professionnel" class="gallery__image" data-i18n-title="gallery.img5_alt">
                 </figure>
 
-                <figure class="gallery__item">
+                <figure class="gallery__item anim-reveal" data-anim="fade-up" data-anim-delay="0.3">
                     <img src="assets/images/gallery-6.jpg" alt="Événement académique" class="gallery__image" data-i18n-title="gallery.img6_alt">
                 </figure>
 
@@ -473,49 +555,49 @@
         <div class="footer__container">
 
             <!-- Branding / Identity -->
-            <div class="footer__brand">
+            <div class="footer__brand anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
             <h2 class="footer__name">Dr. C. Joscky Ibrahim AHO</h2>
             <p class="footer__tagline" data-i18n="footer.tagline">Construire le succès de demain</p>
             </div>
 
             <!-- Quick Links -->
-            <nav class="footer__nav" aria-labelledby="footer-nav-title">
+            <nav class="footer__nav anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-labelledby="footer-nav-title">
             <h2 id="footer-nav-title" class="footer__title" data-i18n="footer.nav_title">Liens rapides</h2>
             <ul class="footer__list">
                 <li class="footer__item">
-                <a href="#" class="footer__link" data-i18n="footer.nav_home">Accueil</a>
+                <a href="/index.html" class="footer__link" data-i18n="footer.nav_home">Accueil</a>
                 </li>
                 <li class="footer__item">
-                <a href="#" class="footer__link" data-i18n="footer.nav_about">À propos</a>
+                <a href="/pages/01-about.html" class="footer__link" data-i18n="footer.nav_about">À propos</a>
                 </li>
                 <li class="footer__item">
-                <a href="#" class="footer__link" data-i18n="footer.nav_expertise">Expertise</a>
+                <a href="/pages/02-publications.html" class="footer__link" data-i18n="footer.nav_expertise">Publications</a>
                 </li>
                 <li class="footer__item">
-                <a href="#" class="footer__link" data-i18n="footer.nav_contact">Contact</a>
+                <a href="/index.html#contact" class="footer__link" data-i18n="footer.nav_contact">Contact</a>
                 </li>
             </ul>
             </nav>
 
             <!-- Contact -->
-            <address class="footer__contact" aria-labelledby="footer-contact-title">
+            <address class="footer__contact anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-labelledby="footer-contact-title">
             <h2 id="footer-contact-title" class="footer__title" data-i18n="footer.contact_title">Contact</h2>
             <ul class="footer__list">
                 <li class="footer__item">
-                <a href="mailto:contact@email.com" class="footer__link">
-                    contact@email.com
+                <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
+                    ahoibrahim66@gmail.com
                 </a>
                 </li>
                 <li class="footer__item">
-                <a href="tel:+33612345678" class="footer__link">
-                    +33 6 12 34 56 78
+                <a href="tel:+22995962452" class="footer__link">
+                    +229 95 96 24 52
                 </a>
                 </li>
             </ul>
             </address>
 
             <!-- Social Links -->
-            <div class="footer__social" aria-labelledby="footer-social-title">
+            <div class="footer__social anim-reveal" data-anim="fade-up" data-anim-delay="0.2" aria-labelledby="footer-social-title">
             <h2 id="footer-social-title" class="footer__title" data-i18n="footer.social_title">Réseaux sociaux</h2>
 
             <ul class="footer__social-list">
@@ -570,11 +652,9 @@
             <i class="fa-solid fa-arrow-up"></i>
         </a>
 
-
         <script src="/js/global/backtop.js"></script>
         <script src="/js/global/menu.js"></script>
         <script src="/js/04-media/i18n.js"></script>
+        <script src="/js/04-media/animations.js"></script>
     </body>
 </html>
-
-

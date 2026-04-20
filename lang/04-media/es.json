@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Medios | Dr. C. Joscky Ibrahim AHO",
-    "description": "Descubra las intervenciones mediáticas, conferencias, entrevistas y apariciones públicas del Dr. C. Joscky Ibrahim AHO sobre el desarrollo, la gobernanza, el marketing estratégico y la integración regional en África.",
+    "description": "Descubra las intervenciones públicas, coloquios académicos, seminarios y contribuciones mediáticas del Dr. C. Joscky Ibrahim AHO sobre integración regional, gestión y desarrollo en África.",
     "og_title": "Medios | Dr. C. Joscky Ibrahim AHO",
-    "og_description": "Entrevistas, conferencias e intervenciones mediáticas sobre integración regional, gestión y desarrollo en África.",
+    "og_description": "Conferencias, seminarios y contribuciones sobre integración regional, gestión y desarrollo en África.",
     "twitter_title": "Medios | Dr. C. Joscky Ibrahim AHO",
-    "twitter_description": "Entrevistas, conferencias e intervenciones mediáticas sobre integración regional, gestión y desarrollo en África."
+    "twitter_description": "Conferencias, seminarios y contribuciones sobre integración regional, gestión y desarrollo en África."
   },
 
   "nav": {
@@ -21,77 +21,95 @@
 
   "hero": {
     "title": "Medios & Intervenciones",
-    "description": "Esta sección reúne una selección de intervenciones públicas, conferencias académicas, contribuciones mediáticas y participaciones en eventos científicos y profesionales."
+    "description": "Esta sección reúne una selección de intervenciones públicas, coloquios académicos, seminarios profesionales y contribuciones científicas en los que he participado como ponente o comunicador."
   },
 
   "talks": {
     "section_title": "Intervenciones & Conferencias",
-    "section_description": "Participo regularmente en conferencias académicas, talleres profesionales y foros internacionales sobre integración regional, gestión estratégica, gobernanza y desarrollo socioeconómico en África.",
+    "section_description": "Participo regularmente en coloquios académicos internacionales, talleres profesionales y foros sobre integración regional, gestión estratégica, gobernanza y desarrollo socioeconómico en África.",
 
     "talk1": {
-      "title": "Integración regional y rendimiento empresarial en el marco de la ZLECAf",
-      "location": "Lagos, Nigeria",
-      "date": "Junio de 2024",
-      "description": "Una presentación centrada en los desafíos económicos de la integración regional y el impacto de la ZLECAf en la competitividad de las empresas africanas.",
-      "link_label": "Ver conferencia",
-      "link_aria": "Ver los detalles de la conferencia sobre integración regional y la ZLECAf",
-      "img_alt": "Intervención académica sobre integración regional y la ZLECAf"
+      "title": "Movilización de la Finanza Verde Islámica — Seminario de formación del MEF",
+      "location": "Cotonú, Benín",
+      "date": "Noviembre de 2025",
+      "description": "Interpretación simultánea en cabina durante un seminario de formación para agentes del Ministerio de Economía y Finanzas de Benín, sobre el tema de la movilización de la finanza verde islámica, financiado por el Gobierno Turco.",
+      "link_label": "Ver intervención",
+      "link_aria": "Ver los detalles del seminario sobre finanza verde islámica — MEF Benín, noviembre 2025",
+      "img_alt": "Seminario de formación sobre movilización de la finanza verde islámica — MEF Benín, noviembre 2025"
     },
     "talk2": {
-      "title": "Marketing estratégico, comunicación institucional y rendimiento organizacional",
-      "location": "Cotonú, Benín",
-      "date": "Noviembre de 2023",
-      "description": "Sesión de formación destinada a directivos y responsables de instituciones sobre herramientas de posicionamiento estratégico, comunicación y gestión de resultados.",
-      "link_label": "Ver intervención",
-      "link_aria": "Ver los detalles de la intervención sobre marketing estratégico",
-      "img_alt": "Taller profesional sobre marketing estratégico y comunicación institucional"
+      "title": "Ve Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías para el Desarrollo Socioeconómico de las Naciones",
+      "location": "Universidad de Abomey-Calavi (UAC), Benín",
+      "date": "25 – 30 de septiembre de 2017",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el Ve Coloquio Internacional de la UAC, centrado en el desarrollo socioeconómico de las naciones africanas.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del Ve Coloquio Internacional UAC 2017",
+      "img_alt": "Ve Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías — UAC, 2017"
     },
     "talk3": {
-      "title": "Gobernanza territorial y desarrollo local: desafíos y perspectivas en África Occidental",
-      "location": "Abomey-Calavi, Benín",
-      "date": "Mayo de 2022",
-      "description": "Comunicación científica sobre dinámicas institucionales, políticas públicas locales y mecanismos de gobernanza orientados al rendimiento y al impacto.",
-      "link_label": "Ver presentación",
-      "link_aria": "Ver la presentación sobre gobernanza territorial",
-      "img_alt": "Comunicación científica sobre gobernanza territorial y desarrollo local"
+      "title": "IVe Coloquio Internacional de la Universidad de Parakou — La investigación científica, pilar esencial de la responsabilidad social de las Universidades",
+      "location": "Universidad de Parakou, Benín",
+      "date": "28 – 30 de noviembre de 2018",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el IVe Coloquio Internacional de la Universidad de Parakou, sobre la responsabilidad social de las universidades y el papel de la investigación científica en el desarrollo.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del IVe Coloquio Internacional de la Universidad de Parakou 2018",
+      "img_alt": "IVe Coloquio Internacional de la Universidad de Parakou — noviembre de 2018"
+    },
+    "talk4": {
+      "title": "VIe Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías para el Desarrollo Socioeconómico de las Naciones",
+      "location": "Universidad de Abomey-Calavi (UAC), Benín",
+      "date": "28 de septiembre – 2 de octubre de 2015",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el VIe Coloquio Internacional de la UAC, enfocado en las artes, ciencias, culturas y tecnologías al servicio del desarrollo socioeconómico de las naciones.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del VIe Coloquio Internacional UAC 2015",
+      "img_alt": "VIe Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías — UAC, 2015"
+    },
+    "talk5": {
+      "title": "Conferencia anual Borderless — La integración regional a través del desarrollo del comercio y los transportes",
+      "location": "Cotonú, Benín",
+      "date": "Mayo de 2016",
+      "description": "Participación en la conferencia anual de la Alianza Borderless, dedicada a los desafíos de la integración regional en África Occidental a través del desarrollo del comercio transfronterizo y las infraestructuras de transporte.",
+      "link_label": "Ver conferencia",
+      "link_aria": "Ver los detalles de la Conferencia Borderless 2016",
+      "img_alt": "Conferencia anual Borderless sobre integración regional — Cotonú, mayo de 2016"
     }
   },
 
   "press": {
     "section_title": "Prensa & Publicaciones mediáticas",
-    "section_description": "Mis análisis e intervenciones son a veces difundidos en medios y plataformas especializadas, en torno a los desafíos del desarrollo, la integración regional, la gestión y la transformación institucional en África.",
+    "section_description": "Mis análisis y contribuciones académicas aparecen en revistas universitarias y materiales de comunicación institucional, sobre los desafíos de la integración regional, la gestión y el desarrollo en África Occidental.",
 
     "press1": {
-      "title": "ZLECAf: oportunidades, desafíos y perspectivas para las economías africanas",
-      "source": "Plataforma Economía & Desarrollo",
-      "date": "Marzo de 2023",
-      "link_label": "Leer artículo",
-      "link_aria": "Leer el artículo sobre la ZLECAf y las economías africanas",
-      "img_alt": "Logo de medio: plataforma económica"
+      "title": "Traducción y contribución a la revista institucional del Puerto Autónomo de Cotonú",
+      "source": "Puerto Autónomo de Cotonú, Benín",
+      "date": "2022 – 2025",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre la contribución a la revista del Puerto Autónomo de Cotonú",
+      "img_alt": "Revista del Puerto Autónomo de Cotonú"
     },
     "press2": {
-      "title": "Nigeria y su papel estratégico en la integración regional de África Occidental",
-      "source": "Revista Universitaria & Investigación",
-      "date": "Junio de 2021",
-      "link_label": "Leer publicación",
-      "link_aria": "Leer la publicación sobre el papel de Nigeria en la integración regional",
-      "img_alt": "Logo de medio: revista universitaria"
+      "title": "Traducción de artículos científicos y corrección de estilo (Proof Reading) para la Ivey Business School",
+      "source": "Ivey Business School, Western University — London, Ontario, Canadá",
+      "date": "2022 – 2025",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre las traducciones para la Ivey Business School",
+      "img_alt": "Ivey Business School — Western University, Canadá"
     },
     "press3": {
-      "title": "Comunicación institucional y rendimiento: reforzar el impacto de las organizaciones públicas",
-      "source": "Revista Gestión & Estrategias",
-      "date": "Septiembre de 2019",
-      "link_label": "Leer entrevista",
-      "link_aria": "Leer la entrevista sobre comunicación institucional",
-      "img_alt": "Logo de medio: revista de gestión"
+      "title": "Seminario de formación de formadores sobre procedimientos aduaneros de importación — CNCB",
+      "source": "Centro de Formación Continua del CNCB, Benín",
+      "date": "30 de octubre – 2 de noviembre de 2012",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre el seminario CNCB 2012",
+      "img_alt": "Consejo Nacional de Fletadores de Benín (CNCB)"
     }
   },
 
   "gallery": {
     "section_title": "Galería",
-    "section_description": "Momentos destacados de conferencias, formaciones y eventos académicos.",
-    "img1_alt": "Conferencia académica",
-    "img2_alt": "Intervención profesional",
+    "section_description": "Momentos destacados de coloquios internacionales, seminarios de formación y eventos académicos.",
+    "img1_alt": "Coloquio internacional UAC",
+    "img2_alt": "Seminario profesional",
     "img3_alt": "Coloquio científico",
     "img4_alt": "Formación estratégica",
     "img5_alt": "Taller profesional",
@@ -103,7 +121,7 @@
     "nav_title": "Enlaces rápidos",
     "nav_home": "Inicio",
     "nav_about": "Acerca de",
-    "nav_expertise": "Experiencia",
+    "nav_expertise": "Publicaciones",
     "nav_contact": "Contacto",
     "contact_title": "Contacto",
     "social_title": "Redes sociales",

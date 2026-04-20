@@ -36,7 +36,6 @@
         ========================== -->
         <link rel="shortcut icon" href="/assets/03-images/favicon.ico" type="image/x-icon">
 
-
         <!-- =========================
             FONT AWESOME
         ========================== -->
@@ -52,18 +51,22 @@
             CSS PRINCIPAL
         ========================== -->
         <link rel="stylesheet" href="../css/02-about/main.css">
+
+        <!-- =========================
+            CSS ANIMATIONS
+        ========================== -->
+        <link rel="stylesheet" href="../css/02-about/animations.css">
     </head>
     <body id="top">
         <!-- =========================
-            HEADER + HERO SECTION
-            Page d'accueil - Site du Dr AHO KORRO Ibrahim
+            HEADER
         ========================= -->
         <header class="header">
             <div class="header__container container">
 
                 <div class="header__brand">
                     <a href="/index.html" class="header__logo" aria-label="Accueil du site">
-                        IB
+                        <img src="/assets/03-images/logo.png" alt="">
                     </a>
                 </div>
 
@@ -120,63 +123,63 @@
         <div class="hero__container">
 
             <!-- Image -->
-            <figure class="hero__image">
-            <img src="../assets/03-images/i.png" alt="Portrait de Dr. C. Joscky Ibrahim AHO" data-i18n="hero_img_alt">
+            <figure class="hero__image anim-hero-image">
+                <img src="../assets/03-images/i.png" alt="Portrait de Dr. C. Joscky Ibrahim AHO" data-i18n="hero_img_alt">
             </figure>
 
             <!-- Contenu texte -->
             <div class="hero__content">
-            <h1 id="hero-title" class="hero__title" data-i18n="hero_title">
-                Dr. C. Joscky Ibrahim AHO
-            </h1>
+                <h1 id="hero-title" class="hero__title anim-fade-up" style="--anim-delay: 0.1s" data-i18n="hero_title">
+                    Dr. C. Joscky Ibrahim AHO
+                </h1>
 
-            <h2 class="hero__subtitle" data-i18n="hero_subtitle">
-                Enseignant-Chercheur en études africaines anglophones<br>
-                Expert en marketing, management et développement local
-            </h2>
+                <h2 class="hero__subtitle anim-fade-up" style="--anim-delay: 0.22s" data-i18n="hero_subtitle">
+                    Enseignant-Chercheur en études africaines anglophones &amp; Intégration régionale<br>
+                    Expert certifié en marketing, management et développement local
+                </h2>
 
-            <p class="hero__text" data-i18n="hero_text_1">
-                Je suis Dr. C. Joscky Ibrahim AHO, enseignant-chercheur, consultant-formateur et expert
-                en administration des affaires. Depuis plus de dix-neuf années, je consacre mon parcours
-                à l'enseignement supérieur, à la formation professionnelle et à l'accompagnement stratégique
-                des organisations en Afrique de l'Ouest.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.34s" data-i18n="hero_text_1">
+                    Je suis Dr. C. Joscky Ibrahim AHO, enseignant-chercheur, consultant-formateur et expert
+                    en administration des affaires. Depuis plus de dix-neuf années, je consacre mon parcours
+                    à l'enseignement supérieur, à la formation professionnelle et à l'accompagnement stratégique
+                    des organisations en Afrique de l'Ouest.
+                </p>
 
-            <p class="hero__text" data-i18n="hero_text_2">
-                Mon cheminement académique et professionnel s'inscrit à l'intersection des sciences sociales,
-                du management et des dynamiques d'intégration régionale. Titulaire d'un doctorat en études
-                africaines anglophones, avec une spécialisation en intégration régionale, je poursuis également
-                un second doctorat en administration des affaires, dans une logique de perfectionnement continu.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.44s" data-i18n="hero_text_2">
+                    Mon cheminement académique et professionnel s'inscrit à l'intersection des sciences sociales,
+                    du management et des dynamiques d'intégration régionale. Titulaire d'un doctorat en études
+                    africaines anglophones, avec une spécialisation en intégration régionale, je poursuis également
+                    un second doctorat en administration des affaires, dans une logique de perfectionnement continu.
+                </p>
 
-            <p class="hero__text" data-i18n="hero_text_3">
-                Au fil des années, j'ai développé une expertise approfondie dans plusieurs domaines clés :
-                le marketing stratégique, la communication institutionnelle, le management des organisations,
-                ainsi que la gestion axée sur les résultats. Mes travaux et mes interventions portent notamment
-                sur les enjeux de développement socio-économique, la gouvernance des projets et la transformation
-                des organisations dans les contextes africains.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.54s" data-i18n="hero_text_3">
+                    Au fil des années, j'ai développé une expertise approfondie dans plusieurs domaines clés :
+                    le marketing stratégique, la communication institutionnelle, le management des organisations,
+                    ainsi que la gestion axée sur les résultats. Mes travaux et mes interventions portent notamment
+                    sur les enjeux de développement socio-économique, la gouvernance des projets et la transformation
+                    des organisations dans les contextes africains.
+                </p>
 
-            <p class="hero__text" data-i18n="hero_text_4">
-                En parallèle de mes activités académiques, j'interviens comme consultant principal auprès
-                d'institutions publiques, d'organisations internationales et d'entreprises privées. J'accompagne
-                la conception et la mise en œuvre de stratégies de développement, de communication et de mobilisation
-                des ressources, tout en contribuant au renforcement des capacités des acteurs institutionnels.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.62s" data-i18n="hero_text_4">
+                    En parallèle de mes activités académiques, j'interviens comme consultant principal auprès
+                    d'institutions publiques, d'organisations internationales et d'entreprises privées. J'accompagne
+                    la conception et la mise en œuvre de stratégies de développement, de communication et de mobilisation
+                    des ressources, tout en contribuant au renforcement des capacités des acteurs institutionnels.
+                </p>
 
-            <p class="hero__text" data-i18n="hero_text_5">
-                J'ai également conduit des missions d'envergure en marketing stratégique, en suivi-évaluation de projets
-                et en ingénierie de formation, avec une attention constante portée à l'impact concret et durable
-                des actions engagées.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.70s" data-i18n="hero_text_5">
+                    J'ai également conduit des missions d'envergure en marketing stratégique, en suivi-évaluation de projets
+                    et en ingénierie de formation, avec une attention constante portée à l'impact concret et durable
+                    des actions engagées.
+                </p>
 
-            <p class="hero__text" data-i18n="hero_text_6">
-                Mon engagement se traduit aussi par une forte implication dans la formation des jeunes talents et le
-                développement des compétences, à travers l'animation de programmes académiques et professionnels dans
-                plusieurs pays d'Afrique. Convaincu du rôle central du savoir dans la transformation des sociétés,
-                je m'efforce de promouvoir une approche intégrée du développement, fondée sur la connaissance,
-                l'innovation et la coopération régionale.
-            </p>
+                <p class="hero__text anim-fade-up" style="--anim-delay: 0.78s" data-i18n="hero_text_6">
+                    Mon engagement se traduit aussi par une forte implication dans la formation des jeunes talents et le
+                    développement des compétences, à travers l'animation de programmes académiques et professionnels dans
+                    plusieurs pays d'Afrique. Convaincu du rôle central du savoir dans la transformation des sociétés,
+                    je m'efforce de promouvoir une approche intégrée du développement, fondée sur la connaissance,
+                    l'innovation et la coopération régionale.
+                </p>
             </div>
 
         </div>
@@ -184,26 +187,26 @@
 
 
         <!-- ========================================================= 
-        SECTION — ACADEMIC JOURNEY (Vertical timeline enrichie)
+        SECTION — ACADEMIC JOURNEY
         ========================================================= -->
         <section class="academic-journey" aria-labelledby="academic-journey-title">
         <div class="academic-journey__container">
 
             <header class="academic-journey__header">
-            <h2 id="academic-journey-title" class="academic-journey__title" data-i18n="academic_section_title">
-                Parcours Académique
-            </h2>
-            <p class="academic-journey__subtitle" data-i18n="academic_section_subtitle">
-                Mon parcours académique s'est construit à la croisée des sciences sociales,
-                du management et des dynamiques d'intégration régionale, avec une volonté constante
-                de relier la recherche à l'action.
-            </p>
+                <h2 id="academic-journey-title" class="academic-journey__title anim-reveal" data-anim="fade-up" data-i18n="academic_section_title">
+                    Parcours Académique
+                </h2>
+                <p class="academic-journey__subtitle anim-reveal" data-anim="fade-up" data-anim-delay="0.1" data-i18n="academic_section_subtitle">
+                    Mon parcours académique s'est construit à la croisée des sciences sociales,
+                    du management et des dynamiques d'intégration régionale, avec une volonté constante
+                    de relier la recherche à l'action.
+                </p>
             </header>
 
             <div class="timeline" role="list">
 
             <!-- PhD en cours -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.05" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -213,18 +216,16 @@
                     Doctorat (PhD) en Administration des Affaires — Intégration Régionale
                 </p>
                 <p class="timeline__institution" data-i18n="academic_phd1_institution">
-                    University of Lagos (UNILAG), Nigeria
+                    University of Lagos (UNILAG), Nigeria — Faculty of Management Sciences
                 </p>
                 <p class="timeline__description" data-i18n="academic_phd1_description">
-                    Je poursuis actuellement des travaux de recherche centrés sur l'intégration régionale
-                    et la performance des entreprises multinationales dans le cadre de la Zone de Libre-Échange
-                    Continentale Africaine (ZLECAf).
+                    Sujet : « Regional Integration and Corporate Performance: An Empirical Analysis of Nigeria Multinational Firms within the AfCFTA Framework ».
                 </p>
                 </div>
             </article>
 
             <!-- PhD -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -234,17 +235,16 @@
                     Doctorat (PhD) en Études Africaines Anglophones — Intégration Régionale
                 </p>
                 <p class="timeline__institution" data-i18n="academic_phd2_institution">
-                    Université d'Abomey-Calavi (UAC), Bénin
+                    École Doctorale Pluridisciplinaire (EDP-FLASH), Université d'Abomey-Calavi (UAC), Bénin
                 </p>
                 <p class="timeline__description" data-i18n="academic_phd2_description">
-                    Mes recherches ont porté sur le rôle du Nigeria au sein de la CEDEAO et sur les dynamiques
-                    d'intégration régionale en Afrique de l'Ouest.
+                    Sujet : « Nigeria in ECOWAS: Regional Integration in West Africa ».
                 </p>
                 </div>
             </article>
 
             <!-- DEA -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -254,12 +254,12 @@
                     Diplôme d'Études Approfondies (DEA) en Sociologie du Développement
                 </p>
                 <p class="timeline__institution" data-i18n="academic_dea1_institution">
-                    Université d'Abomey-Calavi (UAC)
+                    Université d'Abomey-Calavi (UAC) — FLASH
                 </p>
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -275,14 +275,14 @@
             </article>
 
             <!-- Masters -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
                 <div class="timeline__content">
                 <h3 class="timeline__year" data-i18n="academic_master1_year">2013 – 2016</h3>
                 <p class="timeline__degree" data-i18n="academic_master1_degree">
-                    Master Professionnel en Intégration Régionale — Développement Local
+                    Master Professionnel en Intégration Régionale — option Développement Local (MIRD)
                 </p>
                 <p class="timeline__institution" data-i18n="academic_master1_institution">
                     Université d'Abomey-Calavi (UAC)
@@ -290,7 +290,7 @@
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -306,7 +306,7 @@
             </article>
 
             <!-- Maîtrises -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -321,7 +321,7 @@
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -337,7 +337,7 @@
             </article>
 
             <!-- Licences -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -352,7 +352,7 @@
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -367,7 +367,7 @@
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -383,7 +383,7 @@
             </article>
 
             <!-- Diplômes initiaux -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -398,7 +398,7 @@
                 </div>
             </article>
 
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-left" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -419,25 +419,25 @@
 
 
         <!-- ========================================================= 
-        SECTION — PROFESSIONAL JOURNEY (Version enrichie & structurée)
+        SECTION — PROFESSIONAL JOURNEY
         ========================================================= -->
         <section class="professional-journey" aria-labelledby="professional-journey-title">
         <div class="professional-journey__container">
 
             <header class="professional-journey__header">
-            <h2 id="professional-journey-title" class="professional-journey__title" data-i18n="professional_section_title">
-                Parcours Professionnel
-            </h2>
-            <p class="professional-journey__subtitle" data-i18n="professional_section_subtitle">
-                Mon parcours professionnel s'est construit autour de trois axes majeurs : l'enseignement,
-                le conseil stratégique et la conduite de projets, à l'échelle nationale et internationale.
-            </p>
+                <h2 id="professional-journey-title" class="professional-journey__title anim-reveal" data-anim="fade-up" data-i18n="professional_section_title">
+                    Parcours Professionnel
+                </h2>
+                <p class="professional-journey__subtitle anim-reveal" data-anim="fade-up" data-anim-delay="0.1" data-i18n="professional_section_subtitle">
+                    Mon parcours professionnel s'est construit autour de trois axes majeurs : l'enseignement,
+                    le conseil stratégique et la conduite de projets, à l'échelle nationale et internationale.
+                </p>
             </header>
 
             <div class="timeline" role="list">
 
             <!-- Enseignement -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.05" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -459,14 +459,14 @@
             </article>
 
             <!-- Consultant principal -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
                 <div class="timeline__content">
                 <h3 class="timeline__year" data-i18n="professional_rcg_year">2017 – Aujourd'hui</h3>
                 <p class="timeline__degree" data-i18n="professional_rcg_degree">
-                    Consultant – Formateur Principal / Coordonnateur de Programmes
+                    Directeur Général / Consultant – Formateur Principal
                 </p>
                 <p class="timeline__institution" data-i18n="professional_rcg_institution">
                     Rainbow Consulting Group (RCG) et divers programmes de formation
@@ -481,7 +481,7 @@
             </article>
 
             <!-- Missions internationales / traduction -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -491,7 +491,7 @@
                     Traducteur – Interprète / Chef de Mission
                 </p>
                 <p class="timeline__institution" data-i18n="professional_translation_institution">
-                    Port Autonome de Cotonou, Ivey Business School (Canada), Ministère de l'Économie et des Finances (Bénin)
+                    Port Autonome de Cotonou · Ivey Business School (Western University, Canada) · Ministère de l'Économie et des Finances du Bénin
                 </p>
                 <ul class="timeline__list">
                     <li data-i18n="professional_translation_li1">J'assure la traduction de documents institutionnels, administratifs et scientifiques dans des contextes exigeants.</li>
@@ -502,7 +502,7 @@
             </article>
 
             <!-- Expert marketing -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -524,7 +524,7 @@
             </article>
 
             <!-- Programmes spécifiques -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -545,7 +545,7 @@
             </article>
 
             <!-- Chargé de mission UAC -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -567,7 +567,7 @@
             </article>
 
             <!-- Conseil et études -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -589,7 +589,7 @@
             </article>
 
             <!-- Début carrière -->
-            <article class="timeline__item" role="listitem">
+            <article class="timeline__item anim-reveal" data-anim="fade-right" data-anim-delay="0.08" role="listitem">
                 <div class="timeline__marker">
                 <span class="timeline__dot"></span>
                 </div>
@@ -616,25 +616,25 @@
 
 
         <!-- ========================================================= 
-        SECTION — PHILOSOPHICAL VISION (Version enrichie & institutionnelle)
+        SECTION — PHILOSOPHICAL VISION
         ========================================================= -->
         <section class="philosophical-vision" aria-labelledby="vision-title">
         <div class="philosophical-vision__container">
 
             <header class="philosophical-vision__header">
-            <h2 id="vision-title" class="philosophical-vision__title" data-i18n="vision_section_title">
-                Vision &amp; Philosophie
-            </h2>
-            <p class="philosophical-vision__subtitle" data-i18n="vision_section_subtitle">
-                Ma vision repose sur la transmission du savoir, la transformation des organisations
-                et la construction d'un développement durable, ancré dans les réalités africaines.
-            </p>
+                <h2 id="vision-title" class="philosophical-vision__title anim-reveal" data-anim="fade-up" data-i18n="vision_section_title">
+                    Vision &amp; Philosophie
+                </h2>
+                <p class="philosophical-vision__subtitle anim-reveal" data-anim="fade-up" data-anim-delay="0.1" data-i18n="vision_section_subtitle">
+                    Ma vision repose sur la transmission du savoir, la transformation des organisations
+                    et la construction d'un développement durable, ancré dans les réalités africaines.
+                </p>
             </header>
 
             <div class="philosophical-vision__grid" role="list">
 
             <!-- Enseignement -->
-            <article class="vision-card" role="listitem">
+            <article class="vision-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05" role="listitem">
                 <div class="vision-card__icon">
                 <img src="assets/icons/teaching.svg" alt="">
                 </div>
@@ -654,7 +654,7 @@
             </article>
 
             <!-- Recherche -->
-            <article class="vision-card" role="listitem">
+            <article class="vision-card anim-reveal" data-anim="fade-up" data-anim-delay="0.15" role="listitem">
                 <div class="vision-card__icon">
                 <img src="assets/icons/research.svg" alt="">
                 </div>
@@ -673,7 +673,7 @@
             </article>
 
             <!-- Conseil & expertise -->
-            <article class="vision-card" role="listitem">
+            <article class="vision-card anim-reveal" data-anim="fade-up" data-anim-delay="0.25" role="listitem">
                 <div class="vision-card__icon">
                 <img src="assets/icons/consulting.svg" alt="">
                 </div>
@@ -691,7 +691,7 @@
             </article>
 
             <!-- Développement -->
-            <article class="vision-card" role="listitem">
+            <article class="vision-card anim-reveal" data-anim="fade-up" data-anim-delay="0.35" role="listitem">
                 <div class="vision-card__icon">
                 <img src="assets/icons/development.svg" alt="">
                 </div>
@@ -710,11 +710,11 @@
 
             </div>
 
-            <footer class="philosophical-vision__quote">
-            <p class="philosophical-vision__quote-text" data-i18n="vision_quote">
-                « Je mets le savoir, l'expertise et l'innovation au service d'un développement durable,
-                inclusif et souverain en Afrique. »
-            </p>
+            <footer class="philosophical-vision__quote anim-reveal" data-anim="fade-up" data-anim-delay="0.1">
+                <p class="philosophical-vision__quote-text" data-i18n="vision_quote">
+                    « Je mets le savoir, l'expertise et l'innovation au service d'un développement durable,
+                    inclusif et souverain en Afrique. »
+                </p>
             </footer>
 
         </div>
@@ -728,15 +728,15 @@
         <div class="final-cta__container">
 
             <header class="final-cta__header">
-            <h2 id="cta-title" class="final-cta__title" data-i18n="cta_section_title">Aller plus loin</h2>
-            <p class="final-cta__subtitle" data-i18n="cta_section_subtitle">
-                Découvrez mes recherches, mes publications et mes collaborations.
-            </p>
+                <h2 id="cta-title" class="final-cta__title anim-reveal" data-anim="fade-up" data-i18n="cta_section_title">Aller plus loin</h2>
+                <p class="final-cta__subtitle anim-reveal" data-anim="fade-up" data-anim-delay="0.1" data-i18n="cta_section_subtitle">
+                    Découvrez mes recherches, mes publications et mes collaborations.
+                </p>
             </header>
 
             <div class="final-cta__cards">
 
-            <article class="cta-card">
+            <article class="cta-card anim-reveal" data-anim="fade-up" data-anim-delay="0.1">
                 <h3 class="cta-card__title" data-i18n="cta_publications_title">Explorer mes travaux</h3>
                 <p class="cta-card__text" data-i18n="cta_publications_text">
                 Consultez mes publications scientifiques et mes contributions sur le marketing,
@@ -745,7 +745,7 @@
                 <a href="#" class="cta-card__button" data-i18n="cta_publications_button">Découvrir les publications</a>
             </article>
 
-            <article class="cta-card">
+            <article class="cta-card anim-reveal" data-anim="fade-up" data-anim-delay="0.2">
                 <h3 class="cta-card__title" data-i18n="cta_contact_title">Me contacter</h3>
                 <p class="cta-card__text" data-i18n="cta_contact_text">
                 Échangeons autour de vos projets de formation, de recherche ou de conseil stratégique.
@@ -766,13 +766,13 @@
         <div class="footer__container">
 
             <!-- Branding / Identity -->
-            <div class="footer__brand">
+            <div class="footer__brand anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
             <h2 class="footer__name" data-i18n="footer_name">Dr. C. Joscky Ibrahim AHO</h2>
             <p class="footer__tagline" data-i18n="footer_tagline">Construire le succès de demain</p>
             </div>
 
             <!-- Quick Links -->
-            <nav class="footer__nav" aria-labelledby="footer-nav-title">
+            <nav class="footer__nav anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-labelledby="footer-nav-title">
             <h2 id="footer-nav-title" class="footer__title" data-i18n="footer_nav_title">Liens rapides</h2>
             <ul class="footer__list">
                 <li class="footer__item">
@@ -791,24 +791,24 @@
             </nav>
 
             <!-- Contact -->
-            <address class="footer__contact" aria-labelledby="footer-contact-title">
+            <address class="footer__contact anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-labelledby="footer-contact-title">
             <h2 id="footer-contact-title" class="footer__title" data-i18n="footer_contact_title">Contact</h2>
             <ul class="footer__list">
                 <li class="footer__item">
-                <a href="mailto:contact@email.com" class="footer__link">
-                    contact@email.com
+                <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
+                    ahoibrahim66@gmail.com
                 </a>
                 </li>
                 <li class="footer__item">
-                <a href="tel:+33612345678" class="footer__link">
-                    +33 6 12 34 56 78
+                <a href="tel:+22995962452" class="footer__link">
+                    +229 95 96 24 52
                 </a>
                 </li>
             </ul>
             </address>
 
             <!-- Social Links -->
-            <div class="footer__social" aria-labelledby="footer-social-title">
+            <div class="footer__social anim-reveal" data-anim="fade-up" data-anim-delay="0.2" aria-labelledby="footer-social-title">
             <h2 id="footer-social-title" class="footer__title" data-i18n="footer_social_title">Réseaux sociaux</h2>
 
             <ul class="footer__social-list">
@@ -867,8 +867,6 @@
         <script src="/js/global/backtop.js"></script>
         <script src="/js/global/menu.js"></script>
         <script src="/js/02-about/i18n.js"></script>
+        <script src="/js/02-about/animations.js"></script>
     </body>
 </html>
-
-
-
