@@ -1,139 +1,55 @@
 /**
- * animations.js
- * Gestion des animations au scroll — Publications
- * À placer dans : js/03-publications/animations.js
- *
- * Stratégie :
- *  - Intersection Observer pour les apparitions au scroll
- *  - Les éléments du header s'animent via CSS pur (chargement)
- *  - Les cartes se révèlent en stagger selon leur position dans la liste
- *  - Un seul Observer pour toute la page (performance optimale)
+ * animations.js — Animations au scroll
+ * Page : Publications — Site Dr. C. Joscky Ibrahim AHO
+ * Intersection Observer API — propre, moderne, optimisé
  */
 
-(function () {
-  'use strict';
+'use strict';
 
-  /* -------------------------------------------------------
-     Vérification support Intersection Observer
-  ------------------------------------------------------- */
-  if (!('IntersectionObserver' in window)) {
-    // Fallback : rendre tous les éléments visibles immédiatement
-    document.querySelectorAll('.anim-reveal, .anim-card').forEach(function (el) {
-      el.classList.add('is-visible');
-    });
-    return;
-  }
+/* ─────────────────────────────────────────────
+   RESPECT DE LA PRÉFÉRENCE UTILISATEUR
+   ───────────────────────────────────────────── */
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* -------------------------------------------------------
-     Constantes
-  ------------------------------------------------------- */
-  const STAGGER_BASE_MS  = 80;   // délai entre chaque carte d'un même groupe
-  const STAGGER_MAX      = 4;    // plafond du stagger (évite des attentes trop longues)
-  const THRESHOLD        = 0.12; // % de l'élément visible pour déclencher
-  const ROOT_MARGIN      = '0px 0px -48px 0px'; // déclenche légèrement avant le bas du viewport
+if (!prefersReducedMotion) {
+  document.addEventListener('DOMContentLoaded', () => {
+    initScrollReveal();
+  });
+}
 
-  /* -------------------------------------------------------
-     Utilitaire : appliquer un délai de transition dynamique
-  ------------------------------------------------------- */
-  function applyDelay(el, delayMs) {
-    el.style.transitionDelay = delayMs + 'ms';
-  }
 
-  function clearDelay(el) {
-    // On retire le délai après l'animation pour ne pas bloquer les hovers
-    el.addEventListener('transitionend', function handler() {
-      el.style.transitionDelay = '';
-      el.removeEventListener('transitionend', handler);
-    });
-  }
+/* ─────────────────────────────────────────────
+   SCROLL REVEAL — Intersection Observer
+   ───────────────────────────────────────────── */
+function initScrollReveal() {
+  const elements = document.querySelectorAll('.anim-reveal');
+  if (!elements.length) return;
 
-  /* -------------------------------------------------------
-     Observer principal : .anim-reveal (sections, headers, textes)
-  ------------------------------------------------------- */
-  const revealObserver = new IntersectionObserver(
-    function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-
-        const el    = entry.target;
-        const delay = parseInt(el.dataset.animDelay || '0', 10);
-        const ms    = Math.min(delay, STAGGER_MAX) * STAGGER_BASE_MS;
-
-        applyDelay(el, ms);
-        el.classList.add('is-visible');
-        clearDelay(el);
-
-        // On n'observe plus cet élément une fois visible
-        revealObserver.unobserve(el);
-      });
-    },
-    {
-      threshold:  THRESHOLD,
-      rootMargin: ROOT_MARGIN,
+  // Injection des délais CSS depuis data-anim-delay
+  elements.forEach(el => {
+    const delay = el.getAttribute('data-anim-delay');
+    if (delay) {
+      el.style.setProperty('--anim-delay', `${delay}s`);
     }
-  );
+  });
 
-  /* -------------------------------------------------------
-     Observer des cartes : .anim-card
-     Stagger calculé dynamiquement par groupe (même liste parente)
-  ------------------------------------------------------- */
-  const cardObserver = new IntersectionObserver(
-    function (entries) {
-      // Regrouper les entrées intersectantes par liste parente
-      const visibleByParent = new Map();
-
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        const parent = entry.target.parentElement;
-        if (!visibleByParent.has(parent)) {
-          visibleByParent.set(parent, []);
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          // On arrête d'observer une fois l'animation jouée
+          observer.unobserve(entry.target);
         }
-        visibleByParent.get(parent).push(entry.target);
-      });
-
-      // Pour chaque groupe, calculer le stagger à partir de l'index visible
-      visibleByParent.forEach(function (cards) {
-        cards.forEach(function (card, index) {
-          // On récupère l'index dans la liste complète des cartes visibles
-          const staggerIndex = Math.min(index, STAGGER_MAX);
-          const delayMs      = staggerIndex * STAGGER_BASE_MS;
-
-          applyDelay(card, delayMs);
-          card.classList.add('is-visible');
-          clearDelay(card);
-
-          cardObserver.unobserve(card);
-        });
       });
     },
     {
-      threshold:  THRESHOLD,
-      rootMargin: ROOT_MARGIN,
+      // Déclenche quand 10% de l'élément est visible
+      threshold: 0.1,
+      // Légère marge pour déclencher un peu avant l'entrée dans le viewport
+      rootMargin: '0px 0px -50px 0px',
     }
   );
 
-  /* -------------------------------------------------------
-     Initialisation : observer tous les éléments cibles
-  ------------------------------------------------------- */
-  function init() {
-    // Éléments à révélation simple
-    document.querySelectorAll('.anim-reveal').forEach(function (el) {
-      revealObserver.observe(el);
-    });
-
-    // Cartes de publication
-    document.querySelectorAll('.anim-card').forEach(function (el) {
-      cardObserver.observe(el);
-    });
-  }
-
-  /* -------------------------------------------------------
-     Lancement après chargement du DOM
-  ------------------------------------------------------- */
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
-  }
-
-})();
+  elements.forEach(el => observer.observe(el));
+}

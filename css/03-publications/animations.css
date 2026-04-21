@@ -1,32 +1,12 @@
-/* =====================================================
-   animations.css
-   Animations professionnelles — Publications
-   À placer dans : css/03-publications/animations.css
-   ===================================================== */
+/* =============================================================
+   animations.css — Animations professionnelles & discrètes
+   Page : Publications — Site Dr. C. Joscky Ibrahim AHO
+   ============================================================= */
 
 
-/* =====================================================
-   1. VARIABLES & RÉGLAGES GLOBAUX
-   ===================================================== */
-
-:root {
-  --anim-duration-fast:    0.45s;
-  --anim-duration-base:    0.65s;
-  --anim-duration-slow:    0.85s;
-  --anim-easing:           cubic-bezier(0.22, 1, 0.36, 1);
-  --anim-easing-soft:      cubic-bezier(0.4, 0, 0.2, 1);
-
-  /* Décalages de délai (stagger) */
-  --anim-stagger-0:        0ms;
-  --anim-stagger-1:        80ms;
-  --anim-stagger-2:        160ms;
-  --anim-stagger-3:        240ms;
-  --anim-stagger-4:        320ms;
-  --anim-stagger-5:        400ms;
-  --anim-stagger-6:        480ms;
-}
-
-/* Respect du préférence "pas d'animation" */
+/* ─────────────────────────────────────────────
+   1. PRÉFÉRENCE ACCESSIBILITÉ
+   ───────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -38,136 +18,41 @@
 }
 
 
-/* =====================================================
-   2. ÉTATS INITIAUX (avant animation)
-      Les éléments sont invisibles jusqu'à activation JS
-   ===================================================== */
-
-/* Fade + montée douce — pour sections, headers, textes */
+/* ─────────────────────────────────────────────
+   2. ÉTAT INITIAL — éléments cachés avant révélation
+   ───────────────────────────────────────────── */
 .anim-reveal {
   opacity: 0;
-  transform: translateY(22px);
   transition:
-    opacity  var(--anim-duration-base) var(--anim-easing),
-    transform var(--anim-duration-base) var(--anim-easing);
+    opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: var(--anim-delay, 0s);
+  will-change: opacity, transform;
 }
 
-/* Fade + montée pour les cartes (délai variable) */
-.anim-card {
-  opacity: 0;
-  transform: translateY(28px);
-  transition:
-    opacity   var(--anim-duration-slow) var(--anim-easing),
-    transform var(--anim-duration-slow) var(--anim-easing);
-}
+.anim-reveal[data-anim="fade-up"]    { transform: translateY(28px); }
+.anim-reveal[data-anim="fade-left"]  { transform: translateX(-28px); }
+.anim-reveal[data-anim="fade-right"] { transform: translateX(28px); }
+.anim-reveal[data-anim="fade-in"]    { transform: none; }
 
-/* Fade descendant — pour les éléments de navigation du header */
-.anim-fade-down {
-  opacity: 0;
-  transform: translateY(-14px);
-  transition:
-    opacity   var(--anim-duration-fast) var(--anim-easing-soft),
-    transform var(--anim-duration-fast) var(--anim-easing-soft);
-}
-
-
-/* =====================================================
-   3. ÉTAT ACTIVÉ (classe ajoutée par JS)
-   ===================================================== */
-
-.anim-reveal.is-visible,
-.anim-card.is-visible,
-.anim-fade-down.is-visible {
+.anim-reveal.is-visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translate(0, 0);
 }
 
 
-/* =====================================================
-   4. GESTION DES DÉLAIS (stagger)
-      Utilisés via data-anim-delay="N" côté JS
-   ===================================================== */
-
-.anim-card[data-anim-delay="0"],
-.anim-reveal[data-anim-delay="0"],
-.anim-fade-down[data-anim-delay="0"] {
-  transition-delay: var(--anim-stagger-0);
-}
-.anim-card[data-anim-delay="1"],
-.anim-reveal[data-anim-delay="1"],
-.anim-fade-down[data-anim-delay="1"] {
-  transition-delay: var(--anim-stagger-1);
-}
-.anim-card[data-anim-delay="2"],
-.anim-reveal[data-anim-delay="2"],
-.anim-fade-down[data-anim-delay="2"] {
-  transition-delay: var(--anim-stagger-2);
-}
-.anim-reveal[data-anim-delay="3"],
-.anim-fade-down[data-anim-delay="3"] {
-  transition-delay: var(--anim-stagger-3);
-}
-.anim-reveal[data-anim-delay="4"],
-.anim-fade-down[data-anim-delay="4"] {
-  transition-delay: var(--anim-stagger-4);
-}
-.anim-reveal[data-anim-delay="5"],
-.anim-fade-down[data-anim-delay="5"] {
-  transition-delay: var(--anim-stagger-5);
-}
-.anim-reveal[data-anim-delay="6"],
-.anim-fade-down[data-anim-delay="6"] {
-  transition-delay: var(--anim-stagger-6);
+/* ─────────────────────────────────────────────
+   3. HERO DE PAGE — animation au chargement immédiat
+   ───────────────────────────────────────────── */
+.anim-fade-up {
+  animation: fadeUpIn 0.75s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: var(--anim-delay, 0s);
 }
 
-/* Une fois visible, on réinitialise le délai pour ne pas
-   bloquer d'éventuelles transitions futures (hover, etc.) */
-.anim-reveal.is-visible,
-.anim-card.is-visible,
-.anim-fade-down.is-visible {
-  transition-delay: 0ms;
-}
-
-
-/* =====================================================
-   5. ANIMATION D'ENTRÉE DU HEADER (au chargement)
-      Le header s'anime immédiatement, sans scroll
-   ===================================================== */
-
-.anim-header {
-  animation: headerSlideIn var(--anim-duration-base) var(--anim-easing) both;
-}
-
-@keyframes headerSlideIn {
+@keyframes fadeUpIn {
   from {
     opacity: 0;
-    transform: translateY(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Les éléments internes du header s'animent avec délai
-   dès le chargement (pas de scroll nécessaire) */
-.anim-fade-down {
-  animation: fadeDown var(--anim-duration-fast) var(--anim-easing-soft) both;
-}
-
-/* Délais pour l'animation d'entrée au chargement */
-.anim-fade-down[data-anim-delay="0"] { animation-delay: 0.15s; }
-.anim-fade-down[data-anim-delay="1"] { animation-delay: 0.22s; }
-.anim-fade-down[data-anim-delay="2"] { animation-delay: 0.28s; }
-.anim-fade-down[data-anim-delay="3"] { animation-delay: 0.34s; }
-.anim-fade-down[data-anim-delay="4"] { animation-delay: 0.40s; }
-.anim-fade-down[data-anim-delay="5"] { animation-delay: 0.46s; }
-.anim-fade-down[data-anim-delay="6"] { animation-delay: 0.52s; }
-
-@keyframes fadeDown {
-  from {
-    opacity: 0;
-    transform: translateY(-14px);
+    transform: translateY(22px);
   }
   to {
     opacity: 1;
@@ -176,61 +61,59 @@
 }
 
 
-/* =====================================================
-   6. MICRO-INTERACTIONS AU HOVER
-      Légères, non intrusives
-   ===================================================== */
-
-/* Image de couverture : zoom doux au survol de la carte */
-.publication-card__content:hover .publication-card__image {
-  transform: scale(1.03);
-  transition: transform 0.55s var(--anim-easing);
+/* ─────────────────────────────────────────────
+   4. PUBLICATION CARDS — hover premium
+   ───────────────────────────────────────────── */
+.publication-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.publication-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.09);
+}
+
+/* Image de couverture : légère scale au hover */
 .publication-card__image {
-  transition: transform 0.55s var(--anim-easing);
-  will-change: transform;
+  transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-/* Liens d'action : déplacement subtil vers la droite */
+.publication-card:hover .publication-card__image {
+  transform: scale(1.04);
+}
+
+/* Liens PDF / externe */
 .publication-card__link {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  transition:
-    opacity   0.25s var(--anim-easing-soft),
-    transform 0.25s var(--anim-easing-soft);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: inline-block;
 }
 
 .publication-card__link:hover {
-  transform: translateX(3px);
+  opacity: 0.7;
+  transform: translateX(2px);
 }
 
-/* Liens footer */
+
+/* ─────────────────────────────────────────────
+   8. MICRO-INTERACTIONS PARTAGÉES
+  ───────────────────────────────────────────── */
+
+/* Footer links */
 .footer__link {
-  transition: opacity 0.2s var(--anim-easing-soft);
+  transition: opacity 0.2s ease;
+}
+.footer__link:hover {
+  opacity: 0.7;
 }
 
-.footer__link:hover {
+/* Liens sociaux footer */
+.footer__social-link {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.footer__social-link:hover {
+  transform: translateY(-3px);
   opacity: 0.75;
 }
 
-/* Icônes réseaux sociaux */
-.footer__social-link {
-  transition: transform 0.3s var(--anim-easing);
-}
 
-.footer__social-link:hover {
-  transform: translateY(-3px);
-}
 
-/* Bouton retour en haut */
-.backtotop {
-  transition:
-    opacity   0.3s var(--anim-easing-soft),
-    transform 0.3s var(--anim-easing);
-}
-
-.backtotop:hover {
-  transform: translateY(-4px);
-}

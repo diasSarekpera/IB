@@ -61,10 +61,10 @@
         <!-- =========================
             HEADER
         ========================= -->
-        <header class="header anim-header">
+        <header class="header">
             <div class="header__container container">
 
-                <div class="header__brand anim-fade-down" data-anim-delay="0">
+                <div class="header__brand">
                     <a href="/index.html" class="header__logo" aria-label="Accueil du site">
                         <img src="/assets/03-images/logo.png" alt="">
                     </a>
@@ -72,25 +72,25 @@
 
                 <nav class="header__nav" id="header-nav" aria-label="Navigation principale">
                     <ul class="header__nav-list">
-                        <li class="header__nav-item anim-fade-down" data-anim-delay="1">
+                        <li class="header__nav-item">
                             <a href="/index.html" class="header__nav-link" data-i18n="nav_home">Accueil</a>
                         </li>
-                        <li class="header__nav-item anim-fade-down" data-anim-delay="2">
+                        <li class="header__nav-item">
                             <a href="/pages/01-about.html" class="header__nav-link" data-i18n="nav_about">À propos</a>
                         </li>
-                        <li class="header__nav-item anim-fade-down" data-anim-delay="3">
+                        <li class="header__nav-item">
                             <a href="/pages/02-publications.html" class="header__nav-link" data-i18n="nav_publications">Publications</a>
                         </li>
-                        <li class="header__nav-item anim-fade-down" data-anim-delay="4">
+                        <li class="header__nav-item">
                             <a href="/pages/03-media.html" class="header__nav-link" data-i18n="nav_media">Médias</a>
                         </li>
-                        <li class="header__nav-item anim-fade-down" data-anim-delay="5">
+                        <li class="header__nav-item">
                             <a href="/index.html#contact" class="header__nav-link" data-i18n="nav_contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
 
-                <div class="header__controls anim-fade-down" data-anim-delay="6">
+                <div class="header__controls">
                     <select id="language" class="header__lang-select" aria-label="Langue">
                         <option value="fr">FR</option>
                         <option value="en">EN</option>
@@ -122,8 +122,8 @@
         
             <!-- En-tête de section -->
             <header class="publications__header">
-                <h1 id="publications-title" class="publications__title anim-reveal" data-i18n="publications.title">Publications</h1>
-                <p class="publications__intro anim-reveal" data-anim-delay="1" data-i18n="publications.intro">
+                <h1 id="publications-title" class="publications__title anim-fade-up" style="--anim-delay: 0.1s" data-i18n="publications.title">Publications</h1>
+                <p class="publications__intro anim-fade-up" style="--anim-delay: 0.25s" data-i18n="publications.intro">
                 À travers mes travaux, je m'intéresse aux dynamiques d'intégration régionale, aux stratégies
                 de développement socio-économique, ainsi qu'aux enjeux de gouvernance, de communication et de
                 transformation organisationnelle en Afrique. Cette section présente une sélection de mes ouvrages,
@@ -136,7 +136,7 @@
             ========================================================= -->
             <section class="publications__category" aria-labelledby="books-title">
                 
-                <header class="publications__category-header anim-reveal">
+                <header class="publications__category-header anim-reveal" data-anim="fade-up">
                 <h2 id="books-title" class="publications__category-title" data-i18n="publications.books.category_title">
                     Ouvrages &amp; livres publiés
                 </h2>
@@ -149,7 +149,7 @@
                 <ul class="publications__list">
 
                 <!-- Livre 1 -->
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -180,7 +180,7 @@
                 </li>
 
                 <!-- Livre 2 -->
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -211,7 +211,7 @@
                 </li>
 
                 <!-- Livre 3 -->
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -242,7 +242,7 @@
                 </li>
 
                 <!-- Livre 4 -->
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -273,7 +273,7 @@
                 </li>
 
                 <!-- Livre 5 -->
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -304,7 +304,7 @@
                 </li>
 
                 <!-- Livre 6 -->
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -335,7 +335,7 @@
                 </li>
 
                 <!-- Livre 7 -->
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img 
@@ -373,7 +373,7 @@
             ========================================================= -->
             <section class="publications__category" aria-labelledby="articles-title">
                 
-                <header class="publications__category-header anim-reveal">
+                <header class="publications__category-header anim-reveal" data-anim="fade-up">
                 <h2 id="articles-title" class="publications__category-title" data-i18n="publications.articles.category_title">
                     Articles &amp; études scientifiques
                 </h2>
@@ -385,7 +385,8 @@
 
                 <ul class="publications__list">
 
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <!-- Article 1 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Assessing the Economic Strategies of Benin from 1960 to 2000" class="publication-card__image" data-i18n-title="publications.articles.article1.img_alt">
@@ -410,7 +411,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <!-- Article 2 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Economic Impacts of the Achievements of ECOWAS in Member States" class="publication-card__image" data-i18n-title="publications.articles.article2.img_alt">
@@ -435,7 +437,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <!-- Article 3 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Regional Integration in West Africa: Challenges and Perspectives" class="publication-card__image" data-i18n-title="publications.articles.article3.img_alt">
@@ -460,7 +463,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <!-- Article 4 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : La réalité de la libre circulation des personnes et des véhicules sur le corridor Abidjan-Lagos" class="publication-card__image" data-i18n-title="publications.articles.article4.img_alt">
@@ -485,7 +489,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <!-- Article 5 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Les échanges commerciaux entre la Mauritanie et la CEDEAO" class="publication-card__image" data-i18n-title="publications.articles.article5.img_alt">
@@ -510,7 +515,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <!-- Article 6 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Assessing the free movement of goods and peoples in West Africa" class="publication-card__image" data-i18n-title="publications.articles.article6.img_alt">
@@ -535,7 +541,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <!-- Article 7 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Rôle de leadership du Nigeria dans la CEDEAO" class="publication-card__image" data-i18n-title="publications.articles.article7.img_alt">
@@ -560,7 +567,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <!-- Article 8 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Influence of English language on exchanges between Benin and Nigeria" class="publication-card__image" data-i18n-title="publications.articles.article8.img_alt">
@@ -585,7 +593,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <!-- Article 9 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Publication : Influence of Nigeria in West Africa: Challenges and Prospects" class="publication-card__image" data-i18n-title="publications.articles.article9.img_alt">
@@ -618,7 +627,7 @@
             ========================================================= -->
             <section class="publications__category" aria-labelledby="upcoming-title">
                 
-                <header class="publications__category-header anim-reveal">
+                <header class="publications__category-header anim-reveal" data-anim="fade-up">
                 <h2 id="upcoming-title" class="publications__category-title" data-i18n="publications.upcoming.category_title">
                     Livres à paraître
                 </h2>
@@ -630,7 +639,8 @@
 
                 <ul class="publications__list">
 
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <!-- Upcoming 1 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Livre à paraître : Intégration socio-culturelle des étudiants béninois revenus de la Côte d'Ivoire" class="publication-card__image" data-i18n-title="publications.upcoming.upcoming1.img_alt">
@@ -653,7 +663,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="1">
+                <!-- Upcoming 2 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.12">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Livre à paraître : Institutions sécuritaires et recompositions sociales en Afrique de l'Ouest" class="publication-card__image" data-i18n-title="publications.upcoming.upcoming2.img_alt">
@@ -676,7 +687,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="2">
+                <!-- Upcoming 3 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.19">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Livre à paraître : Sexualité numérique et économie du désir" class="publication-card__image" data-i18n-title="publications.upcoming.upcoming3.img_alt">
@@ -699,7 +711,8 @@
                     </article>
                 </li>
 
-                <li class="publication-card anim-card" data-anim-delay="0">
+                <!-- Upcoming 4 -->
+                <li class="publication-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
                     <article class="publication-card__content">
                     <div class="publication-card__media">
                         <img src="../assets/03-images/pub-placeholder.png" alt="Livre à paraître : Assessing the social influence of Nigeria in ECOWAS" class="publication-card__image" data-i18n-title="publications.upcoming.upcoming4.img_alt">
@@ -733,88 +746,98 @@
         ========================= -->
         <footer class="site-footer" role="contentinfo">
         
-        <div class="footer__container">
+            <div class="footer__container">
 
-            <!-- Branding / Identity -->
-            <div class="footer__brand anim-reveal">
-            <h2 class="footer__name">Dr. C. Joscky Ibrahim AHO</h2>
-            <p class="footer__tagline" data-i18n="footer.tagline">Construire le succès de demain</p>
-            </div>
+                <!-- Branding / Identity -->
+                <div class="footer__brand anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                <h2 class="footer__name">Dr. C. Joscky Ibrahim AHO</h2>
+                <p class="footer__tagline" data-i18n="footer_tagline">Construire le succès de demain</p>
+                </div>
 
-            <!-- Quick Links -->
-            <nav class="footer__nav anim-reveal" data-anim-delay="1" aria-labelledby="footer-nav-title">
-            <h2 id="footer-nav-title" class="footer__title" data-i18n="footer.nav_title">Liens rapides</h2>
-            <ul class="footer__list">
-                <li class="footer__item">
-                <a href="/index.html" class="footer__link" data-i18n="footer.nav_home">Accueil</a>
-                </li>
-                <li class="footer__item">
-                <a href="/pages/01-about.html" class="footer__link" data-i18n="footer.nav_about">À propos</a>
-                </li>
-                <li class="footer__item">
-                <a href="/pages/02-publications.html" class="footer__link" data-i18n="footer.nav_expertise">Publications</a>
-                </li>
-                <li class="footer__item">
-                <a href="/index.html#contact" class="footer__link" data-i18n="footer.nav_contact">Contact</a>
-                </li>
-            </ul>
-            </nav>
+                <!-- Quick Links -->
+                <nav class="footer__nav anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-labelledby="footer-nav-title">
+                <h2 id="footer-nav-title" class="footer__title" data-i18n="footer_links">Liens rapides</h2>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" data-i18n="footer_link_home">Accueil</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_about">À propos</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_expertise">Expertise</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_contact">Contact</a>
+                    </li>
+                </ul>
+                </nav>
 
-            <!-- Contact -->
-            <address class="footer__contact anim-reveal" data-anim-delay="2" aria-labelledby="footer-contact-title">
-            <h2 id="footer-contact-title" class="footer__title" data-i18n="footer.contact_title">Contact</h2>
-            <ul class="footer__list">
-                <li class="footer__item">
-                <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
-                    ahoibrahim66@gmail.com
-                </a>
-                </li>
-                <li class="footer__item">
-                <a href="tel:+22995962452" class="footer__link">
-                    +229 95 96 24 52
-                </a>
-                </li>
-            </ul>
-            </address>
-
-            <!-- Social Links -->
-            <div class="footer__social anim-reveal" data-anim-delay="3" aria-labelledby="footer-social-title">
-            <h2 id="footer-social-title" class="footer__title" data-i18n="footer.social_title">Réseaux sociaux</h2>
-            <ul class="footer__social-list">
-                <li>
-                <a href="#" class="footer__social-link" aria-label="LinkedIn">
-                    <span class="footer__icon" aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></span>
-                </a>
-                </li>
-                <li>
-                <a href="#" class="footer__social-link" aria-label="Twitter">
-                    <span class="footer__icon" aria-hidden="true"><i class="fa-brands fa-x-twitter"></i></span>
-                </a>
-                </li>
-                <li>
-                <a href="#" class="footer__social-link" aria-label="Instagram">
-                    <span class="footer__icon" aria-hidden="true"><i class="fa-brands fa-instagram"></i></span>
-                </a>
-                </li>
-            </ul>
-            </div>
-
-        </div>
-
-        <!-- Separator -->
-        <hr class="footer__separator">
-
-            <!-- Bottom Bar -->
-            <div class="footer__bottom anim-reveal">
-                <p class="footer__copyright" data-i18n="footer.copyright">
-                    &copy; 2026 Dr. C. Joscky Ibrahim AHO - Tous droits réservés
-                </p>
-                <p class="footer__credits">
-                    <a href="https://dskportfolio.onrender.com/" class="footer__link" data-i18n="footer.credits">
-                        Conception : Dias SARE KPERA <i class="fa-solid fa-chevron-right"></i>
+                <!-- Contact -->
+                <address class="footer__contact anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-labelledby="footer-contact-title">
+                <h2 id="footer-contact-title" class="footer__title" data-i18n="footer_contact">Contact</h2>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                    <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
+                        ahoibrahim66@gmail.com
                     </a>
-                </p>
+                    </li>
+                    <li class="footer__item">
+                    <a href="tel:+22995962452" class="footer__link">
+                        +229 95 96 24 52
+                    </a>
+                    </li>
+                </ul>
+                </address>
+
+                <!-- Social Links -->
+                <div class="footer__social anim-reveal" data-anim="fade-up" data-anim-delay="0.2" aria-labelledby="footer-social-title">
+                <h2 id="footer-social-title" class="footer__title" data-i18n="footer_social">Réseaux sociaux</h2>
+
+                <ul class="footer__social-list">
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+
             </div>
+
+            <!-- Separator -->
+            <hr class="footer__separator">
+
+                <!-- Bottom Bar -->
+                <div class="footer__bottom">
+                    <p class="footer__copyright">
+                    &copy; 2026 Dr. C. Joscky Ibrahim AHO - <span data-i18n="footer_rights">Tous droits réservés</span>
+                    </p>
+
+                    <p class="footer__credits">
+                        <a href="https://dskportfolio.onrender.com/" class="footer__link">
+                            <span data-i18n="footer_design">Conception : Dias SARE KPERA</span> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </p>
+                </div>
 
         </footer>
 
@@ -825,10 +848,11 @@
         <script src="../js/global/backtop.js"></script>
         <script src="/js/global/menu.js"></script>
         <script src="/js/03-publications/i18n.js"></script>
-
-        <!-- =========================
-            JS ANIMATIONS
-        ========================== -->
         <script src="/js/03-publications/animations.js"></script>
     </body>
 </html>
+
+
+
+
+
