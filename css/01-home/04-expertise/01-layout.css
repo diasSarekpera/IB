@@ -1,0 +1,120 @@
+/* =========================================
+   01 - LAYOUT : SECTION EXPERTISE
+   Objectif : structure uniquement (Flexbox)
+   Aucun style graphique (couleurs, ombres, typo...)
+========================================= */
+
+.expertise {
+  padding: 6rem 1rem;
+}
+
+.expertise__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.expertise__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expertise__title {
+  margin: 0;
+}
+
+.expertise__divider {
+  width: 100%;
+  height: 2px;
+}
+
+/* =========================
+   GRID (FLEX)
+========================= */
+
+.expertise__grid {
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+}
+
+.expertise__grid > .expertise-card {
+  flex: 1;
+  min-width: 0;
+}
+
+/* =========================
+   CARD STRUCTURE
+========================= */
+
+.expertise-card {
+  padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Header icon + title */
+.expertise-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.expertise-card__icon {
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expertise-card__title {
+  margin: 0;
+}
+
+/* Text */
+.expertise-card__description {
+  margin: 0;
+  max-width: 36ch;
+}
+
+/* Separator */
+.expertise-card__separator {
+  width: 100%;
+  height: 1px;
+}
+
+/* Experience row */
+.expertise-card__experience {
+  margin: 0;
+
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* =========================
+   RESPONSIVE BASE (FACILE)
+   (Sans media queries imposées)
+========================= */
+
+/*
+  Pour passer en responsive plus tard :
+  .expertise__grid { flex-direction: column; }
+*/
+
+

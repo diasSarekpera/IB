@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="fr" data-i18n-title="page_title">
+    <head>
+    <!-- =========================
+        META BASIQUES
+    ========================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Dr. C. Joscky Ibrahim AHO | Enseignant-Chercheur & Expert en Management</title>
+
+    <meta name="description" content="Site officiel de Dr. C. Joscky Ibrahim AHO, enseignant-chercheur et expert en marketing, management, intégration régionale et développement local."
+    data-i18n-meta="meta_description">
+    <meta name="author" content="Dr. C. Joscky Ibrahim AHO">
+    <meta name="robots" content="index, follow">
+
+    <!-- =========================
+        OPEN GRAPH (Facebook / WhatsApp)
+    ========================== -->
+    <meta property="og:title" content="Dr. C. Joscky Ibrahim AHO" data-i18n-meta="og_title">
+    <meta property="og:description" content="Enseignant-Chercheur, Consultant et Expert en marketing, management et développement local." data-i18n-meta="og_description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://votre-site.com/">
+    <meta property="og:image" content="https://votre-site.com/assets/03-images/i.png">
+
+    <!-- =========================
+        TWITTER CARD
+    ========================== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dr. C. Joscky Ibrahim AHO" data-i18n-meta="twitter_title">
+    <meta name="twitter:description" content="Enseignant-Chercheur, Consultant et Expert en marketing, management et développement local." data-i18n-meta="twitter_description">
+    <meta name="twitter:image" content="https://votre-site.com/assets/03-images/i.png">
+
+    <!-- =========================
+        FAVICON
+    ========================== -->
+    <link rel="shortcut icon" href="./assets/03-images/favicon.ico" type="image/x-icon">
+
+    <!-- =========================
+        FONT AWESOME
+    ========================== -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-..."
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+
+    <!-- =========================
+        CSS PRINCIPAL
+    ========================== -->
+    <link rel="stylesheet" href="./css/01-home/main.css">
+
+    <!-- =========================
+        CSS ANIMATIONS
+    ========================== -->
+    <link rel="stylesheet" href="./css/01-home/animations.css">
+    </head>
+    <body id="top" class="home">
+        <!-- =========================
+            HEADER + HERO SECTION
+            Page d'accueil - Site du Dr AHO KORRO Ibrahim
+        ========================= -->
+        <header class="header">
+            <div class="header__container container">
+
+                <div class="header__brand">
+                    <a href="./index.html" class="header__logo" aria-label="Accueil du site">
+                        <img src="./assets/03-images/logo.png" alt="">
+                    </a>
+                </div>
+
+                <nav class="header__nav" id="header-nav" aria-label="Navigation principale">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="./index.html" class="header__nav-link" data-i18n="nav_home">Accueil</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./pages/01-about.html" class="header__nav-link" data-i18n="nav_about">À propos</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./pages/02-publications.html" class="header__nav-link" data-i18n="nav_publications">Publications</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./pages/03-media.html" class="header__nav-link" data-i18n="nav_media">Médias</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="./index.html#contact" class="header__nav-link" data-i18n="nav_contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header__controls">
+                    <select id="language" class="header__lang-select" aria-label="Langue">
+                        <option value="fr">FR</option>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                    <button
+                        class="header__burger"
+                        id="header-burger"
+                        aria-label="Ouvrir le menu"
+                        aria-expanded="false"
+                        aria-controls="header-nav"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="header__overlay" id="header-overlay" aria-hidden="true"></div>
+        </header>
+        <!-- ✅ header fermé ici -->
+
+    
+        <!-- =========================
+            HERO SECTION
+        ========================= -->
+        <section class="hero">
+            <div class="hero__container container">
+
+                <!-- Image -->
+                <figure class="hero__figure anim-hero-image">
+                    <img src="./assets/03-images/i.png" alt="Portrait du Dr AHO KORRO Ibrahim" class="hero__image">
+                </figure>
+
+                <!-- Contenu -->
+                <div class="hero__content">
+                    <p class="hero__intro anim-fade-up" style="--anim-delay: 0.1s" data-i18n="hero_intro">Bienvenue sur mon site officiel</p>
+                    <h1 class="hero__title anim-fade-up" style="--anim-delay: 0.25s">Dr. C. Joscky Ibrahim AHO</h1>
+                    <p class="hero__connect anim-fade-up" style="--anim-delay: 0.4s" data-i18n="hero_connect">Connectons-nous&nbsp;!</p>
+                    <ul class="hero__socials anim-fade-up" style="--anim-delay: 0.55s" aria-label="Liens vers les réseaux sociaux">
+                        <li class="hero__social-item">
+                            <a href="#" aria-label="LinkedIn" class="hero__social-link">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="#" aria-label="Twitter" class="hero__social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="#" aria-label="Email" class="hero__social-link">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li class="hero__social-item">
+                            <a href="#" aria-label="Telegram" class="hero__social-link">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+            SECTION PRÉSENTATION (À propos - extrait accueil)
+        ========================= -->
+        <section class="about" aria-labelledby="about-title">
+            <div class="about__container">
+
+                <!-- Colonne image -->
+                <figure class="about__figure anim-reveal" data-anim="fade-left">
+                    <img
+                        src="./assets/03-images/img2.png"
+                        alt="Dr. C. Joscky Ibrahim AHO en situation de travail"
+                        class="about__image"
+                    >
+                    <!-- Badge flottant -->
+                    <figcaption class="about__badge anim-reveal" data-anim="fade-up" data-anim-delay="0.3">
+                        <span class="about__badge-value">19+</span>
+                        <span class="about__badge-label">ans d'expérience</span>
+                    </figcaption>
+                </figure>
+
+                <!-- Colonne contenu -->
+                <div class="about__content">
+
+                    <!-- Titre -->
+                    <h2 id="about-title" class="about__title anim-reveal" data-anim="fade-up" data-i18n="about_title">
+                        Profil
+                    </h2>
+
+                    <div class="about__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
+
+                    <!-- Spécialités -->
+                    <ul class="about__tags anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-label="Domaines d'expertise">
+                        <li class="about__tag" data-i18n="about_tag1">Enseignant-Chercheur</li>
+                        <li class="about__tag" data-i18n="about_tag2">Consultant-Formateur</li>
+                        <li class="about__tag" data-i18n="about_tag3">Expert en Management</li>
+                    </ul>
+
+                    <!-- Séparateur -->
+                    <hr class="about__rule anim-reveal" data-anim="fade-up" data-anim-delay="0.2">
+
+                    <!-- Texte -->
+                    <div class="about__text">
+                        <p class="anim-reveal" data-anim="fade-up" data-anim-delay="0.25" data-i18n="about_p1">
+                            Depuis plus de dix-neuf ans, j'évolue dans l'enseignement supérieur,
+                            la formation professionnelle et l'accompagnement stratégique des
+                            organisations en Afrique de l'Ouest.
+                        </p>
+                        <p class="anim-reveal" data-anim="fade-up" data-anim-delay="0.35" data-i18n="about_p2">
+                            Mon parcours s'inscrit à la croisée des études africaines anglophones,
+                            de l'intégration régionale et du management des organisations au
+                            service d'un développement durable, inclusif et orienté résultats.
+                        </p>
+                    </div>
+
+                    <!-- Footer du contenu -->
+                    <div class="about__footer anim-reveal" data-anim="fade-up" data-anim-delay="0.45">
+
+                        <!-- Socials -->
+                        <ul class="about__socials" aria-label="Réseaux sociaux">
+                            <li>
+                                <a href="#" aria-label="Facebook" class="about__social-link">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Twitter" class="about__social-link">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="LinkedIn" class="about__social-link">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Instagram" class="about__social-link">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <!-- CTA -->
+                        <a href="./pages/01-about.html" class="about__button" data-i18n="about_btn">
+                            En savoir plus
+                            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+            SECTION DOMAINES D'EXPERTISE
+        ========================= -->
+        <section class="expertise" aria-labelledby="expertise-title">
+            <div class="expertise__container">
+
+                <header class="expertise__header">
+                    <h2 id="expertise-title" class="expertise__title anim-reveal" data-anim="fade-up" data-i18n="expertise_title">
+                    Domaines d'expertise
+                    </h2>
+                </header>
+
+                <div class="expertise__list">
+
+                    <!-- Item 1 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                        <div class="expertise-item__meta">
+                        <span class="expertise-item__index">01</span>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <div class="expertise-item__content">
+                        <h3 class="expertise-item__title" data-i18n="expertise_item1_title">
+                            Intégration régionale & études africaines
+                        </h3>
+
+                        <p class="expertise-item__text" data-i18n="expertise_item1_text">
+                            Analyse des dynamiques d'intégration en Afrique de l'Ouest (CEDEAO,
+                            ZLECAf), gouvernance régionale et performance des organisations dans
+                            les contextes d'intégration économique.
+                        </p>
+
+                        <div class="expertise-item__badges">
+                            <span data-i18n="expertise_item1_badge1">PhD · Intégration régionale</span>
+                            <span data-i18n="expertise_item1_badge2">UAC · UNILAG</span>
+                        </div>
+                        </div>
+                    </article>
+
+                    <!-- Item 2 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.15">
+                        <div class="expertise-item__meta">
+                        <span class="expertise-item__index">02</span>
+                        <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+
+                        <div class="expertise-item__content">
+                        <h3 class="expertise-item__title" data-i18n="expertise_item2_title">
+                            Marketing & communication stratégique
+                        </h3>
+
+                        <p class="expertise-item__text"  data-i18n="expertise_item2_text">
+                            Conception de stratégies marketing et de communication institutionnelle,
+                            branding, mobilisation de ressources et valorisation de projets pour
+                            institutions publiques et organisations privées.
+                        </p>
+
+                        <div class="expertise-item__badges">
+                            <span data-i18n="expertise_item2_badge1">Master · Marketing</span>
+                            <span data-i18n="expertise_item2_badge2">Univ. de Montréal</span>
+                        </div>
+                        </div>
+                    </article>
+
+                    <!-- Item 3 -->
+                    <article class="expertise-item anim-reveal" data-anim="fade-up" data-anim-delay="0.25">
+                        <div class="expertise-item__meta">
+                        <span class="expertise-item__index">03</span>
+                        <i class="fa-solid fa-chart-line"></i>
+                        </div>
+
+                        <div class="expertise-item__content">
+                        <h3 class="expertise-item__title" data-i18n="expertise_item3_title">
+                            Gestion de projets & suivi-évaluation
+                        </h3>
+
+                        <p class="expertise-item__text"  data-i18n="expertise_item3_text" >
+                            Pilotage de projets complexes, planification stratégique et gestion
+                            axée sur les résultats au service du développement local,
+                            institutionnel et de la performance organisationnelle.
+                        </p>
+
+                        <div class="expertise-item__badges">
+                            <span data-i18n="expertise_item3_badge1">19 ans · Expérience terrain</span>
+                            <span data-i18n="expertise_item3_badge2">Bénin · Afrique de l'Ouest</span>
+                        </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================
+            SECTION  KEYS METRICS
+        ========================= -->
+        <section class="key-metrics" aria-labelledby="key-metrics-title">
+            <div class="key-metrics__container">
+
+                <header class="key-metrics__header">
+                <h2 id="key-metrics-title" class="key-metrics__title anim-reveal" data-anim="fade-up" data-i18n="metrics_title">
+                    Indicateurs
+                </h2>
+                <div class="key-metrics__divider anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-hidden="true"></div>
+                </header>
+
+                <div class="key-metrics__grid">
+
+                <!-- Metric 1 -->
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                    <!-- Decorative corners -->
+                    <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__corner metric-card__corner--bottom" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--bottom-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__content">
+                    <p class="metric-card__value">
+                        <span class="metric-card__number" data-counter="19">19+</span>
+                    </p>
+
+                    <div class="metric-card__separator" aria-hidden="true"></div>
+
+                    <p class="metric-card__label" data-i18n="metric1_label">
+                        années d'expérience en enseignement, formation et conseil
+                    </p>
+                    </div>
+                </article>
+
+                <!-- Metric 2 -->
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.15">
+                    <!-- Decorative corners -->
+                    <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__corner metric-card__corner--bottom" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--bottom-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__content">
+                    <p class="metric-card__value">
+                        <span class="metric-card__number" data-counter="15">15+</span>
+                    </p>
+
+                    <div class="metric-card__separator" aria-hidden="true"></div>
+
+                    <p class="metric-card__label"  data-i18n="metric2_label">
+                        ouvrages, articles et productions scientifiques
+                    </p>
+                    </div>
+                </article>
+
+                <!-- Metric 3 -->
+                <article class="metric-card anim-reveal" data-anim="fade-up" data-anim-delay="0.25">
+                    <!-- Decorative corners -->
+                    <div class="metric-card__corner metric-card__corner--top" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--top-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__corner metric-card__corner--bottom" aria-hidden="true"></div>
+                    <div class="metric-card__corner metric-card__corner--bottom-little" aria-hidden="true"></div>
+
+                    <div class="metric-card__content">
+                    <p class="metric-card__value">
+                        <span class="metric-card__number" data-counter="6">6+</span>
+                    </p>
+
+                    <div class="metric-card__separator" aria-hidden="true"></div>
+
+                    <p class="metric-card__label"  data-i18n="metric3_label">
+                        pays d'intervention en Afrique et à l'international
+                    </p>
+                    </div>
+                </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =========================
+            SECTION CONTACT
+        ========================= -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="contact__container">
+
+                <!-- Colonne gauche : identité + coordonnées -->
+                <aside class="contact__info anim-reveal" data-anim="fade-left">
+
+                <div class="contact__identity">
+                    <h2 id="contact-title" class="contact__title" data-i18n="contact_title">Me contacter</h2>
+                    <div class="contact__divider" aria-hidden="true"></div>
+                    <p class="contact__pitch"  data-i18n="contact_pitch">
+                    Pour toute collaboration, intervention académique ou demande de conseil stratégique,
+                    je reste disponible pour échanger.
+                    </p>
+                </div>
+
+                <ul class="contact__details" aria-label="Coordonnées">
+
+                    <li class="contact__item">
+                    <span class="contact__icon" aria-hidden="true">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <div class="contact__item-body">
+                        <span class="contact__item-label">E-mail</span>
+                        <a href="mailto:ahoibrahim66@gmail.com" class="contact__link">
+                        ahoibrahim66@gmail.com
+                        </a>
+                    </div>
+                    </li>
+
+                    <li class="contact__item">
+                    <span class="contact__icon" aria-hidden="true">
+                        <i class="fa-solid fa-phone"></i>
+                    </span>
+                    <div class="contact__item-body">
+                        <span class="contact__item-label">Téléphone</span>
+                        <a href="tel:+22995962452" class="contact__link">
+                        +229 95 96 24 52
+                        </a>
+                    </div>
+                    </li>
+
+                    <li class="contact__item">
+                    <span class="contact__icon" aria-hidden="true">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </span>
+                    <div class="contact__item-body">
+                        <span class="contact__item-label">Localisation</span>
+                        <span class="contact__link" data-i18n="contact_location_value">Cotonou, Bénin</span>
+                    </div>
+                    </li>
+
+                </ul>
+
+                <div class="contact__socials-wrapper">
+                    <p class="contact__socials-label" data-i18n="contact_social_label">Réseaux</p>
+                    <ul class="contact__socials" aria-label="Réseaux sociaux">
+                    <li>
+                        <a href="#" aria-label="Facebook" class="contact__social-link">
+                        <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Twitter" class="contact__social-link">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="LinkedIn" class="contact__social-link">
+                        <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Instagram" class="contact__social-link">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+
+                </aside>
+
+                <!-- Colonne droite : formulaire -->
+                <div class="contact__form-wrapper anim-reveal" data-anim="fade-right">
+
+                <form class="contact__form" action="#" method="post" novalidate>
+
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" class="form-label" data-i18n="form_name">Nom complet</label>
+                        <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="form-input"
+                        placeholder="Dr. Ibrahim AHO"
+                        data-i18n-placeholder="placeholder_name"
+                        autocomplete="name"
+                        required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label" data-i18n="form_email">Adresse e-mail</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-input"
+                        placeholder="vous@exemple.com"
+                        data-i18n-placeholder="placeholder_email"
+                        autocomplete="email"
+                        required
+                        >
+                    </div>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="subject" class="form-label" data-i18n="form_subject">Objet</label>
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        class="form-input"
+                        placeholder="Collaboration · Intervention · Conseil"
+                        data-i18n-placeholder="placeholder_subject"
+                        required
+                    >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label" data-i18n="form_message">Message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            class="form-textarea"
+                            rows="6"
+                            placeholder="Décrivez votre demande..." data-i18n-placeholder="placeholder_message"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="contact__button">
+                            <span data-i18n="form_send">Envoyer le message</span>
+                            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                </form>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =========================
+        FOOTER
+        ========================= -->
+        <footer class="site-footer" role="contentinfo">
+        
+            <div class="footer__container">
+
+                <!-- Branding / Identity -->
+                <div class="footer__brand anim-reveal" data-anim="fade-up" data-anim-delay="0.05">
+                <h2 class="footer__name">Dr. C. Joscky Ibrahim AHO</h2>
+                <p class="footer__tagline" data-i18n="footer_tagline">Construire le succès de demain</p>
+                </div>
+
+                <!-- Quick Links -->
+                <nav class="footer__nav anim-reveal" data-anim="fade-up" data-anim-delay="0.1" aria-labelledby="footer-nav-title">
+                <h2 id="footer-nav-title" class="footer__title" data-i18n="footer_links">Liens rapides</h2>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" data-i18n="footer_link_home">Accueil</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_about">À propos</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_expertise">Expertise</a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="#" class="footer__link" data-i18n="footer_link_contact">Contact</a>
+                    </li>
+                </ul>
+                </nav>
+
+                <!-- Contact -->
+                <address class="footer__contact anim-reveal" data-anim="fade-up" data-anim-delay="0.15" aria-labelledby="footer-contact-title">
+                <h2 id="footer-contact-title" class="footer__title" data-i18n="footer_contact">Contact</h2>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                    <a href="mailto:ahoibrahim66@gmail.com" class="footer__link">
+                        ahoibrahim66@gmail.com
+                    </a>
+                    </li>
+                    <li class="footer__item">
+                    <a href="tel:+22995962452" class="footer__link">
+                        +229 95 96 24 52
+                    </a>
+                    </li>
+                </ul>
+                </address>
+
+                <!-- Social Links -->
+                <div class="footer__social anim-reveal" data-anim="fade-up" data-anim-delay="0.2" aria-labelledby="footer-social-title">
+                <h2 id="footer-social-title" class="footer__title" data-i18n="footer_social">Réseaux sociaux</h2>
+
+                <ul class="footer__social-list">
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="Twitter">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        </span>
+                    </a>
+                    </li>
+
+                    <li>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">
+                        <span class="footer__icon" aria-hidden="true">
+                        <i class="fa-brands fa-instagram"></i>
+                        </span>
+                    </a>
+                    </li>
+                </ul>
+                </div>
+
+            </div>
+
+            <!-- Separator -->
+            <hr class="footer__separator">
+
+                <!-- Bottom Bar -->
+                <div class="footer__bottom">
+                    <p class="footer__copyright">
+                    &copy; 2026 Dr. C. Joscky Ibrahim AHO - <span data-i18n="footer_rights">Tous droits réservés</span>
+                    </p>
+
+                    <p class="footer__credits">
+                        <a href="https://dskportfolio.onrender.com/" class="footer__link">
+                            <span data-i18n="footer_design">Conception : Dias SARE KPERA</span> <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </p>
+                </div>
+
+        </footer>
+
+
+        <a href="#top" class="backtotop" aria-label="Retour en haut">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+
+        <script src="./js/global/backtop.js"></script>
+        <script src="./js/01-home/i18n.js"></script>
+        <script src="./js/global/menu.js"></script>
+        <script src="./js/01-home/animations.js"></script>
+    </body>
+</html>

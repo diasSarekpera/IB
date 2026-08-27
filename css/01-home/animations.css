@@ -1,0 +1,201 @@
+/* =============================================================
+   animations.css — Animations professionnelles & discrètes
+   Site Dr. C. Joscky Ibrahim AHO
+   ============================================================= */
+
+
+/* ─────────────────────────────────────────────
+   1. PRÉFÉRENCE ACCESSIBILITÉ : pas d'animation
+   ───────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   2. ÉTAT INITIAL — éléments invisibles avant révélation
+   ───────────────────────────────────────────── */
+
+/* Scroll reveal générique */
+.anim-reveal {
+  opacity: 0;
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 0.61, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition-delay: var(--anim-delay, 0s);
+  will-change: opacity, transform;
+}
+
+/* Directions d'entrée */
+.anim-reveal[data-anim="fade-up"]    { transform: translateY(32px); }
+.anim-reveal[data-anim="fade-left"]  { transform: translateX(-36px); }
+.anim-reveal[data-anim="fade-right"] { transform: translateX(36px); }
+.anim-reveal[data-anim="fade-in"]    { transform: none; }
+
+/* État visible (ajouté par JS via IntersectionObserver) */
+.anim-reveal.is-visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Gestion des délais via data-attribute (utilisé en JS) */
+/* Les valeurs sont injectées via JS en style inline --anim-delay */
+
+
+/* ─────────────────────────────────────────────
+   3. HERO — animation au chargement de la page
+   ───────────────────────────────────────────── */
+
+/* Image hero : entrée depuis la gauche / bas avec légère scale */
+.anim-hero-image {
+  animation: heroImageIn 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+@keyframes heroImageIn {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Éléments texte hero : fade-up séquentiel */
+.anim-fade-up {
+  animation: fadeUp 0.75s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: var(--anim-delay, 0s);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   4. MICRO-INTERACTIONS — hover subtils
+   ───────────────────────────────────────────── */
+
+/* Liens sociaux — le conteneur reste stable, seule l'icône réagit */
+.hero__social-link,
+.about__social-link,
+.contact__social-link,
+.footer__social-link {
+  transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+.hero__social-link i,
+.about__social-link i,
+.contact__social-link i,
+.footer__social-link i {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.hero__social-link:hover i,
+.about__social-link:hover i,
+.contact__social-link:hover i,
+.footer__social-link:hover i {
+  transform: rotate(-10deg) scale(1.12);
+}
+
+/* Bouton CTA about — la flèche avance, le bouton ne bouge pas */
+.about__button {
+  transition: opacity 0.25s ease;
+}
+.about__button i {
+  transition: transform 0.25s ease;
+}
+.about__button:hover i {
+  transform: translateX(4px);
+}
+
+/* Bouton contact submit — la flèche avance, le bouton ne bouge pas */
+.contact__button {
+  transition: opacity 0.25s ease;
+}
+.contact__button i {
+  transition: transform 0.25s ease;
+}
+.contact__button:hover i {
+  transform: translateX(4px);
+}
+
+/* Inputs focus */
+.form-input,
+.form-textarea {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.form-input:focus,
+.form-textarea:focus {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.045);
+}
+
+/* Metric cards — le cadre reste fixe, le chiffre respire légèrement */
+.metric-card__number {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.metric-card:hover .metric-card__number {
+  transform: scale(1.04);
+}
+
+/* Expertise items — l'icône pivote légèrement, la ligne reste en place */
+.expertise-item__meta i {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+              background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.expertise-item:hover .expertise-item__meta i {
+  transform: rotate(-8deg) scale(1.08);
+}
+
+/* Footer links */
+.footer__link {
+  transition: opacity 0.2s ease;
+}
+.footer__link:hover {
+  opacity: 0.7;
+}
+
+
+/* ─────────────────────────────────────────────
+   5. BADGE FLOTTANT — légère animation flottante
+   ───────────────────────────────────────────── */
+.about__badge {
+  animation: badgeFloat 4s ease-in-out infinite;
+  animation-play-state: paused; /* démarré après révélation */
+}
+.about__badge.is-visible {
+  animation-play-state: running;
+}
+
+@keyframes badgeFloat {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+
+/* ─────────────────────────────────────────────
+   6. DIVIDER — animation de largeur
+───────────────────────────────────────────── */
+.about__divider,
+.key-metrics__divider,
+.contact__divider {
+  transform-origin: left center;
+  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1),
+              opacity 0.6s ease;
+}
+
+/* Le scale de width est géré par la classe is-visible via anim-reveal */

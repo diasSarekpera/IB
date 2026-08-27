@@ -1,0 +1,110 @@
+/* =========================================
+   FOOTER - LAYOUT ONLY
+   ========================================= */
+
+.site-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+/* =========================================
+   MAIN CONTAINER
+   ========================================= */
+
+.footer__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 64px;
+    width: 100%;
+}
+
+/* =========================================
+   COLUMNS
+   ========================================= */
+
+/* Brand */
+.footer__brand {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    flex: 1;
+}
+
+/* Navigation */
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    flex: 1;
+}
+
+/* Contact */
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    flex: 1;
+}
+
+/* Social */
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    flex: 1;
+}
+
+/* =========================================
+   LISTS
+   ========================================= */
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__item {
+    display: flex;
+    align-items: center;
+}
+
+/* Social list */
+.footer__social-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* =========================================
+   SEPARATOR
+   ========================================= */
+
+.footer__separator {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+/* =========================================
+   BOTTOM BAR
+   ========================================= */
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+
+
+

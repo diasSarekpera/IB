@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+  .philosophical-vision {
+    padding: 3rem 1rem;
+  }
+
+  .philosophical-vision__container {
+    gap: 2.5rem;
+  }
+
+  .philosophical-vision__title {
+    font-size: 1.4rem;
+    letter-spacing: 1.5px;
+  }
+
+  .philosophical-vision__title::after {
+    width: 36px;
+    margin-top: 10px;
+  }
+
+  .philosophical-vision__subtitle {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .philosophical-vision__grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .vision-card {
+    padding: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .vision-card__title {
+    font-size: 0.95rem;
+  }
+
+  .vision-card__text {
+    font-size: 0.875rem;
+    line-height: 1.75;
+  }
+
+  .philosophical-vision__quote-text {
+    padding: 1.5rem 1.75rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .philosophical-vision {
+    padding: 2.5rem 0.75rem;
+  }
+
+  .philosophical-vision__container {
+    gap: 2rem;
+  }
+
+  .philosophical-vision__title {
+    font-size: 1.25rem;
+    letter-spacing: 1.2px;
+  }
+
+  .philosophical-vision__subtitle {
+    font-size: 0.88rem;
+  }
+
+  .philosophical-vision__grid {
+    gap: 1rem;
+  }
+
+  .vision-card {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .vision-card__icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .vision-card__icon img {
+    width: 17px;
+  }
+
+  .vision-card__content {
+    gap: 0.6rem;
+  }
+
+  .vision-card__title {
+    font-size: 0.9rem;
+  }
+
+  .vision-card__text {
+    font-size: 0.845rem;
+    line-height: 1.7;
+  }
+
+  .philosophical-vision__quote-text {
+    padding: 1.25rem 1.25rem 1.25rem 1.5rem;
+    font-size: 0.92rem;
+    line-height: 1.6;
+  }
+}

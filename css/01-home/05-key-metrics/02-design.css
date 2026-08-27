@@ -1,0 +1,198 @@
+/* =========================================
+   KEY METRICS
+========================================= */
+
+.key-metrics {
+  width: 100%;
+  padding: 6rem 2rem;
+  background: var(--color-white);
+  overflow: hidden;
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.key-metrics__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* =========================================
+   HEADER — centré
+========================================= */
+
+.key-metrics__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+}
+
+.key-metrics__title {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(1.6rem, 2.2vw, 2.1rem);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: var(--color-primary-900);
+}
+
+.key-metrics__divider {
+  width: 48px;
+  height: 2px;
+  background: var(--color-primary-700);
+}
+
+/* =========================================
+   GRID
+========================================= */
+
+.key-metrics__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+/* =========================================
+   METRIC CARD
+========================================= */
+
+.metric-card {
+  background: var(--color-section-bg, #F4F6FA);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 2.75rem 2.25rem;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.2s ease;
+}
+
+.metric-card:hover {
+  background: var(--color-white);
+}
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.metric-card__content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.metric-card__value {
+  margin: 0;
+}
+
+/* =========================================
+   NUMBER
+========================================= */
+
+.metric-card__number {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(3.2rem, 5vw, 4.8rem);
+  font-weight: 600;
+  letter-spacing: -2px;
+  color: var(--color-primary-900);
+  line-height: 1;
+}
+
+/* =========================================
+   SEPARATOR
+========================================= */
+
+.metric-card__separator {
+  width: 40px;
+  height: 2px;
+  background: var(--color-primary-700);
+  opacity: 0.3;
+}
+
+/* =========================================
+   LABEL
+========================================= */
+
+.metric-card__label {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--color-text-secondary, #4B5563);
+  max-width: 24ch;
+}
+
+/* =========================================
+   COINS DÉCORATIFS
+========================================= */
+
+.metric-card__corner {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.12;
+  transition: opacity 0.2s ease;
+}
+
+.metric-card:hover .metric-card__corner {
+  opacity: 0.35;
+}
+
+.metric-card__corner--top,
+.metric-card__corner--bottom {
+  width: 32px;
+  height: 32px;
+}
+
+.metric-card__corner--top {
+  top: 14px;
+  right: 14px;
+  border-top: 2px solid var(--color-primary-700);
+  border-right: 2px solid var(--color-primary-700);
+}
+
+.metric-card__corner--bottom {
+  bottom: 14px;
+  left: 14px;
+  border-bottom: 2px solid var(--color-primary-700);
+  border-left: 2px solid var(--color-primary-700);
+}
+
+.metric-card__corner--top-little,
+.metric-card__corner--bottom-little {
+  width: 16px;
+  height: 16px;
+}
+
+.metric-card__corner--top-little {
+  top: 20px;
+  right: 20px;
+  border-top: 2px solid var(--color-primary-700);
+  border-right: 2px solid var(--color-primary-700);
+}
+
+.metric-card__corner--bottom-little {
+  bottom: 20px;
+  left: 20px;
+  border-bottom: 2px solid var(--color-primary-700);
+  border-left: 2px solid var(--color-primary-700);
+}
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+.metric-card:focus-within {
+  outline: 2px solid rgba(125, 140, 163, 0.45);
+  outline-offset: 3px;
+}

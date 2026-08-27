@@ -1,0 +1,128 @@
+/* =========================================================================
+   UNAVAILABLE — section "contenu en cours de finalisation"
+   Utilisée en remplacement temporaire du contenu des pages Publications
+   et Médias, en attendant la validation des éléments par le Professeur.
+   ========================================================================= */
+
+.unavailable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62vh;
+  padding: 7rem 1.5rem;
+  background: var(--color-white);
+}
+
+.unavailable__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.unavailable__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  margin-bottom: 0.4rem;
+  border-radius: 50%;
+  background: var(--color-section-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary-700);
+}
+
+.unavailable__icon svg {
+  width: 34px;
+  height: 34px;
+}
+
+.unavailable__eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent-400);
+}
+
+.unavailable__title {
+  font-size: clamp(1.4rem, 1rem + 1.6vw, 2rem);
+  color: var(--color-text-primary);
+}
+
+.unavailable__text {
+  font-size: 0.98rem;
+  line-height: 1.85;
+  color: var(--color-text-secondary);
+  max-width: 480px;
+}
+
+.unavailable__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.unavailable__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 12px 26px;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.unavailable__button i {
+  font-size: 0.68rem;
+  transition: transform 0.25s ease;
+}
+
+.unavailable__button:hover i {
+  transform: translateX(4px);
+}
+
+.unavailable__button--primary {
+  background: var(--color-primary-700);
+  color: var(--color-white);
+}
+
+.unavailable__button--primary:hover {
+  opacity: 0.88;
+}
+
+.unavailable__button--secondary {
+  background: transparent;
+  color: var(--color-primary-700);
+  border: 1px solid var(--color-border-strong);
+}
+
+.unavailable__button--secondary:hover {
+  background: var(--color-section-bg);
+}
+
+@media (max-width: 480px) {
+  .unavailable {
+    padding: 5rem 1.25rem;
+  }
+  .unavailable__actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .unavailable__button {
+    width: 100%;
+    justify-content: center;
+  }
+}

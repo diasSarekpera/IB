@@ -1,0 +1,51 @@
+.backtotop {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;              /* fond blanc franc */
+  color: var(--color-primary-700); /* icône bleue */
+
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.19);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.35s ease;
+
+  z-index: 999;
+}
+
+.backtotop--visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.backtotop i {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.backtotop:hover i {
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .backtotop {
+    right: 16px;
+    bottom: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 4px;
+  }
+}

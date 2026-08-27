@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "description": "Descubra las intervenciones públicas, coloquios académicos, seminarios y contribuciones mediáticas del Dr. C. Joscky Ibrahim AHO sobre integración regional, gestión y desarrollo en África.",
+    "og_title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "og_description": "Conferencias, seminarios y contribuciones sobre integración regional, gestión y desarrollo en África.",
+    "twitter_title": "Medios | Dr. C. Joscky Ibrahim AHO",
+    "twitter_description": "Conferencias, seminarios y contribuciones sobre integración regional, gestión y desarrollo en África."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "publications": "Publicaciones",
+    "media": "Medios",
+    "contact": "Contacto",
+    "aria_label": "Navegación principal",
+    "open_menu": "Abrir menú",
+    "home_aria": "Página de inicio del sitio"
+  },
+  "hero": {
+    "title": "Medios & Intervenciones",
+    "description": "Esta sección reúne una selección de intervenciones públicas, coloquios académicos, seminarios profesionales y contribuciones científicas en los que he participado como ponente o comunicador."
+  },
+  "talks": {
+    "section_title": "Intervenciones & Conferencias",
+    "section_description": "Participo regularmente en coloquios académicos internacionales, talleres profesionales y foros sobre integración regional, gestión estratégica, gobernanza y desarrollo socioeconómico en África.",
+    "talk1": {
+      "title": "Movilización de la Finanza Verde Islámica — Seminario de formación del MEF",
+      "location": "Cotonú, Benín",
+      "date": "Noviembre de 2025",
+      "description": "Interpretación simultánea en cabina durante un seminario de formación para agentes del Ministerio de Economía y Finanzas de Benín, sobre el tema de la movilización de la finanza verde islámica, financiado por el Gobierno Turco.",
+      "link_label": "Ver intervención",
+      "link_aria": "Ver los detalles del seminario sobre finanza verde islámica — MEF Benín, noviembre 2025",
+      "img_alt": "Seminario de formación sobre movilización de la finanza verde islámica — MEF Benín, noviembre 2025"
+    },
+    "talk2": {
+      "title": "Ve Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías para el Desarrollo Socioeconómico de las Naciones",
+      "location": "Universidad de Abomey-Calavi (UAC), Benín",
+      "date": "25 – 30 de septiembre de 2017",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el Ve Coloquio Internacional de la UAC, centrado en el desarrollo socioeconómico de las naciones africanas.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del Ve Coloquio Internacional UAC 2017",
+      "img_alt": "Ve Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías — UAC, 2017"
+    },
+    "talk3": {
+      "title": "IVe Coloquio Internacional de la Universidad de Parakou — La investigación científica, pilar esencial de la responsabilidad social de las Universidades",
+      "location": "Universidad de Parakou, Benín",
+      "date": "28 – 30 de noviembre de 2018",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el IVe Coloquio Internacional de la Universidad de Parakou, sobre la responsabilidad social de las universidades y el papel de la investigación científica en el desarrollo.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del IVe Coloquio Internacional de la Universidad de Parakou 2018",
+      "img_alt": "IVe Coloquio Internacional de la Universidad de Parakou — noviembre de 2018"
+    },
+    "talk4": {
+      "title": "VIe Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías para el Desarrollo Socioeconómico de las Naciones",
+      "location": "Universidad de Abomey-Calavi (UAC), Benín",
+      "date": "28 de septiembre – 2 de octubre de 2015",
+      "description": "Participación con presentación de artículo y ponencia en panel temático en el VIe Coloquio Internacional de la UAC, enfocado en las artes, ciencias, culturas y tecnologías al servicio del desarrollo socioeconómico de las naciones.",
+      "link_label": "Ver ponencia",
+      "link_aria": "Ver los detalles del VIe Coloquio Internacional UAC 2015",
+      "img_alt": "VIe Coloquio Internacional de Artes, Ciencias, Culturas y Tecnologías — UAC, 2015"
+    },
+    "talk5": {
+      "title": "Conferencia anual Borderless — La integración regional a través del desarrollo del comercio y los transportes",
+      "location": "Cotonú, Benín",
+      "date": "Mayo de 2016",
+      "description": "Participación en la conferencia anual de la Alianza Borderless, dedicada a los desafíos de la integración regional en África Occidental a través del desarrollo del comercio transfronterizo y las infraestructuras de transporte.",
+      "link_label": "Ver conferencia",
+      "link_aria": "Ver los detalles de la Conferencia Borderless 2016",
+      "img_alt": "Conferencia anual Borderless sobre integración regional — Cotonú, mayo de 2016"
+    }
+  },
+  "press": {
+    "section_title": "Prensa & Publicaciones mediáticas",
+    "section_description": "Mis análisis y contribuciones académicas aparecen en revistas universitarias y materiales de comunicación institucional, sobre los desafíos de la integración regional, la gestión y el desarrollo en África Occidental.",
+    "press1": {
+      "title": "Traducción y contribución a la revista institucional del Puerto Autónomo de Cotonú",
+      "source": "Puerto Autónomo de Cotonú, Benín",
+      "date": "2022 – 2025",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre la contribución a la revista del Puerto Autónomo de Cotonú",
+      "img_alt": "Revista del Puerto Autónomo de Cotonú"
+    },
+    "press2": {
+      "title": "Traducción de artículos científicos y corrección de estilo (Proof Reading) para la Ivey Business School",
+      "source": "Ivey Business School, Western University — London, Ontario, Canadá",
+      "date": "2022 – 2025",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre las traducciones para la Ivey Business School",
+      "img_alt": "Ivey Business School — Western University, Canadá"
+    },
+    "press3": {
+      "title": "Seminario de formación de formadores sobre procedimientos aduaneros de importación — CNCB",
+      "source": "Centro de Formación Continua del CNCB, Benín",
+      "date": "30 de octubre – 2 de noviembre de 2012",
+      "link_label": "Más información",
+      "link_aria": "Más información sobre el seminario CNCB 2012",
+      "img_alt": "Consejo Nacional de Fletadores de Benín (CNCB)"
+    }
+  },
+  "gallery": {
+    "section_title": "Galería",
+    "section_description": "Momentos destacados de coloquios internacionales, seminarios de formación y eventos académicos.",
+    "img1_alt": "Coloquio internacional UAC",
+    "img2_alt": "Seminario profesional",
+    "img3_alt": "Coloquio científico",
+    "img4_alt": "Formación estratégica",
+    "img5_alt": "Taller profesional",
+    "img6_alt": "Evento académico"
+  },
+  "footer": {
+    "tagline": "Construyendo el éxito del mañana",
+    "nav_title": "Enlaces rápidos",
+    "nav_home": "Inicio",
+    "nav_about": "Acerca de",
+    "nav_expertise": "Publicaciones",
+    "nav_contact": "Contacto",
+    "contact_title": "Contacto",
+    "social_title": "Redes sociales",
+    "copyright": "© 2026 Dr. C. Joscky Ibrahim AHO - Todos los derechos reservados",
+    "credits": "Diseño: Dias SARE KPERA"
+  },
+  "accessibility": {
+    "back_to_top": "Volver arriba",
+    "lang_select": "Idioma"
+  },
+  "unavailable": {
+    "eyebrow": "Próximamente",
+    "title": "Esta sección está en fase de finalización",
+    "text": "Actualmente estoy trabajando en la publicación de los contenidos de esta sección, a la espera de la validación final de los materiales. Estará disponible muy pronto. Gracias por su comprensión.",
+    "cta_home": "Volver al inicio",
+    "cta_about": "Conocer mi trayectoria"
+  }
+}

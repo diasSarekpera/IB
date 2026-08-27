@@ -1,0 +1,37 @@
+/* =========================================
+   STYLES GLOBAUX (fondation du projet)
+   Reset + règles de base communes à tout le site
+========================================= */
+@import url("../global/01-reset.css");
+@import url("../global/02-base.css");
+@import url("../global/backtop.css");
+
+/* =========================================
+   SECTIONS DE LA PAGE D’ACCUEIL
+   Chaque dossier correspond à un block BEM
+========================================= */
+
+/* Header : navigation principale, logo, langue */
+@import url("./01-header/main.css");
+
+/* Hero : section d’introduction avec image et réseaux */
+@import url("./02-hero/main.css");
+
+/* About : section présentation */
+@import url("./03-about/main.css");
+
+/* Expertise : domaines d’expertise sous forme de cartes */
+@import url("./04-expertise/main.css");
+
+/* Key Metrics : chiffres clés / statistiques */
+@import url("./05-key-metrics/main.css");
+
+/* Contact : informations + formulaire de contact */
+@import url("./06-contact/main.css");
+
+/* Footer : pied de page, liens rapides, contacts */
+@import url("./07-footer/main.css");
+
+
+
+

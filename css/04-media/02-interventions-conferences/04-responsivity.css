@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+  .talks {
+    padding: 3rem 1.25rem;
+  }
+
+  .talks__container {
+    gap: 2.5rem;
+  }
+
+  .talks__title {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+  }
+
+  .talks__divider {
+    width: 32px;
+    margin-bottom: 1.1rem;
+  }
+
+  .talks__description {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .talks__grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .talk-card {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .talk-card__media {
+    width: 140px;
+    flex-shrink: 0;
+  }
+
+  .talk-card__image {
+    width: 140px;
+    height: 100%;
+    object-position: center;
+  }
+
+  .talk-card__content {
+    padding: 1.25rem 1.25rem;
+  }
+
+  .talk-card__title {
+    font-size: 0.9rem;
+    line-height: 1.45;
+    margin-bottom: 0.5rem;
+  }
+
+  .talk-card__meta {
+    font-size: 0.65rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .talk-card__description {
+    font-size: 0.845rem;
+    line-height: 1.65;
+    margin-bottom: 0.85rem;
+  }
+
+  .talk-card__link {
+    font-size: 0.65rem;
+    letter-spacing: 0.7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .talks {
+    padding: 2.5rem 1rem;
+  }
+
+  .talks__container {
+    gap: 2rem;
+  }
+
+  .talks__title {
+    font-size: 1.25rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .talks__divider {
+    width: 28px;
+    margin-bottom: 1rem;
+  }
+
+  .talks__description {
+    font-size: 0.875rem;
+    line-height: 1.65;
+  }
+
+  .talks__grid {
+    gap: 1rem;
+  }
+
+  .talk-card {
+    flex-direction: column;
+  }
+
+  .talk-card__media {
+    width: 100%;
+  }
+
+  .talk-card__image {
+    width: 100%;
+    height: 180px;
+  }
+
+  .talk-card__content {
+    padding: 1.1rem 1.1rem;
+  }
+
+  .talk-card__title {
+    font-size: 0.875rem;
+    margin-bottom: 0.45rem;
+  }
+
+  .talk-card__meta {
+    font-size: 0.62rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .talk-card__description {
+    font-size: 0.82rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+}
+
+
